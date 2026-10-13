@@ -21,7 +21,7 @@
 ## 公開方法（GitHub Pages）
 
 1. GitHubで新しいリポジトリを作ります（例：`cosmos-navi`）。
-2. このフォルダの `index.html`・`README.md`・`THIRD_PARTY_NOTICES.md`・`.nojekyll` をアップロードします。
+2. このフォルダの中身をすべてアップロードします（`index.html`、アイコン類〈`favicon.ico`・`favicon.svg`・`apple-touch-icon.png`・`icon-192.png`・`icon-512.png`・`site.webmanifest`〉、`README.md`、`THIRD_PARTY_NOTICES.md`、`.nojekyll`）。
 3. **Settings → Pages** で、「Deploy from a branch」・ブランチ `main`・フォルダ `/ (root)` を選んで保存します。
 4. 数分後に `https://<ユーザー名>.github.io/cosmos-navi/` で見られるようになります。
 
