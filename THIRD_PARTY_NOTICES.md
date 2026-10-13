@@ -39,6 +39,46 @@ THIS SOFTWARE.
 - OpenSky Network：公開サービスでの運用利用には書面ライセンスが必要と規約に記載。許諾未確認のため停止
 - Open-Meteo：無料APIは非商用限定。運営用途の確認ができていないため停止
 
+## 天体の画像（NASA Image and Video Library）
+
+情報パネルとツアーで表示する写真・想像図は、NASA Image and Video Library（https://images.nasa.gov/）の画像です。表示のたびに images-assets.nasa.gov から読み込みます（アプリには同梱していません）。
+
+- NASAが制作した画像は、一般に米国では著作権の対象外です。NASAは、クレジットの表示と、NASAが推奨・保証しているように見せないことを求めています（NASA Images and Media Usage Guidelines：https://www.nasa.gov/nasa-brand-center/images-and-media/）。
+- ESAなどとの共同画像は、各画像に付いているクレジットをそのまま表示しています。ESA/Hubbleの素材は CC BY 4.0 です。
+- 各画像の下に、クレジットと元のページへのリンクを表示しています。
+
+| 使用箇所 | NASA ID | 種類 | クレジット |
+|---|---|---|---|
+| 地球 | [as17-148-22727](https://images.nasa.gov/details/as17-148-22727) | 実写 | NASA |
+| 月 | [GSFC_20171208_Archive_e000868](https://images.nasa.gov/details/GSFC_20171208_Archive_e000868) | 合成画像 | NASA Goddard Space Flight Center |
+| ISS | [s132e012208](https://images.nasa.gov/details/s132e012208) | 実写 | NASA |
+| ハッブル宇宙望遠鏡 | [s125e011921](https://images.nasa.gov/details/s125e011921) | 実写 | NASA |
+| 太陽 | [GSFC_20171208_Archive_e002035](https://images.nasa.gov/details/GSFC_20171208_Archive_e002035) | 観測画像 | NASA/SDO |
+| 水星 | [GSFC_20171208_Archive_e001922](https://images.nasa.gov/details/GSFC_20171208_Archive_e001922) | 実写 | NASA/Johns Hopkins University Applied Physics Laboratory/Carnegie Institution of Washington |
+| 金星 | [PIA23791](https://images.nasa.gov/details/PIA23791) | 実写 | NASA/JPL-Caltech |
+| 火星 | [PIA00003](https://images.nasa.gov/details/PIA00003) | 合成画像 | NASA/JPL/USGS |
+| 木星 | [PIA04866](https://images.nasa.gov/details/PIA04866) | 合成画像 | NASA/JPL/Space Science Institute |
+| 土星 | [PIA06193](https://images.nasa.gov/details/PIA06193) | 合成画像 | NASA/JPL/Space Science Institute |
+| 天王星 | [PIA18182](https://images.nasa.gov/details/PIA18182) | 実写 | NASA/JPL-Caltech |
+| 海王星 | [PIA01492](https://images.nasa.gov/details/PIA01492) | 実写 | NASA/JPL |
+| ボイジャー1号・ボイジャー2号 | [PIA17049](https://images.nasa.gov/details/PIA17049) | 想像図 | NASA/JPL-Caltech |
+| ヘリオポーズ | [PIA13892](https://images.nasa.gov/details/PIA13892) | 想像図 | NASA/JPL-Caltech |
+| ケンタウルス座α星 | [GSFC_20171208_Archive_e000214](https://images.nasa.gov/details/GSFC_20171208_Archive_e000214) | 実写 | ESA/NASA |
+| エリダヌス座ε星 | [PIA11375](https://images.nasa.gov/details/PIA11375) | 想像図 | NASA/JPL-Caltech |
+| TRAPPIST-1 | [PIA22093](https://images.nasa.gov/details/PIA22093) | 想像図 | NASA/JPL-Caltech |
+| いて座A*（銀河中心付近） | [PIA13932](https://images.nasa.gov/details/PIA13932) | 観測画像 | NASA/JPL-Caltech |
+| 天の川銀河（渦状腕・太陽系の位置も同じ画像） | [PIA10748](https://images.nasa.gov/details/PIA10748) | 想像図 | NASA/JPL-Caltech |
+| アンドロメダ銀河 | [PIA15416](https://images.nasa.gov/details/PIA15416) | 観測画像 | NASA/JPL-Caltech |
+| さんかく座銀河 | [PIA11969](https://images.nasa.gov/details/PIA11969) | 観測画像 | NASA/JPL-Caltech/Univ. of Ariz. |
+| 大マゼラン雲 | [PIA07137](https://images.nasa.gov/details/PIA07137) | 観測画像 | NASA/JPL-Caltech/STScI |
+| 小マゼラン雲 | [PIA12485](https://images.nasa.gov/details/PIA12485) | 観測画像 | NASA/JPL-Caltech/STScI |
+| おとめ座銀河団 | [PIA07906](https://images.nasa.gov/details/PIA07906) | 観測画像 | NASA/JPL-Caltech/SSC |
+| ペルセウス銀河団 | [GSFC_20171208_Archive_e000078](https://images.nasa.gov/details/GSFC_20171208_Archive_e000078) | 合成画像 | NASA's Goddard Space Flight Center/Stephen Walker |
+| かみのけ座銀河団 | [GSFC_20171208_Archive_e002070](https://images.nasa.gov/details/GSFC_20171208_Archive_e002070) | 実写 | NASA, ESA, and the Hubble Heritage Team (STScI/AURA) |
+| 観測可能な宇宙 | [GSFC_20171208_Archive_e001651](https://images.nasa.gov/details/GSFC_20171208_Archive_e001651) | 実写 | NASA; ESA; G. Illingworth, D. Magee, and P. Oesch (UC Santa Cruz); R. Bouwens (Leiden University); and the HUDF09 Team |
+| 宇宙マイクロ波背景放射 | [PIA16874](https://images.nasa.gov/details/PIA16874) | 解説図 | NASA/JPL-Caltech/ESA |
+
 ## 自作の表現
 
 - 木星・土星の縞模様、土星の環の濃淡、銀河の腕・宇宙の網目構造・CMBの模様は、第三者の画像を使わずにプログラムで描いた模式表現です。
+- 権利を確認できる写真を用意できなかった天体（近くの恒星の多く、天宮、矮小銀河の一部、ノルマ銀河団、シャプレー超銀河団、ラニアケア超銀河団、MoM-z14、小惑星帯など）は、このアプリがプログラムで描いた「イメージ図」を表示しています。第三者の素材は使っていません。

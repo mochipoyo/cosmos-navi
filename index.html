@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="description" content="観測データに基づく3D宇宙モデルで、地球から観測可能な宇宙まで旅するWebアプリ。検索・ツアー・体験ラボ・人工衛星の位置表示付き。">
+<meta name="description" content="観測データに基づく3D宇宙モデルで、地球から観測可能な宇宙まで旅するWebアプリ。検索・ツアー・体験ラボ・人工衛星の位置表示・天体の写真付き。">
 <title>宇宙実測ナビ</title>
 <link rel="icon" href="favicon.ico" sizes="any">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
@@ -87,6 +87,16 @@ dl.data dd{margin:0;font:400 12.5px/1.5 var(--f-mono);font-variant-numeric:tabul
 .sec h3{margin:0;font:700 11px/1.3 var(--f-body);letter-spacing:.1em;color:var(--muted)}
 .sec ul{margin:0;padding-left:1.1em;display:flex;flex-direction:column;gap:5px;font-size:12.5px;line-height:1.65}
 .sec.fact h3{color:var(--obs)} .sec.guess h3{color:var(--est)} .sec.check h3{color:var(--model)} .sec.hyp h3{color:var(--hypo)}
+.ofig{margin:0;display:flex;flex-direction:column;gap:6px}
+.ofig img,.ofig canvas{width:100%;max-height:230px;object-fit:contain;background:#000;border-radius:6px;border:1px solid var(--line);display:block;aspect-ratio:16/9}
+.ofig figcaption{display:flex;flex-direction:column;gap:3px;font-size:11.5px;line-height:1.55;color:var(--muted)}
+.ofig .okind{align-self:flex-start;font:600 10.5px/1 var(--f-body);padding:3px 7px;border-radius:999px;border:1px solid var(--obs);color:var(--obs)}
+.ofig .okind.gen{border-color:var(--est);color:var(--est)}
+.ofig .ocred{font:400 10.5px/1.5 var(--f-mono);overflow-wrap:anywhere}
+.ofig.compact{flex-direction:row;align-items:flex-start;gap:10px}
+.ofig.compact img,.ofig.compact canvas{width:120px;max-height:80px;flex:none}
+.ofig.compact figcaption{font-size:11px}
+.ofig.compact .ocred,.ofig.compact .mini{display:none}
 .src{font:400 11px/1.6 var(--f-mono);color:var(--muted);border-top:1px solid var(--line);padding-top:10px;overflow-wrap:anywhere}
 .pactions{display:flex;gap:6px;flex-wrap:wrap}
 #live{border-top:1px solid var(--line);padding:0 16px;max-height:52%;overflow-y:auto}
@@ -388,6 +398,7 @@ body.photo .top,body.photo #scaleSub,body.photo #ladder,body.photo #panel,body.p
     <div id="tourRun" hidden aria-live="polite">
       <div class="fl-row"><span class="tstep" id="tStep"></span><span class="tstep" id="tWhere"></span></div>
       <h2 id="tTitle"></h2>
+      <div id="tFig"></div>
       <p class="ttext" id="tText"></p>
       <span class="tsrc" id="tSrc"></span>
       <div class="tbar"><i id="tBar"></i></div>
@@ -971,7 +982,7 @@ const C=299792458, VMAX_SHIP=C*(1-1e-6);
 const fl={on:false,yaw:0,pitch:0,keys:{},auto:false,mode:'ship',speed:0.9*C,warp:1,extT:0,shipT:0,dist:0};
 const tour={on:false,course:null,i:0,paused:false,t:0,dur:10,voice:false,spoken:true,tok:0,finished:false};
 let anim=null,autoZoom=0;
-function info(inf,open){showInfo(inf);if(open)expandPanel(true);}
+function info(inf,open,imgKey){showInfo(inf);attachFigure($('#pBody'),imgKey||null,false);if(open)expandPanel(true);}
 function expandPanel(on){const p=$('#panel');if(!isMobile()){p.classList.remove('collapsed');return;}p.classList.toggle('collapsed',!on);$('#pHead').setAttribute('aria-expanded',String(on));$('#pToggle').textContent=on?'閉じる':'詳細';}
 $('#pHead').addEventListener('click',()=>{if(isMobile())expandPanel($('#panel').classList.contains('collapsed'));});
 
@@ -990,8 +1001,8 @@ function stepAnim(dt){if(!anim)return;if(anim.tour&&tour.paused)return;anim.t+=d
   camera.position.copy(fp).addScaledVector(dir,len);controls.target.copy(fp).addScaledVector(anim.tOff,1-k);
   if(k>=1){anim=null;if(state.follow)state.follow.last=fp;}}
 function stepFollow(){const f=state.follow;if(!f||anim)return;const p=wpos(f.obj);tmpW.copy(p).sub(f.last);if(tmpW.lengthSq()>0){camera.position.add(tmpW);controls.target.add(tmpW);}f.last=p;}
-function onLabelClick(ent,L,opts){const inf=typeof ent.info==='function'?ent.info():ent.info;info(inf,true);
-  const cid=catIdForObj(ent.obj);state.selected={id:cid,name:ent.el.textContent};if(cid)recordVisit(cid);
+function onLabelClick(ent,L,opts){const inf=typeof ent.info==='function'?ent.info():ent.info;const cid=catIdForObj(ent.obj);info(inf,true,imgKeyForLabel(ent,cid));
+  state.selected={id:cid,name:ent.el.textContent};if(cid)recordVisit(cid);
   if(!(opts&&opts.nofocus)&&!fl.on&&!tour.on)focusOn(ent.obj,(ent.obj.userData&&ent.obj.userData.fd)||L.size*.08);
   saveLastView();updateWhere();}
 
@@ -1274,6 +1285,115 @@ const live=(function(){
   return {tick,frame,credits,ct,validateOMM,ingest,fetchGroup,ship,img,TTL,VALID_DAYS};
 })();
 
+/* ---------- images for objects ----------
+   Photos: NASA Image and Video Library (images.nasa.gov). NASA-produced material is generally not subject to copyright in the US;
+   NASA asks for credit and that its images not be used to imply endorsement. Items co-produced with ESA are credited as given
+   (ESA/Hubble material is CC BY 4.0). Every image shows its credit and a link to the NASA page.
+   Illustrations marked "gen" are drawn by this app (no third-party material). */
+const IMG_KIND={photo:'実写（探査機・望遠鏡・宇宙船から撮影）',obs:'観測画像（擬似カラー・合成を含む）',composite:'観測データの合成画像',artist:'想像図（NASA作成）',diagram:'解説図（NASA作成）',gen:'イメージ図（このアプリで作成）'};
+const STARCOL={M:'#ff8a5c',K:'#ffc489',G:'#fff1c9',F:'#fff6e0',A:'#cfe0ff'};
+const IMG={
+  earth:{nasa:'as17-148-22727',k:'photo',cap:'アポロ17号の乗組員が月へ向かう途中に撮影した地球（1972年12月7日）',cr:'NASA'},
+  moon:{nasa:'GSFC_20171208_Archive_e000868',k:'composite',cap:'NASAの月周回探査機LROのカメラと高度計のデータから作成した満月の画像',cr:'NASA Goddard Space Flight Center'},
+  iss:{nasa:'s132e012208',k:'photo',cap:'スペースシャトル・アトランティスから撮影した国際宇宙ステーション（2010年5月、STS-132）',cr:'NASA'},
+  css:{gen:'station',cap:'宇宙ステーションのイメージ図。権利を確認できる天宮の写真を用意できなかったため、実際の形とは異なります'},
+  hst:{nasa:'s125e011921',k:'photo',cap:'最後の修理ミッション（STS-125）の後、スペースシャトルから放出されたハッブル宇宙望遠鏡（2009年5月19日）',cr:'NASA'},
+  sun:{nasa:'GSFC_20171208_Archive_e002035',s0:1,k:'obs',cap:'太陽観測衛星SDOのAIA（極端紫外線）による太陽全面の擬似カラー画像（2010年6月）',cr:'NASA/SDO'},
+  mercury:{nasa:'GSFC_20171208_Archive_e001922',s0:1,k:'photo',cap:'探査機メッセンジャーが周回軌道から初めて撮影した水星のカラー画像（2011年）',cr:'NASA/Johns Hopkins University Applied Physics Laboratory/Carnegie Institution of Washington'},
+  venus:{nasa:'PIA23791',s0:1,k:'photo',cap:'探査機マリナー10号が撮影した金星（1974年撮影・2020年再処理）',cr:'NASA/JPL-Caltech'},
+  mars:{nasa:'PIA00003',k:'composite',cap:'バイキング・オービターの画像102枚を合成した火星（マリネリス峡谷がある半球）',cr:'NASA/JPL/USGS'},
+  jupiter:{nasa:'PIA04866',k:'composite',cap:'探査機カッシーニが撮影した木星の真色モザイク（2000年12月）',cr:'NASA/JPL/Space Science Institute'},
+  saturn:{nasa:'PIA06193',k:'composite',cap:'探査機カッシーニが撮影した土星のモザイク（2004年10月）',cr:'NASA/JPL/Space Science Institute'},
+  uranus:{nasa:'PIA18182',k:'photo',cap:'探査機ボイジャー2号が撮影した天王星（1986年）',cr:'NASA/JPL-Caltech'},
+  neptune:{nasa:'PIA01492',k:'photo',cap:'探査機ボイジャー2号が撮影した海王星（1989年）',cr:'NASA/JPL'},
+  voyager1:{nasa:'PIA17049',s0:1,k:'artist',cap:'ボイジャー探査機の想像図',cr:'NASA/JPL-Caltech'},
+  voyager2:{nasa:'PIA17049',s0:1,k:'artist',cap:'ボイジャー探査機の想像図（1号・2号は同型機）',cr:'NASA/JPL-Caltech'},
+  heliopause:{nasa:'PIA13892',s0:1,k:'artist',cap:'太陽圏の外縁部を進む2機のボイジャーの想像図',cr:'NASA/JPL-Caltech'},
+  alphacen:{nasa:'GSFC_20171208_Archive_e000214',s0:1,k:'photo',cap:'ハッブル宇宙望遠鏡が撮影したケンタウルス座α星AとB',cr:'ESA/NASA'},
+  epseri:{nasa:'PIA11375',k:'artist',cap:'エリダヌス座ε星の惑星系の想像図（スピッツァー宇宙望遠鏡の観測に基づく）',cr:'NASA/JPL-Caltech'},
+  trappist1:{nasa:'PIA22093',k:'artist',cap:'TRAPPIST-1の7つの惑星の想像図（2018年更新版）',cr:'NASA/JPL-Caltech'},
+  proxima:{gen:'star',c:STARCOL.M,cap:'赤色矮星（スペクトル型M5.5）のイメージ図。色はスペクトル型に基づきます'},
+  barnard:{gen:'star',c:STARCOL.M,cap:'赤色矮星（M4）のイメージ図。色はスペクトル型に基づきます'},
+  wolf359:{gen:'star',c:STARCOL.M,cap:'赤色矮星（M6）のイメージ図。色はスペクトル型に基づきます'},
+  lalande21185:{gen:'star',c:STARCOL.M,cap:'赤色矮星（M2）のイメージ図。色はスペクトル型に基づきます'},
+  luyten726:{gen:'binary',c:STARCOL.M,c2:STARCOL.M,cap:'赤色矮星の連星（M5.5）のイメージ図'},
+  ross154:{gen:'star',c:STARCOL.M,cap:'赤色矮星（M3.5）のイメージ図'},
+  lacaille9352:{gen:'star',c:STARCOL.M,cap:'赤色矮星（M0.5）のイメージ図'},
+  ross128:{gen:'star',c:STARCOL.M,cap:'赤色矮星（M4）のイメージ図'},
+  sirius:{gen:'binary',c:STARCOL.A,c2:'#e8f0ff',small:true,cap:'シリウスA（A型主系列星）と白色矮星シリウスBのイメージ図（大きさ・距離は誇張）'},
+  procyon:{gen:'binary',c:STARCOL.F,c2:'#e8f0ff',small:true,cap:'プロキオンA（F型）と白色矮星プロキオンBのイメージ図（大きさ・距離は誇張）'},
+  cyg61:{gen:'binary',c:STARCOL.K,c2:'#ffb46b',cap:'はくちょう座61番星（K型の連星）のイメージ図'},
+  epsind:{gen:'star',c:STARCOL.K,cap:'K型主系列星のイメージ図'},
+  taucet:{gen:'star',c:STARCOL.G,cap:'太陽に似たG型主系列星のイメージ図'},
+  altair:{gen:'star',c:STARCOL.A,oblate:true,cap:'高速自転で赤道方向にふくらんだアルタイルのイメージ図（扁平さは干渉計の観測に基づく）'},
+  vega:{gen:'star',c:STARCOL.A,cap:'A型主系列星ベガのイメージ図'},
+  sgra:{nasa:'PIA13932',k:'obs',cap:'天の川銀河の中心付近（スピッツァー宇宙望遠鏡の赤外線画像）。いて座A*そのものの像ではありません',cr:'NASA/JPL-Caltech'},
+  milkyway:{nasa:'PIA10748',k:'artist',cap:'観測に基づく天の川銀河の想像図（2008年版）。私たちは銀河の外から写真を撮ることはできません',cr:'NASA/JPL-Caltech'},
+  m31:{nasa:'PIA15416',k:'obs',cap:'紫外線天文衛星GALEXが撮影したアンドロメダ銀河（紫外線・擬似カラー）',cr:'NASA/JPL-Caltech'},
+  m33:{nasa:'PIA11969',k:'obs',cap:'GALEX（紫外線）とスピッツァー（赤外線）によるさんかく座銀河の擬似カラー合成',cr:'NASA/JPL-Caltech/Univ. of Ariz.'},
+  lmc:{nasa:'PIA07137',k:'obs',cap:'スピッツァー宇宙望遠鏡による大マゼラン雲の赤外線画像（擬似カラー）',cr:'NASA/JPL-Caltech/STScI'},
+  smc:{nasa:'PIA12485',k:'obs',cap:'スピッツァー宇宙望遠鏡による小マゼラン雲の赤外線画像（擬似カラー）',cr:'NASA/JPL-Caltech/STScI'},
+  sgrdsph:{gen:'dwarf',cap:'矮小楕円銀河のイメージ図'},
+  ngc6822:{gen:'irregular',cap:'矮小不規則銀河のイメージ図'},
+  ic1613:{gen:'irregular',cap:'矮小不規則銀河のイメージ図'},
+  virgo:{nasa:'PIA07906',k:'obs',cap:'GALEXが紫外線で撮影した、おとめ座銀河団の一部',cr:'NASA/JPL-Caltech/SSC'},
+  norma:{gen:'cluster',cap:'銀河団のイメージ図（天の川銀河の円盤に隠れて観測しにくい領域です）'},
+  perseus:{nasa:'GSFC_20171208_Archive_e000078',k:'composite',cap:'ペルセウス銀河団の高温ガスに見つかった巨大な「波」（X線観測とシミュレーションなどの合成）',cr:"NASA's Goddard Space Flight Center/Stephen Walker"},
+  coma:{nasa:'GSFC_20171208_Archive_e002070',s0:1,k:'photo',cap:'ハッブル宇宙望遠鏡が撮影した、かみのけ座銀河団の銀河NGC 4911',cr:'NASA, ESA, and the Hubble Heritage Team (STScI/AURA)'},
+  shapley:{gen:'cluster',cap:'超銀河団を構成する銀河団のイメージ図'},
+  laniakea:{gen:'flow',cap:'銀河の動き（流れ）で範囲を決めた超銀河団のイメージ図'},
+  universe:{nasa:'GSFC_20171208_Archive_e001651',k:'photo',cap:'ハッブル宇宙望遠鏡のエクストリーム・ディープ・フィールド（小さな空の範囲に約5,500個の銀河）',cr:'NASA; ESA; G. Illingworth, D. Magee, and P. Oesch (UC Santa Cruz); R. Bouwens (Leiden University); and the HUDF09 Team'},
+  cmb:{nasa:'PIA16874',k:'diagram',cap:'COBE・WMAP・Planckによる宇宙マイクロ波背景放射の観測の比較（解像度の違い）',cr:'NASA/JPL-Caltech/ESA'},
+  momz14:{gen:'distant',cap:'初期宇宙の遠方銀河のイメージ図（MoM-z14そのものの画像ではありません）'},
+  belt:{gen:'belt',cap:'太陽のまわりを回る小天体の帯のイメージ図'},
+  localgroup:{gen:'group',cap:'大小の銀河が集まる銀河群のイメージ図'}
+};
+const LABEL_IMG={'小惑星帯':'belt','エッジワース・カイパーベルト':'belt','ヘリオポーズ（太陽圏の境界）':'heliopause','ペルセウス腕':'milkyway','じょうぎ座-ケンタウルス座腕':'milkyway','いて座-りゅうこつ座腕':'milkyway',
+  '太陽系（現在地）':'milkyway','天の川銀河':'milkyway','局所銀河群（現在地）':'localgroup','私たち（中心）':'universe','太陽':'sun','地球':'earth'};
+function imgKeyForLabel(ent,cid){if(cid&&IMG[cid])return cid;return LABEL_IMG[ent.el.textContent]||null;}
+const NASA_SIZES=['~medium.jpg','~small.jpg','~thumb.jpg'];
+function nasaUrl(id,i){return 'https://images-assets.nasa.gov/image/'+encodeURIComponent(id)+'/'+encodeURIComponent(id)+NASA_SIZES[i];}
+/* app-drawn illustrations (deterministic per key) */
+function genCanvas(spec,key,w,h){const c=document.createElement('canvas');c.width=w;c.height=h;c.className='genimg';c.setAttribute('role','img');c.setAttribute('aria-label',spec.cap);
+  const x=c.getContext('2d');if(!x)return c;let s=0;for(const ch of key)s=(s*31+ch.charCodeAt(0))>>>0;const R=()=>{s=(s*1664525+1013904223)>>>0;return s/4294967296;};
+  x.fillStyle='#03050a';x.fillRect(0,0,w,h);for(let i=0;i<120;i++){x.fillStyle='rgba(255,255,255,'+(.2+R()*.6)+')';x.fillRect(R()*w,R()*h,R()<.9?1:2,1);}
+  const disc=(cx,cy,r,col,ob)=>{const g=x.createRadialGradient(cx,cy,r*.2,cx,cy,r*3.2);g.addColorStop(0,col);g.addColorStop(.3,col+'55');g.addColorStop(1,'rgba(0,0,0,0)');x.fillStyle=g;x.fillRect(cx-r*3.2,cy-r*3.2,r*6.4,r*6.4);
+    x.save();x.translate(cx,cy);x.scale(ob?1.25:1,1);const g2=x.createRadialGradient(-r*.25,-r*.25,r*.1,0,0,r);g2.addColorStop(0,'#ffffff');g2.addColorStop(.35,col);g2.addColorStop(1,'#00000099');x.fillStyle=g2;x.beginPath();x.arc(0,0,r,0,Math.PI*2);x.fill();x.restore();};
+  const blob=(cx,cy,rx,ry,col,n,rot)=>{for(let i=0;i<n;i++){const a=R()*Math.PI*2,rr=Math.pow(R(),.6);const px=Math.cos(a)*rx*rr,py=Math.sin(a)*ry*rr;const X=cx+px*Math.cos(rot)-py*Math.sin(rot),Y=cy+px*Math.sin(rot)+py*Math.cos(rot);
+    x.fillStyle=col.replace('A',(.15+R()*.5).toFixed(2));x.beginPath();x.arc(X,Y,.6+R()*1.6,0,Math.PI*2);x.fill();}};
+  const g=spec.gen,cx=w/2,cy=h/2;
+  if(g==='star')disc(cx,cy,h*.2,spec.c,spec.oblate);
+  else if(g==='binary'){disc(cx-w*.1,cy,h*.18,spec.c);disc(cx+w*.18,cy-h*.06,spec.small?h*.035:h*.12,spec.c2);}
+  else if(g==='station'){x.fillStyle='#c9d2e3';x.fillRect(cx-w*.06,cy-h*.05,w*.12,h*.1);x.fillRect(cx-w*.02,cy-h*.18,w*.04,h*.36);
+    x.fillStyle='#2f4c8a';[[-1,-1],[1,-1],[-1,1],[1,1]].forEach(([a,b])=>{x.fillRect(cx+a*w*.09-(a<0?w*.22:0),cy+b*h*.14-h*.04,w*.22,h*.08);});
+    x.strokeStyle='#8fa3c8';x.lineWidth=1;for(let i=0;i<4;i++){x.beginPath();x.moveTo(cx-w*.31,cy-h*.14+i*0);x.stroke();}}
+  else if(g==='dwarf'){const gr=x.createRadialGradient(cx,cy,0,cx,cy,h*.42);gr.addColorStop(0,'rgba(255,225,180,.55)');gr.addColorStop(1,'rgba(0,0,0,0)');x.fillStyle=gr;x.fillRect(0,0,w,h);blob(cx,cy,w*.3,h*.22,'rgba(255,230,190,A)',700,.3);}
+  else if(g==='irregular'){blob(cx,cy,w*.28,h*.25,'rgba(190,215,255,A)',600,-.4);blob(cx+w*.08,cy-h*.05,w*.12,h*.1,'rgba(255,170,200,A)',120,.2);}
+  else if(g==='cluster'){for(let i=0;i<46;i++){const X=cx+(R()-.5)*w*.8*Math.pow(R(),.5)*1.6,Y=cy+(R()-.5)*h*.8*Math.pow(R(),.5)*1.4;const r=2+R()*7;x.save();x.translate(X,Y);x.rotate(R()*3);x.scale(1,.4+R()*.6);
+      const gr=x.createRadialGradient(0,0,0,0,0,r);gr.addColorStop(0,'rgba(255,240,215,.95)');gr.addColorStop(1,'rgba(255,220,180,0)');x.fillStyle=gr;x.beginPath();x.arc(0,0,r,0,Math.PI*2);x.fill();x.restore();}}
+  else if(g==='flow'){x.strokeStyle='rgba(160,200,255,.55)';x.lineWidth=1.2;const tx=cx+w*.12,ty=cy;for(let i=0;i<40;i++){let px=R()*w,py=R()*h;x.beginPath();x.moveTo(px,py);for(let k=0;k<30;k++){const dx=tx-px,dy=ty-py,d=Math.hypot(dx,dy)||1;px+=dx/d*4+(-dy/d)*1.2;py+=dy/d*4+(dx/d)*1.2;x.lineTo(px,py);if(d<8)break;}x.stroke();}
+    x.fillStyle='rgba(255,230,180,.9)';x.beginPath();x.arc(tx,ty,4,0,Math.PI*2);x.fill();}
+  else if(g==='distant'){const gr=x.createRadialGradient(cx,cy,0,cx,cy,h*.08);gr.addColorStop(0,'rgba(255,120,90,.95)');gr.addColorStop(1,'rgba(120,20,20,0)');x.fillStyle=gr;x.fillRect(0,0,w,h);
+    for(let i=0;i<25;i++){x.fillStyle='rgba(200,180,255,.35)';x.beginPath();x.ellipse(R()*w,R()*h,1+R()*3,1+R()*2,R()*3,0,Math.PI*2);x.fill();}}
+  else if(g==='belt'){disc(cx,cy,h*.07,'#ffd27a');for(let i=0;i<700;i++){const a=R()*Math.PI*2,r=h*(.3+R()*.12);x.fillStyle='rgba(210,200,180,'+(.3+R()*.5)+')';x.fillRect(cx+Math.cos(a)*r*1.6,cy+Math.sin(a)*r*.55,1.2,1.2);}}
+  else if(g==='group'){[[.42,.45,.16,'rgba(240,230,210,A)'],[.62,.4,.13,'rgba(230,235,255,A)'],[.7,.62,.06,'rgba(220,230,255,A)'],[.32,.66,.04,'rgba(240,220,200,A)'],[.5,.25,.03,'rgba(240,220,200,A)']].forEach(v=>blob(w*v[0],h*v[1],h*v[2]*1.6,h*v[2],v[3],400,R()*3));}
+  x.fillStyle='rgba(4,6,12,.75)';x.fillRect(0,h-20,w,20);x.fillStyle='#dde3ee';x.font='11px "Zen Kaku Gothic New",sans-serif';x.fillText('イメージ図（このアプリで作成・写真ではありません）',8,h-6);
+  return c;}
+function figureFor(key,compact){const spec=IMG[key];if(!spec)return null;const fig=document.createElement('figure');fig.className='ofig'+(compact?' compact':'');fig.dataset.img=key;
+  const cap=document.createElement('figcaption');const kind=document.createElement('span');kind.className='okind'+(spec.gen?' gen':'');kind.textContent=IMG_KIND[spec.gen?'gen':spec.k];
+  const txt=document.createElement('span');txt.textContent=spec.cap;cap.append(kind,txt);
+  if(spec.nasa){const img=document.createElement('img');img.alt=spec.cap;img.loading='lazy';img.decoding='async';img.referrerPolicy='no-referrer';let i=spec.s0||0;img.src=nasaUrl(spec.nasa,i);
+    img.addEventListener('error',()=>{i++;if(i<NASA_SIZES.length){img.src=nasaUrl(spec.nasa,i);return;}
+      const c=genCanvas({gen:'star',c:'#8a94aa',cap:'画像を読み込めませんでした'},key,480,270);img.replaceWith(c);kind.textContent='画像を読み込めませんでした';
+      txt.textContent='通信環境や配信元の状況により、NASAの画像を表示できませんでした（原因はここでは特定できません）。本来の画像：'+spec.cap;});
+    fig.appendChild(img);
+    const cr=document.createElement('span');cr.className='ocred';cr.textContent='クレジット：'+spec.cr+'（NASA Image and Video Library）';
+    const a=document.createElement('a');a.href='https://images.nasa.gov/details/'+encodeURIComponent(spec.nasa);a.target='_blank';a.rel='noopener';a.textContent='元の画像ページ';a.className='mini';
+    cap.append(cr,a);}
+  else fig.appendChild(genCanvas(spec,key,480,270));
+  fig.appendChild(cap);return fig;}
+function attachFigure(container,key,compact){const old=container.querySelector(':scope > figure.ofig');if(old)old.remove();if(!key)return;const f=figureFor(key,compact);if(f)container.prepend(f);}
+
 /* ---------- destination catalogue (stable IDs) ---------- */
 const STAR_IDS={proxima:['プロキシマ・ケンタウリ','Proxima Centauri',['プロキシマ','Alpha Centauri C']],alphacen:['ケンタウルス座α星 A/B','Alpha Centauri A/B',['リギル・ケンタウルス','Rigil Kentaurus']],
   barnard:['バーナード星',"Barnard's Star",['バーナード']],wolf359:['ウォルフ359','Wolf 359',[]],lalande21185:['ラランド21185','Lalande 21185',[]],sirius:['シリウス A/B','Sirius',['おおいぬ座α星']],
@@ -1330,10 +1450,10 @@ function search(q){const n=norm(q);if(!n)return FEATURED.map(id=>CAT_BY_ID[id]);
 function travel(e){if(!e)return;stopAll();closeSheets();const L=levelByKey(e.lv);
   const run=()=>{if(!e.reg){info(L.overview,true);state.selected=null;updateWhere();return;}const o=REG[e.reg];
     if(!o||o.visible===false){info({kind:e.type,title:e.ja,badge:'est',note:'この天体の位置データを現在取得できていないため、移動できません。'+(e.live?'地球観測レイヤーの「人工衛星」の状態を確認してください。':''),src:'—'},true);return;}
-    focusOn(o,(o.userData&&o.userData.fd)||L.size*.08);state.selected={id:e.id,name:e.ja};const inf=labelInfoFor(e);if(inf)info(inf,true);
+    focusOn(o,(o.userData&&o.userData.fd)||L.size*.08);state.selected={id:e.id,name:e.ja};const inf=labelInfoFor(e);if(inf)info(inf,true,IMG[e.id]?e.id:null);
     recordVisit(e.id);saveLastView();updateWhere();toast('カメラ演出で移動しています（実際の航行時間ではありません）');};
   if(state.level!==L)go(levels.indexOf(L),false,run);else run();}
-function showDetail(e){const inf=labelInfoFor(e);info(inf||{kind:e.type,title:e.ja,badge:'est',note:'位置データを取得できていないため、詳細を表示できません。',src:'—'},true);}
+function showDetail(e){const inf=labelInfoFor(e);info(inf||{kind:e.type,title:e.ja,badge:'est',note:'位置データを取得できていないため、位置や軌道の詳細は表示できません。',src:'—'},true,IMG[e.id]?e.id:null);}
 
 /* ---------- local store helpers ---------- */
 function recordVisit(id){if(!CAT_BY_ID[id])return;store.d.visited[id]=(store.d.visited[id]||0)+1;store.save();renderMissions();}
@@ -1422,7 +1542,7 @@ function speak(text){tour.spoken=true;if(!tour.voice||!HAS_TTS)return;cancelSpee
 function curStopText(){const id=COURSES[tour.course].ids[tour.i];const st=STOPS[id];return tour.fallback&&st.fx?st.fx():st.x();}
 function tourShow(){const c=COURSES[tour.course];const id=c.ids[tour.i];const st=STOPS[id];const L=levelByKey(st.lv);
   $('#tStep').textContent=c.t+' · '+(tour.i+1)+' / '+c.ids.length;$('#tWhere').textContent=L.name;
-  $('#tTitle').textContent=st.t+(tour.fallback?'（位置データ未取得）':'');$('#tText').textContent=curStopText();$('#tSrc').textContent='出典：'+st.s;$('#tBar').style.width='0%';
+  $('#tTitle').textContent=st.t+(tour.fallback?'（位置データ未取得）':'');attachFigure($('#tFig'),tour.fallback?'earth':(IMG[id]?id:null),true);$('#tText').textContent=curStopText();$('#tSrc').textContent='出典：'+st.s;$('#tBar').style.width='0%';
   $('#tPause').textContent='一時停止';$('#tPause').setAttribute('aria-pressed','false');}
 function tourOpen(){if(tour.on){tourEnd();return;}stopAll();closeSheets();renderCourses();$('#tour').hidden=false;$('#tourPick').hidden=false;$('#tourRun').hidden=true;$('#tTour').setAttribute('aria-pressed','true');}
 function tourStart(course,i){if(!COURSES[course])return;if(fl.on)setFly(false);autoZoomStop();closeSheets();tour.on=true;tour.course=course;tour.paused=false;tour.finished=false;
@@ -1552,7 +1672,7 @@ function applyHash(h){const s=parseHash(h);if(!s.ok){if(h&&h.length>1)toast('共
   const dir=(s.az!=null&&s.el!=null)?V3(Math.sin(s.az)*Math.cos(s.el),Math.sin(s.el),Math.cos(s.az)*Math.cos(s.el)):null;
   if(s.o){const e=CAT_BY_ID[s.o];const obj=REG[e.reg];L.update(0,0);
     if(obj&&obj.visible!==false){const fp=wpos(obj);const d=s.d||(obj.userData&&obj.userData.fd)||L.size*.08;controls.target.copy(fp);camera.position.copy(fp).addScaledVector(dir||V3(0,.3,1).normalize(),d);setFollow(obj);
-      state.selected={id:s.o,name:e.ja};const inf=labelInfoFor(e);if(inf)info(inf,false);}
+      state.selected={id:s.o,name:e.ja};const inf=labelInfoFor(e);if(inf)info(inf,false,IMG[s.o]?s.o:null);}
     else s.partial=true;}
   else if(dir&&s.d){camera.position.copy(dir).multiplyScalar(s.d);}
   controls.update();updateWhere();if(s.partial)toast('共有リンクの一部を読み込めませんでした（読み込めた範囲で表示しています）');return true;}
@@ -1660,7 +1780,7 @@ if(/^#v=1/.test(location.hash)){started=applyHash(location.hash);}
 if(!started){let lv=null;try{lv=store.d.lastView&&levelByKey(store.d.lastView.lv);}catch(e){}go(levels.indexOf(earthL),true);if(!/^#v=1/.test(location.hash))openIntro(false);}
 live.tick(true);
 frame();
-window.__cosmosDebug={state,fl,tour,rel,store,PROVIDERS,CAT,CAT_BY_ID,REG,levels,search,parseHash,applyHash,makeHash,relCompute,live,setRealtime,goHome,tourStart,tourPause,travel,emDistAu,
+window.__cosmosDebug={IMG,LABEL_IMG,figureFor,state,fl,tour,rel,store,PROVIDERS,CAT,CAT_BY_ID,REG,levels,search,parseHash,applyHash,makeHash,relCompute,live,setRealtime,goHome,tourStart,tourPause,travel,emDistAu,
   get level(){return state.level.key;},get anim(){return anim;},get autoZoom(){return autoZoom;},sendLight,lightPulse,inPlanetRange};
 }catch(e){console.error(e);fatal('初期化中にエラーが発生しました','アプリの準備中に問題が起きました。再試行するか、軽量表示をお試しください。',String(e&&e.stack||e));}
 })();
