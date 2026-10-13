@@ -25,4 +25,9 @@ THIS SOFTWARE.
 - three.js r128（MIT License）
 - d3 7.8.5（ISC License）
 - topojson 3.0.2（ISC License）
+- satellite.js 5.0.0（MIT License）
 - Google Fonts: Shippori Mincho B1 / Zen Kaku Gothic New / JetBrains Mono（SIL Open Font License 1.1）
+
+## 実行時に取得する外部データ
+
+README の「ライブデータの提供元と利用条件」を参照してください。
