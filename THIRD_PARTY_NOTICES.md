@@ -20,6 +20,49 @@ TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF
 THIS SOFTWARE.
 ```
 
+## index.html に埋め込んだ天体データ（`<script type="application/json" id="skydata">`）
+
+### HYG Database v4.1（恒星）
+
+- 作成者：David Nash（https://github.com/astronexus/HYG-Database ／ https://www.astronexus.com/hyg）
+- ライセンス：Creative Commons Attribution-ShareAlike 4.0 International（CC BY-SA 4.0）https://creativecommons.org/licenses/by-sa/4.0/
+- 改変の内容：次の条件の星だけを抜き出しました（8等級以下の明るさ、固有名がある、または50光年以内）。赤経・赤緯・距離・絶対等級・色指数を丸めて2進数に変換し、Base64で埋め込みました。固有名・バイエル符号・フラムスティード番号・HIP/HD番号・スペクトル型・光度の列を使っています。
+- この改変したデータは、CC BY-SA 4.0 で提供します。
+
+### OpenNGC（星雲・星団・銀河）
+
+- 作成者：Mattia Verga（https://github.com/mattiaverga/OpenNGC）
+- ライセンス：CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/
+- 改変の内容：全天体の位置・種類・明るさ・赤方偏移・メシエ番号・通称・星座・大きさを抜き出しました。値を丸めて2進数に変換し、Base64で埋め込みました。種類は9区分にまとめています。
+- この改変したデータは、CC BY-SA 4.0 で提供します。
+
+### d3-celestial（星座線、星座・星・星雲の日本語名）
+
+- https://github.com/ofrohn/d3-celestial
+- 星座線をHYGの星に対応づけて埋め込みました。日本語名は、d3-celestialのデータに含まれる日本語表記を使っています。
+- d3-celestial の README によると、星座名の多言語表記は Wikipedia、星の名前の翻訳は Stellarium の skycultures データに由来します。
+
+```
+Copyright (c) 2015, Olaf Frohn
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+```
+
+### NASA/JPL Solar System Dynamics（小天体・衛星）
+
+- Small-Body Database（https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html）の軌道要素（2026年10月13日に取得し、3桁程度に丸めた値）
+- Planetary Satellite Mean Elements（https://ssd.jpl.nasa.gov/sats/elem/）、NASA Planetary Fact Sheets（https://nssdc.gsfc.nasa.gov/planetary/factsheet/）の値の一部
+- 出典として NASA/JPL を表示しています。
+
 ## CDNから読み込むライブラリ（同梱はしていません）
 
 - three.js r128（MIT License）
@@ -77,8 +120,19 @@ THIS SOFTWARE.
 | かみのけ座銀河団 | [GSFC_20171208_Archive_e002070](https://images.nasa.gov/details/GSFC_20171208_Archive_e002070) | 実写 | NASA, ESA, and the Hubble Heritage Team (STScI/AURA) |
 | 観測可能な宇宙 | [GSFC_20171208_Archive_e001651](https://images.nasa.gov/details/GSFC_20171208_Archive_e001651) | 実写 | NASA; ESA; G. Illingworth, D. Magee, and P. Oesch (UC Santa Cruz); R. Bouwens (Leiden University); and the HUDF09 Team |
 | 宇宙マイクロ波背景放射 | [PIA16874](https://images.nasa.gov/details/PIA16874) | 解説図 | NASA/JPL-Caltech/ESA |
+| すばる（M45） | [PIA09262](https://images.nasa.gov/details/PIA09262) | 観測画像 | NASA/JPL-Caltech |
+| オリオン大星雲（M42） | [PIA01322](https://images.nasa.gov/details/PIA01322) | 合成画像 | NASA/JPL-Caltech/STScI |
+| わし星雲（M16） | [PIA25433](https://images.nasa.gov/details/PIA25433) | 観測画像 | NASA/JPL-Caltech |
+| らせん状星雲（NGC 7293） | [PIA15658](https://images.nasa.gov/details/PIA15658) | 観測画像 | NASA/JPL-Caltech |
+| 子持ち銀河（M51） | [PIA10200](https://images.nasa.gov/details/PIA10200) | 合成画像 | X-ray: NASA/CXC; UV: NASA/JPL-Caltech; Optical: NASA/ESA/STScI/AURA; IR: NASA/JPL-Caltech/Univ. of Ariz. |
+| ソンブレロ銀河（M104） | [PIA15226](https://images.nasa.gov/details/PIA15226) | 実写 | NASA/STScI/AURA |
+| 冥王星 | [PIA19952](https://images.nasa.gov/details/PIA19952) | 観測画像 | NASA/Johns Hopkins University Applied Physics Laboratory/Southwest Research Institute |
+| ハレー彗星 | [PIA17485](https://images.nasa.gov/details/PIA17485) | 実写 | NASA/ESA/Giotto Project |
+| ベスタ | [PIA14778](https://images.nasa.gov/details/PIA14778) | 実写 | NASA/JPL-Caltech/UCLA/MPS/DLR/IDA |
+| トリトン | [PIA00317](https://images.nasa.gov/details/PIA00317) | 合成画像 | NASA/JPL/USGS |
 
 ## 自作の表現
 
+- 星・星座・星雲・小天体・衛星の「イメージ図」（情報パネルの画像）は、第三者の画像を使わずにプログラムで描いたものです。星座の図は、上記の星座線データから描いています。
 - 木星・土星の縞模様、土星の環の濃淡、銀河の腕・宇宙の網目構造・CMBの模様は、第三者の画像を使わずにプログラムで描いた模式表現です。
 - 権利を確認できる写真を用意できなかった天体（近くの恒星の多く、天宮、矮小銀河の一部、ノルマ銀河団、シャプレー超銀河団、ラニアケア超銀河団、MoM-z14、小惑星帯など）は、このアプリがプログラムで描いた「イメージ図」を表示しています。第三者の素材は使っていません。
