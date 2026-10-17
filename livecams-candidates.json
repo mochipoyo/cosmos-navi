@@ -1,0 +1,52 @@
+{
+ "schema": 1,
+ "meta": {
+  "updatedAt": "2026-10-17T13:29:04.587Z",
+  "status": "ok",
+  "message": "チャンネル 15 件を確認し、新しい候補 4 件",
+  "searchCalls": 15
+ },
+ "candidates": [
+  {
+   "videoId": "Vr5lrM2oIHo",
+   "title": "🔴 LIVE: Port of Machico HD Webcam, Madeira Island  | @WebcamTaxi",
+   "channelId": "UC1tBnbs03VJ34oLD8cmJSVw",
+   "channelTitle": "Webcamtaxi",
+   "firstSeenAt": "2026-10-17T13:29:04.587Z",
+   "lastSeenAt": "2026-10-17T13:29:04.587Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "x4ZjtwDJX3g",
+   "title": "🔴 LIVE: Cruz da Caldeira HD Webcam, Câmara de Lobos | @WebcamTaxi",
+   "channelId": "UC1tBnbs03VJ34oLD8cmJSVw",
+   "channelTitle": "Webcamtaxi",
+   "firstSeenAt": "2026-10-17T13:29:04.587Z",
+   "lastSeenAt": "2026-10-17T13:29:04.587Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "GkBMgHwSIV0",
+   "title": "Miami Skyline LIVE | MacArthur Causeway Live Cam | Florida Cams",
+   "channelId": "UC5lNakfSdpqXCW214H5sBgQ",
+   "channelTitle": "Ozolio Live",
+   "firstSeenAt": "2026-10-17T13:29:04.587Z",
+   "lastSeenAt": "2026-10-17T13:29:04.587Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "ln9tkVIz2FQ",
+   "title": "【ニュースライブ】最新ニュースまとめ（Japan News Digest）（10月17日）｜TBS NEWS DIG",
+   "channelId": "UC6AG81pAkf6Lbi_1VC5NmPA",
+   "channelTitle": "TBS NEWS DIG Powered by JNN",
+   "firstSeenAt": "2026-10-17T13:29:04.587Z",
+   "lastSeenAt": "2026-10-17T13:29:04.587Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  }
+ ],
+ "channelCursor": 15
+}
