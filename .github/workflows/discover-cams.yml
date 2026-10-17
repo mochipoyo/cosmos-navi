@@ -1,0 +1,56 @@
+# 宇宙実測ナビ：新しいカメラの発見・登録（配信状態の確認とは別のワークフロー）
+# - 1日1回（日本時間 12:23 ごろ）と手動実行で動きます。
+# - 公開APIの定期更新画像カメラを webcams.json に、YouTube の新しいライブ候補を livecams-candidates.json に書き出します。
+# - 保存したあと、公開用のワークフロー（Update live cameras and deploy site）を起動してサイトに反映します。
+# - APIキーは Secrets（YT_API_KEY、必要なら WINDY_API_KEY）から渡します。ファイルには書きません。
+name: Discover cameras
+
+on:
+  schedule:
+    - cron: '23 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write   # webcams.json などをリポジトリに保存するため
+  actions: write    # 公開用ワークフローを起動するため
+
+concurrency:
+  group: discover-cams
+  cancel-in-progress: false
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+
+      - name: Discover cameras from official sources
+        env:
+          YT_API_KEY: ${{ secrets.YT_API_KEY }}
+          WINDY_API_KEY: ${{ secrets.WINDY_API_KEY }}
+        run: node scripts/discover-cams.mjs webcams.json livecams.json livecams-candidates.json
+
+      - name: Save results to the repository
+        run: |
+          for f in webcams.json livecams-candidates.json; do if [ -f "$f" ]; then git add "$f"; fi; done
+          if git diff --cached --quiet; then
+            echo "変更はありません"
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898290+github-actions[bot]@users.noreply.github.com"
+            git commit -m "Discover cameras [skip ci]"
+            git pull --rebase --autostash || true
+            git push || echo "保存に失敗しました"
+          fi
+
+      - name: Publish the site
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run update-livecams.yml --ref "${GITHUB_REF_NAME}" || echo "公開用ワークフローを起動できませんでした（次の定期実行で反映されます）"
