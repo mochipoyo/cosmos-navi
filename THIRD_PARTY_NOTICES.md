@@ -77,13 +77,14 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 - 船舶位置：Source: Fintraffic / digitraffic.fi, license CC 4.0 BY（https://creativecommons.org/licenses/by/4.0/）。アプリ内では最終受信位置から速度と針路で現在位置を推定（改変）して表示しています
 - 衛星画像：We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS).
 
-## ライブカメラ（YouTube埋め込みプレーヤー）
+## ライブカメラ（YouTube）
 
-映像は各配信者がYouTubeで公開しているライブ配信です。このアプリは、配信者が埋め込みを許可している配信を、YouTube公式の埋め込みプレーヤーで表示するだけです。映像を保存・再配信・加工はしていません。映像の権利は各配信者にあります。利用条件は YouTube 利用規約（https://www.youtube.com/t/terms）に従います。視聴ウィンドウを開くまで、YouTubeとは通信しません。
+- 映像は、各配信者が YouTube で公開しているライブ配信です。このアプリは、配信者が埋め込みを許可している配信を、YouTube 公式の埋め込みプレーヤー（IFrame Player API、youtube-nocookie.com）で表示するだけです。映像の保存・再配信・加工はしていません。映像の権利は各配信者にあります。利用条件は YouTube 利用規約（https://www.youtube.com/t/terms）に従います。
+- 配信状態の確認には、YouTube Data API v3 を GitHub Actions から使います（YouTube API Services 利用規約：https://developers.google.com/youtube/terms/api-services-terms-of-service）。ブラウザからは API を呼びません。
+- 視聴ウィンドウを開くまで、YouTube とは通信しません。
+- 掲載は2026年10月17日時点の手動確認に基づきます。配信者からの申し出や配信の終了があれば、掲載をやめます。自動更新で動画が差し替わった場合の最新の動画IDは `livecams.json` にあります。
 
-掲載は2026年10月17日時点の確認に基づきます。配信者の申し出や配信の終了があれば、掲載をやめます。
-
-| 場所 | 国・地域 | 配信者（YouTube） | 動画 |
+| 場所 | 国・地域 | 配信者（YouTube） | 動画（確認時） |
 |---|---|---|---|
 | 渋谷スクランブル交差点 | 日本 | FNNプライムオンライン | [dfVK7ld38Ys](https://www.youtube.com/watch?v=dfVK7ld38Ys) |
 | 東京タワー | 日本 | 東京タワー公式チャンネル | [nu6NE55_X7A](https://www.youtube.com/watch?v=nu6NE55_X7A) |
@@ -180,7 +181,6 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 | コーネル鳥類学研究所の餌台 | アメリカ | Cornell Lab Bird Cams | [N609loYkFJo](https://www.youtube.com/watch?v=N609loYkFJo) |
 | カトマイ ブルックス滝のヒグマ | アメリカ | Explore Bears | [EwTH5yY7Mks](https://www.youtube.com/watch?v=EwTH5yY7Mks) |
 | チャーチルのオーロラ | カナダ | Explore Northern Lights & Nature Meditation Cams | [a0i1Kg6fROg](https://www.youtube.com/watch?v=a0i1Kg6fROg) |
-| アビスコのオーロラ | スウェーデン | Lights Over Lapland - Abisko National Park, Sweden | [_zy6kB7W77I](https://www.youtube.com/watch?v=_zy6kB7W77I) |
 | イルリサットの氷山 | グリーンランド（デンマーク） | afarTV | [0GRxQoFMmqo](https://www.youtube.com/watch?v=0GRxQoFMmqo) |
 | ISSから見た地球（NASA公式） | 宇宙 | NASA | [P9C25Un7xaM](https://www.youtube.com/watch?v=P9C25Un7xaM) |
 
