@@ -1,0 +1,76 @@
+# 宇宙実測ナビ：ライブカメラの配信状態を定期的に確認し、GitHub Pages に公開します。
+# - 2時間ごと（毎時17分）・手動実行・main ブランチへのアップロード時に動きます。
+# - YouTube の APIキーは リポジトリの Secrets「YT_API_KEY」から渡します（ファイルには書きません）。
+# - キーが未設定でもサイトの公開は行います（ライブカメラは手動確認時のデータで表示）。
+# - この方式を使うには、Settings → Pages → Build and deployment → Source を「GitHub Actions」にしてください。
+name: Update live cameras and deploy site
+
+on:
+  schedule:
+    - cron: '17 */2 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write   # 更新した livecams.json をリポジトリに保存するため
+  pages: write      # GitHub Pages へ公開するため
+  id-token: write   # GitHub Pages へ公開するため
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  update-and-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+
+      - name: Check live camera status (YouTube Data API)
+        env:
+          YT_API_KEY: ${{ secrets.YT_API_KEY }}
+        run: node scripts/update-livecams.mjs livecams.json
+
+      - name: Save updated livecams.json to the repository
+        run: |
+          if git diff --quiet -- livecams.json; then
+            echo "livecams.json に変更はありません"
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898290+github-actions[bot]@users.noreply.github.com"
+            git add livecams.json
+            git commit -m "Update live camera status [skip ci]"
+            git pull --rebase --autostash || true
+            git push || echo "保存に失敗しました（公開は続けます）"
+          fi
+
+      - name: Prepare site files
+        run: |
+          mkdir -p _site
+          for f in index.html livecams.json README.md THIRD_PARTY_NOTICES.md favicon.ico favicon.svg apple-touch-icon.png icon-192.png icon-512.png site.webmanifest; do
+            if [ -f "$f" ]; then cp "$f" _site/; fi
+          done
+          ls -la _site
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v6
+
+      - name: Upload site
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: _site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
