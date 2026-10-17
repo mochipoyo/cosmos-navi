@@ -1,23 +1,22 @@
 #!/usr/bin/env node
 /*
- * 宇宙実測ナビ：新しいカメラの発見・登録（配信状態の確認 update-livecams.mjs とは独立）
+ * 宇宙実測ナビ：新しいカメラの発見・登録（1日1回。配信状態の確認とは独立）
  *
- * 1) 公開APIの「定期更新画像」カメラを、正式な提供元から取得して webcams.json に登録します。
- *    - 取得できたカメラだけを登録します。ダミーや推測の地点は作りません。
- *    - 提供元ごとに、ライセンス・出典表示・利用条件のURLを記録します。
- *    - ある提供元の取得に失敗した場合は、その提供元の前回の登録を残します（サイトが空になりません）。
- * 2) YouTube：登録済みの信頼できるチャンネル（livecams.json のチャンネル）で始まった新しいライブを探し、
- *    livecams-candidates.json に「候補」として書き出します。位置が確認できないため自動登録はしません。
+ * 1) 公的機関の公開APIから「定期更新画像」カメラを取得し、webcams.json（カメラの台帳）に登録します。
+ *    - 取得できた実在のカメラだけを登録し、ダミーや推測の地点は作りません。
+ *    - 提供元ごとに「HTTPエラー／通信エラー／タイムアウト／解析エラー／データ形式の不一致／取得件数0／件数の異常な減少」を区別して記録します。
+ *    - ある提供元が失敗・異常のときは、その提供元の前回の正常データを残します（ほかの提供元の更新は反映）。
+ *    - 新しい台帳は検証してから保存します。検証に失敗した場合や、全体の件数が前回の70%未満に減った場合は保存せず（前回の台帳を維持）、
+ *      終了コード1でワークフローを失敗にします。
+ *    - 画像が今も更新されているかの確認は check-stills.mjs（2時間ごと）が行います。この台帳には「提供元の一覧に載っている」ことだけを記録します。
+ * 2) YouTube：登録済みのチャンネルで始まった新しいライブを livecams-candidates.json に「候補」として書き出します（自動登録はしません）。
  *
- * 環境変数（GitHub Secrets から渡す。ファイルやログには書き出しません）
- *   YT_API_KEY      … YouTube Data API v3（任意。ないときは YouTube の候補探しを省略）
- *   WINDY_API_KEY   … Windy Webcams API（任意。下の SOURCES.windy.enabled を true にした場合だけ使用）
- *   DIGITRAFFIC_USER… Digitraffic-User ヘッダーの値（任意。既定は "cosmos-navi/1.0"。個人情報は入れないこと）
- *
+ * 環境変数：YT_API_KEY / WINDY_API_KEY / TFL_APP_KEY（GitHub Secrets。ファイルやログには書きません）、DIGITRAFFIC_USER（既定 cosmos-navi/1.0）
  * 使い方： node scripts/discover-cams.mjs [webcams.json] [livecams.json] [livecams-candidates.json]
+ * 終了コード： 0＝成功（一部の提供元の障害を含む） 1＝致命的なエラー（台帳は変更していません）
  */
-import { readFile, writeFile } from 'node:fs/promises';
 import { pathToFileURL } from 'node:url';
+import { CamError, fetchBody, fetchJson, parseDelimited, requireColumns, httpsUrl, okLatLon, checkStillCam, validateWebcams, readJson, writeJsonSafe, appendLog, gh } from './lib-cams.mjs';
 
 const OUT = process.argv[2] || 'webcams.json';
 const VIDEO = process.argv[3] || 'livecams.json';
@@ -25,6 +24,8 @@ const CAND = process.argv[4] || 'livecams-candidates.json';
 const NOW = process.env.LIVECAM_NOW ? new Date(process.env.LIVECAM_NOW) : new Date();
 const BASE = { digitraffic: process.env.DIGITRAFFIC_BASE || 'https://tie.digitraffic.fi', windy: process.env.WINDY_BASE || 'https://api.windy.com', yt: process.env.YT_API_BASE || 'https://www.googleapis.com/youtube/v3' };
 const log = (...a) => console.log('[discover]', ...a);
+const MIN_RATIO_SOURCE = 0.5;   // 提供元ごと：前回の50%未満に減ったら異常として前回分を残す
+const MIN_RATIO_TOTAL = 0.7;    // 全体：前回の70%未満なら保存しない（致命的）
 
 /* ---------- 提供元の定義（ライセンスと利用条件は公式ページで確認した内容） ---------- */
 export const SOURCES = {
@@ -46,6 +47,7 @@ export const SOURCES = {
     termsUrl: 'https://data.gov.hk/en/terms-and-conditions',
     pageUrl: 'https://data.gov.hk/en-data/dataset/hk-td-tis_2-traffic-snapshot-images',
     interval: 120, intervalNote: '提供元の公表値（2分ごと）',
+    xmlUrl: 'https://static.data.gov.hk/td/traffic-snapshot-images/code/Traffic_Camera_Locations_En.xml',
   },
   drivebc: {
     enabled: true,
@@ -99,168 +101,111 @@ export const SOURCES = {
   },
 };
 
-class FetchError extends Error {}
-async function getJson(url, headers, timeoutMs = 60000) {
-  const ac = new AbortController(); const to = setTimeout(() => ac.abort(), timeoutMs);
-  try {
-    const r = await fetch(url, { headers: Object.assign({ Accept: 'application/json', 'Accept-Encoding': 'gzip' }, headers || {}), signal: ac.signal });
-    if (!r.ok) throw new FetchError('HTTP ' + r.status);
-    return await r.json();
-  } catch (e) { if (e instanceof FetchError) throw e; throw new FetchError(e && e.name === 'AbortError' ? 'timeout' : 'network: ' + (e && e.message)); }
-  finally { clearTimeout(to); }
+const PREFIX = { digitraffic: 'dt', hongkong: 'hk', drivebc: 'bc', nsw: 'nsw', tfl: 'tfl', caltrans: 'ca', windy: 'wy' };
+const U = (name, dflt) => process.env['DISCOVER_URL_' + name] || dflt;   // テスト用に取得先を差し替え可能
+const safeId = v => String(v).replace(/[^A-Za-z0-9_.-]/g, '');
+const r5 = v => Math.round(v * 1e5) / 1e5;
+/* 共通の台帳レコード。状態は「提供元の一覧に載っている」(listed) だけを記録し、更新の確認は check-stills.mjs に任せる */
+function rec(src, id, name, lat, lon, extra) {
+  return Object.assign({ id: PREFIX[src] + '-' + safeId(id), kind: 'still', source: src, name: String(name || id).replace(/\s+/g, ' ').trim(), lat: r5(lat), lon: r5(lon), listed: true }, extra);
+}
+/* 取得した行を検証し、不正な行の数を数える（不正な行は登録しない） */
+function collect(rows, map, diag) {
+  const out = []; let bad = 0;
+  for (const r of rows) { let c = null; try { c = map(r); } catch { c = null; } if (!c) { bad++; continue; } if (checkStillCam(c).length) { bad++; continue; } out.push(c); }
+  diag.rows = rows.length; diag.skipped = bad; return out;
 }
 
 /* ---------- Digitraffic weathercam ---------- */
-export function niceFiName(raw) {
-  // 例 "vt1_Espoo_Nupuri" → "vt1 Espoo Nupuri"（提供元の名前を読みやすくするだけで、内容は変えない）
-  return String(raw || '').replace(/_/g, ' ').replace(/\s+/g, ' ').trim();
-}
-export async function fetchDigitraffic(prev) {
-  const S = SOURCES.digitraffic; const H = { 'Digitraffic-User': process.env.DIGITRAFFIC_USER || 'cosmos-navi/1.0' };
-  const st = await getJson(BASE.digitraffic + '/api/weathercam/v1/stations', H);
-  let data = null;
-  try { data = await getJson(BASE.digitraffic + '/api/weathercam/v1/stations/data', H); } catch (e) { log('digitraffic data:', e.message); }
-  const measured = new Map();
-  for (const s of (data && data.stations) || []) for (const p of s.presets || []) if (p && p.id) measured.set(p.id, p.measuredTime || null);
-  const feats = Array.isArray(st && st.features) ? st.features : [];
-  const out = [];
-  for (const f of feats) {
+export function niceFiName(raw) { return String(raw || '').replace(/_/g, ' ').replace(/\s+/g, ' ').trim(); }
+export async function fetchDigitraffic(diag) {
+  const H = { 'Digitraffic-User': process.env.DIGITRAFFIC_USER || 'cosmos-navi/1.0' };
+  const st = await fetchJson(BASE.digitraffic + '/api/weathercam/v1/stations', { headers: H });
+  if (!st || !Array.isArray(st.features)) throw new CamError('schema', 'features がありません');
+  return collect(st.features, f => {
     const p = (f && f.properties) || {}; const g = f && f.geometry; const id = p.id || f.id;
-    if (!id || !g || !Array.isArray(g.coordinates)) continue;
-    const lon = Number(g.coordinates[0]), lat = Number(g.coordinates[1]);
-    if (!Number.isFinite(lat) || !Number.isFinite(lon) || Math.abs(lat) > 90 || Math.abs(lon) > 180) continue;
-    if (p.collectionStatus && p.collectionStatus !== 'GATHERING') continue;      // 収集中のカメラだけ
-    if (p.state && p.state === 'REMOVED') continue;
-    const presets = (p.presets || []).filter(x => x && x.id && x.inCollection !== false);
-    if (!presets.length) continue;
-    const times = presets.map(x => measured.get(x.id)).filter(Boolean).sort();
-    const last = times.length ? times[times.length - 1] : null;
-    const ageH = last ? (NOW - new Date(last)) / 3600e3 : null;
-    const status = last == null ? 'unknown' : ageH <= 3 ? 'live' : 'offline';
-    out.push({
-      id: 'dt-' + String(id).replace(/[^A-Za-z0-9_-]/g, ''), kind: 'still', source: 'digitraffic',
-      name: niceFiName(p.name) || String(id), nameEn: niceFiName(p.name) || String(id), country: 'フィンランド', city: '', area: 'ヨーロッパ',
-      lat: Math.round(lat * 1e5) / 1e5, lon: Math.round(lon * 1e5) / 1e5, tz: 'Europe/Helsinki',
-      images: presets.map((x, i) => ({ label: '方向' + (i + 1), url: 'https://weathercam.digitraffic.fi/' + encodeURIComponent(x.id) + '.jpg' })),
-      imageTime: last, status,
-      statusDetail: last == null ? '撮影時刻の情報を取得できませんでした' : status === 'live' ? undefined : '最新の画像が3時間以上前のものです（' + last.slice(0, 16).replace('T', ' ') + ' UTC）',
-    });
-  }
-  return out;
+    if (!id || !g || !Array.isArray(g.coordinates)) return null;
+    const lon = Number(g.coordinates[0]), lat = Number(g.coordinates[1]); if (!okLatLon(lat, lon)) return null;
+    if (p.collectionStatus && p.collectionStatus !== 'GATHERING') return null;   // 収集中のカメラだけ
+    if (p.state === 'REMOVED') return null;
+    const presets = (p.presets || []).filter(x => x && x.id && x.inCollection !== false); if (!presets.length) return null;
+    return rec('digitraffic', id, niceFiName(p.name) || id, lat, lon, { country: 'フィンランド', city: '', area: 'ヨーロッパ', tz: 'Europe/Helsinki', providerActive: true,
+      images: presets.map((x, i) => ({ label: '方向' + (i + 1), url: 'https://weathercam.digitraffic.fi/' + encodeURIComponent(x.id) + '.jpg', preset: x.id })) });
+  }, diag);
 }
 
-/* ---------- 共通：CSV ---------- */
-export function parseCSV(text) {
-  const rows = []; let row = [], f = '', q = false;
-  text = String(text || '').replace(/^\uFEFF/, '');
-  const first = text.slice(0, text.search(/\r?\n/) >>> 0 || text.length);
-  const D = first.includes('\t') && !first.includes(',') ? '\t' : ',';   // 香港の「CSV」はタブ区切り
-  for (let i = 0; i < text.length; i++) {
-    const ch = text[i];
-    if (q) { if (ch === '"') { if (text[i + 1] === '"') { f += '"'; i++; } else q = false; } else f += ch; }
-    else if (ch === '"') q = true;
-    else if (ch === D) { row.push(f); f = ''; }
-    else if (ch === '\n' || ch === '\r') { if (ch === '\r' && text[i + 1] === '\n') i++; row.push(f); f = ''; if (row.length > 1 || row[0] !== '') rows.push(row); row = []; }
-    else f += ch;
+/* ---------- 香港 運輸署（タブ区切り。文字コードは BOM で判定。CSV が読めないときは公式XMLで取得） ---------- */
+export function parseHongKongXml(text) {
+  const rows = [];
+  for (const m of String(text).matchAll(/<image>([\s\S]*?)<\/image>/g)) {
+    const o = {}; for (const t of m[1].matchAll(/<([a-z_]+)>([\s\S]*?)<\/\1>/g)) o[t[1]] = t[2].replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&apos;/g, "'").trim();
+    rows.push(o);
   }
-  if (f !== '' || row.length) { row.push(f); rows.push(row); }
-  if (!rows.length) return [];
-  const head = rows[0].map(h => h.trim());
-  return rows.slice(1).map(r => Object.fromEntries(head.map((h, i) => [h, (r[i] || '').trim()])));
+  return rows;
 }
-async function getText(url, headers, timeoutMs = 60000) {
-  const ac = new AbortController(); const to = setTimeout(() => ac.abort(), timeoutMs);
-  try { const r = await fetch(url, { headers: Object.assign({ 'Accept-Encoding': 'gzip' }, headers || {}), signal: ac.signal, redirect: 'follow' }); if (!r.ok) throw new FetchError('HTTP ' + r.status); return await r.text(); }
-  catch (e) { if (e instanceof FetchError) throw e; throw new FetchError(e && e.name === 'AbortError' ? 'timeout' : 'network: ' + (e && e.message)); }
-  finally { clearTimeout(to); }
-}
-const okLatLon = (lat, lon) => Number.isFinite(lat) && Number.isFinite(lon) && Math.abs(lat) <= 90 && Math.abs(lon) <= 180 && !(lat === 0 && lon === 0);
-const httpsUrl = u => typeof u === 'string' && /^https:\/\/[^\s"'<>]+$/.test(u);
-const r5 = v => Math.round(v * 1e5) / 1e5;
-const PREFIX = { digitraffic: 'dt', hongkong: 'hk', drivebc: 'bc', nsw: 'nsw', tfl: 'tfl', caltrans: 'ca', windy: 'wy' };
-/* 取得先URL（テスト用に環境変数で差し替え可能） */
-const U = (name, dflt) => process.env['DISCOVER_URL_' + name] || dflt;
-const safeId = v => String(v).replace(/[^A-Za-z0-9_.-]/g, '');
-function baseRec(src, id, name, lat, lon, extra) {
-  return Object.assign({ id: PREFIX[src] + '-' + safeId(id), kind: 'still', source: src, name: String(name || id).replace(/\s+/g, ' ').trim(), lat: r5(lat), lon: r5(lon), status: 'live' }, extra);
-}
-
-/* ---------- 香港 運輸署 ---------- */
-export async function fetchHongKong() {
-  const rows = parseCSV(await getText(U('HONGKONG', 'https://static.data.gov.hk/td/traffic-snapshot-images/code/Traffic_Camera_Locations_En.csv')));
-  const out = [];
-  for (const r of rows) {
-    const lat = Number(r.latitude), lon = Number(r.longitude);
-    if (!r.key || !okLatLon(lat, lon) || !httpsUrl(r.url)) continue;
-    out.push(baseRec('hongkong', r.key, (r.description || r.key).replace(/\s*\[[^\]]*\]\s*$/, ''), lat, lon,
-      { nameEn: r.description || r.key, country: '香港', city: [r.district, r.region].filter(Boolean).join('・'), area: 'アジア', tz: 'Asia/Hong_Kong', images: [{ label: '画像', url: r.url }] }));
-  }
-  return out;
+export async function fetchHongKong(diag) {
+  const map = r => { const lat = Number(r.latitude), lon = Number(r.longitude); if (!r.key || !okLatLon(lat, lon) || !httpsUrl(r.url)) return null;
+    return rec('hongkong', r.key, (r.description || r.key).replace(/\s*\[[^\]]*\]\s*$/, ''), lat, lon, { nameEn: r.description || r.key, country: '香港', city: [r.district, r.region].filter(Boolean).join('・'), area: 'アジア', tz: 'Asia/Hong_Kong', images: [{ label: '画像', url: r.url }] }); };
+  let csvErr = null;
+  try {
+    const b = await fetchBody(U('HONGKONG', 'https://static.data.gov.hk/td/traffic-snapshot-images/code/Traffic_Camera_Locations_En.csv'));
+    const p = parseDelimited(b.text); diag.encoding = b.encoding; diag.delimiter = p.delimiter === '\t' ? 'tab' : 'comma'; diag.header = p.header.slice(0, 10).join(',');
+    requireColumns(p, ['key', 'latitude', 'longitude', 'url']);
+    const out = collect(p.rows, map, diag); diag.format = 'csv';
+    if (!out.length) throw new CamError('empty', 'CSV の有効な行が0件');
+    return out;
+  } catch (e) { csvErr = e; log('hongkong csv:', e.message, '→ XMLで再試行'); }
+  const b = await fetchBody(U('HONGKONG_XML', SOURCES.hongkong.xmlUrl));
+  const rows = parseHongKongXml(b.text); diag.format = 'xml'; diag.csvError = csvErr && csvErr.message; diag.encoding = b.encoding;
+  if (!rows.length) throw new CamError(/<image-list[\s>]/.test(b.text) ? 'empty' : 'parse', 'XML に image 要素がありません（CSV：' + (csvErr && csvErr.message) + '）');
+  return collect(rows, map, diag);
 }
 
 /* ---------- DriveBC ---------- */
-export async function fetchDriveBC() {
-  const rows = parseCSV(await getText(U('DRIVEBC', 'https://catalogue.data.gov.bc.ca/dataset/6b39a910-6c77-476f-ac96-7b4f18849b1c/resource/a9d52d85-8402-4ce7-b2ac-a2779837c48a/download/webcams.csv')));
-  const out = [];
-  for (const r of rows) {
-    const lat = Number(r.latitude), lon = Number(r.longitude);
-    if (!r.id || !okLatLon(lat, lon) || !httpsUrl(r.links_imageURL)) continue;
-    if (r.credit && r.credit.trim()) continue;   // 第三者のクレジットがある画像は OGL-BC の対象外の可能性があるため除外
-    out.push(baseRec('drivebc', r.id, r.camName, lat, lon,
-      { nameEn: r.camName, country: 'カナダ', city: [r.highway_number ? 'Hwy ' + r.highway_number : '', r.region_name].filter(Boolean).join('・'), area: '南北アメリカ', tz: 'America/Vancouver',
-        images: [{ label: r.orientation || '画像', url: r.links_imageURL }], viewNote: r.caption || '' }));
-  }
-  return out;
+export async function fetchDriveBC(diag) {
+  const b = await fetchBody(U('DRIVEBC', 'https://catalogue.data.gov.bc.ca/dataset/6b39a910-6c77-476f-ac96-7b4f18849b1c/resource/a9d52d85-8402-4ce7-b2ac-a2779837c48a/download/webcams.csv'));
+  const p = parseDelimited(b.text); diag.encoding = b.encoding; diag.header = p.header.slice(0, 13).join(',');
+  requireColumns(p, ['id', 'camName', 'links_imageURL', 'latitude', 'longitude']);
+  let credited = 0;
+  const out = collect(p.rows, r => { const lat = Number(r.latitude), lon = Number(r.longitude);
+    if (!r.id || !okLatLon(lat, lon) || !httpsUrl(r.links_imageURL)) return null;
+    if (r.credit && r.credit.trim()) { credited++; return undefined; }   // 第三者クレジットの画像は OGL-BC の対象外の可能性があるため除外
+    return rec('drivebc', r.id, r.camName, lat, lon, { country: 'カナダ', city: [r.highway_number ? 'Hwy ' + r.highway_number : '', r.region_name].filter(Boolean).join('・'), area: '南北アメリカ', tz: 'America/Vancouver',
+      images: [{ label: r.orientation || '画像', url: r.links_imageURL }], viewNote: r.caption || '' }); }, diag);
+  diag.excludedCredited = credited; diag.skipped -= credited; return out;
 }
 
 /* ---------- Transport for NSW ---------- */
-export async function fetchNSW() {
-  const j = JSON.parse(await getText(U('NSW', 'http://data.livetraffic.com/cameras/traffic-cam.json')));
-  const out = [];
-  for (const f of (j && j.features) || []) {
-    const p = (f && f.properties) || {}; const c = f && f.geometry && f.geometry.coordinates;
-    if (!f.id || !Array.isArray(c)) continue; const lon = Number(c[0]), lat = Number(c[1]);
-    if (!okLatLon(lat, lon) || !httpsUrl(p.href)) continue;
-    out.push(baseRec('nsw', f.id, p.title, lat, lon,
-      { nameEn: p.title, country: 'オーストラリア', city: p.region ? String(p.region).replace(/_/g, ' ') : '', area: 'オセアニア・太平洋', tz: 'Australia/Sydney',
-        images: [{ label: p.direction || '画像', url: p.href }], viewNote: p.view || '' }));
-  }
-  return out;
+export async function fetchNSW(diag) {
+  const j = await fetchJson(U('NSW', 'http://data.livetraffic.com/cameras/traffic-cam.json'));
+  if (!j || !Array.isArray(j.features)) throw new CamError('schema', 'features がありません');
+  return collect(j.features, f => { const p = (f && f.properties) || {}; const c = f && f.geometry && f.geometry.coordinates;
+    if (!f || !f.id || !Array.isArray(c)) return null; const lon = Number(c[0]), lat = Number(c[1]); if (!okLatLon(lat, lon) || !httpsUrl(p.href)) return null;
+    return rec('nsw', f.id, p.title, lat, lon, { country: 'オーストラリア', city: p.region ? String(p.region).replace(/_/g, ' ') : '', area: 'オセアニア・太平洋', tz: 'Australia/Sydney',
+      images: [{ label: p.direction || '画像', url: p.href }], viewNote: p.view || '' }); }, diag);
 }
 
 /* ---------- Transport for London JamCams（登録とキーがある場合のみ） ---------- */
-export async function fetchTfL() {
+export async function fetchTfL(diag) {
   const key = process.env.TFL_APP_KEY || '';
-  const j = await getJson(U('TFL', 'https://api.tfl.gov.uk/Place/Type/JamCam') + (key ? '?app_key=' + encodeURIComponent(key) : ''), {});
-  const out = [];
-  for (const p of Array.isArray(j) ? j : []) {
-    const props = Object.fromEntries((p.additionalProperties || []).map(a => [a.key, a.value]));
-    const lat = Number(p.lat), lon = Number(p.lon);
-    if (!p.id || !okLatLon(lat, lon) || !httpsUrl(props.imageUrl)) continue;
-    const avail = String(props.available).toLowerCase() !== 'false';
-    out.push(baseRec('tfl', p.id, p.commonName, lat, lon,
-      { nameEn: p.commonName, country: 'イギリス', city: 'ロンドン', area: 'ヨーロッパ', tz: 'Europe/London', images: [{ label: props.view || '画像', url: props.imageUrl }],
-        status: avail ? 'live' : 'offline', statusDetail: avail ? undefined : '提供元の一覧で「利用不可」になっています' }));
-  }
-  return out;
+  const j = await fetchJson(U('TFL', 'https://api.tfl.gov.uk/Place/Type/JamCam') + (key ? '?app_key=' + encodeURIComponent(key) : ''));
+  if (!Array.isArray(j)) throw new CamError('schema', '配列ではありません');
+  return collect(j, p => { const props = Object.fromEntries((p.additionalProperties || []).map(a => [a.key, a.value])); const lat = Number(p.lat), lon = Number(p.lon);
+    if (!p.id || !okLatLon(lat, lon) || !httpsUrl(props.imageUrl)) return null;
+    return rec('tfl', p.id, p.commonName, lat, lon, { country: 'イギリス', city: 'ロンドン', area: 'ヨーロッパ', tz: 'Europe/London', images: [{ label: props.view || '画像', url: props.imageUrl }],
+      providerActive: String(props.available).toLowerCase() !== 'false' }); }, diag);
 }
 
 /* ---------- Windy Webcams（既定で停止） ---------- */
-export async function fetchWindy() {
-  const S = SOURCES.windy; const key = process.env.WINDY_API_KEY || '';
-  if (!key) throw new FetchError('WINDY_API_KEY が設定されていません');
-  const out = []; const H = { 'x-windy-api-key': key };
+export async function fetchWindy(diag) {
+  const S = SOURCES.windy; const key = process.env.WINDY_API_KEY || ''; if (!key) throw new CamError('disabled', 'WINDY_API_KEY がありません');
+  const out = [];
   for (let offset = 0; offset < S.maxCams; offset += 50) {
-    const j = await getJson(BASE.windy + '/webcams/api/v3/webcams?limit=50&offset=' + offset + '&sortKey=popularity&sortDirection=desc&include=location,player,urls', H);
+    const j = await fetchJson(BASE.windy + '/webcams/api/v3/webcams?limit=50&offset=' + offset + '&sortKey=popularity&sortDirection=desc&include=location,player,urls', { headers: { 'x-windy-api-key': key } });
     const list = (j && j.webcams) || [];
-    for (const w of list) {
-      const L = w.location || {}; const lat = Number(L.latitude), lon = Number(L.longitude);
-      const embed = w.player && (w.player.live || w.player.day);
-      if (!w.webcamId || !Number.isFinite(lat) || !Number.isFinite(lon) || typeof embed !== 'string' || !/^https:\/\//.test(embed)) continue;
-      out.push({ id: 'wy-' + w.webcamId, kind: 'direct', source: 'windy', name: String(w.title || w.webcamId), country: String(L.country || ''), city: String(L.city || ''), area: '',
-        lat, lon, tz: '', embedUrl: embed, status: w.status === 'active' ? 'live' : 'offline',
-        pageUrl: (w.urls && w.urls.detail) || S.pageUrl });
-    }
+    out.push(...collect(list, w => { const L = w.location || {}; const lat = Number(L.latitude), lon = Number(L.longitude); const embed = w.player && (w.player.live || w.player.day);
+      if (!w.webcamId || !okLatLon(lat, lon) || !httpsUrl(embed)) return null;
+      return { id: 'wy-' + w.webcamId, kind: 'direct', source: 'windy', name: String(w.title || w.webcamId), country: String(L.country || ''), city: String(L.city || ''), area: '', lat, lon, tz: '', embedUrl: embed, listed: true, providerActive: w.status === 'active', pageUrl: (w.urls && w.urls.detail) || S.pageUrl }; }, {}));
     if (list.length < 50) break;
   }
   return out;
@@ -298,49 +243,69 @@ export async function discoverYouTube(videoReg, prevCand) {
 }
 
 /* ---------- まとめて実行 ---------- */
-const ADAPTERS = { digitraffic: fetchDigitraffic, hongkong: fetchHongKong, drivebc: fetchDriveBC, nsw: fetchNSW, tfl: fetchTfL, caltrans: async () => { throw new FetchError('停止中'); }, windy: fetchWindy };
+const ADAPTERS = { digitraffic: fetchDigitraffic, hongkong: fetchHongKong, drivebc: fetchDriveBC, nsw: fetchNSW, tfl: fetchTfL, caltrans: async () => { throw new CamError('disabled'); }, windy: fetchWindy };
 export async function run(prevReg) {
-  const reg = prevReg && prevReg.schema === 1 && Array.isArray(prevReg.cams) ? prevReg : { schema: 1, meta: {}, cams: [] };
-  reg.meta = reg.meta || {}; reg.meta.sources = reg.meta.sources || {};
+  const prev = prevReg && prevReg.schema === 1 && Array.isArray(prevReg.cams) ? prevReg : { schema: 1, meta: {}, cams: [] };
+  const reg = { schema: 1, meta: { sources: Object.assign({}, (prev.meta && prev.meta.sources) || {}) }, cams: [] };
+  const prevBySrc = {}; for (const c of prev.cams) (prevBySrc[c.source] = prevBySrc[c.source] || []).push(c);
+  const prevById = new Map(prev.cams.map(c => [c.id, c]));
+  const summary = {};
   for (const [sid, S] of Object.entries(SOURCES)) {
     const info = { name: S.name, kind: S.kind, operator: S.operator || '', license: S.license.name, licenseUrl: S.license.url, attribution: S.license.attribution, termsUrl: S.termsUrl, pageUrl: S.pageUrl, interval: S.interval || null, intervalNote: S.intervalNote || '', enabled: S.enabled };
+    const before = (prevBySrc[sid] || []).length;
     if (!S.enabled) {
-      reg.cams = reg.cams.filter(c => c.source !== sid);
       reg.meta.sources[sid] = Object.assign(info, { status: 'disabled', count: 0, message: (S.disabledMessage || '利用条件の確認が必要なため停止中') + '（通信しません）' });
-      continue;
+      summary[sid] = { status: 'disabled', count: 0 }; continue;
     }
+    const diag = {};
     try {
-      const got = await ADAPTERS[sid](reg.cams.filter(c => c.source === sid));
-      if (!got.length) throw new FetchError('0件でした');
-      reg.cams = reg.cams.filter(c => c.source !== sid).concat(got);
-      reg.meta.sources[sid] = Object.assign(info, { status: 'ok', count: got.length, fetchedAt: NOW.toISOString(), message: got.length + '件を取得' });
-      log(sid, 'ok', got.length);
+      const got = await ADAPTERS[sid](diag);
+      if (!got.length) throw new CamError('empty', diag.rows != null ? '元データ ' + diag.rows + ' 行のうち有効な行が0' : '');
+      if (before >= 20 && got.length < before * MIN_RATIO_SOURCE) throw new CamError('anomaly', '前回 ' + before + ' 件 → 今回 ' + got.length + ' 件');
+      // 初めて登録された日時（新着順の並べ替えに使う）を引き継ぐ
+      for (const c of got) { const p = prevById.get(c.id); c.addedAt = (p && p.addedAt) || NOW.toISOString(); }
+      reg.cams.push(...got);
+      reg.meta.sources[sid] = Object.assign(info, { status: 'ok', count: got.length, fetchedAt: NOW.toISOString(), message: got.length + '件を取得' + (diag.skipped ? '（不正な行 ' + diag.skipped + ' 件を除外）' : '') + (diag.excludedCredited ? '（第三者クレジット ' + diag.excludedCredited + ' 件を除外）' : ''), diag });
+      summary[sid] = { status: 'ok', count: got.length, skipped: diag.skipped || 0 };
+      log(sid, 'ok', got.length, JSON.stringify(diag));
     } catch (e) {
-      const keep = reg.cams.filter(c => c.source === sid).length;
-      reg.meta.sources[sid] = Object.assign({}, (reg.meta.sources[sid] || {}), info, { status: 'error', message: '取得に失敗しました（' + (e && e.message) + '）。前回の ' + keep + ' 件を残しています', errorAt: NOW.toISOString() });
-      log(sid, 'error', e && e.message, '— kept', keep);
+      const kind = e instanceof CamError ? e.kind : 'parse';
+      const keep = prevBySrc[sid] || [];
+      reg.cams.push(...keep);
+      const p = (prev.meta && prev.meta.sources && prev.meta.sources[sid]) || {};
+      reg.meta.sources[sid] = Object.assign({}, info, { status: 'error', errorKind: kind, count: keep.length, fetchedAt: p.fetchedAt || null, errorAt: NOW.toISOString(),
+        message: (e && e.message) + '。前回の ' + keep.length + ' 件を残しています', diag });
+      summary[sid] = { status: 'error', errorKind: kind, count: keep.length, message: e && e.message };
+      gh.warn(sid + '：' + (e && e.message) + '（前回の ' + keep.length + ' 件を維持）');
     }
   }
-  // 重複IDの排除と並べ替え（提供元ごと・名前順）
   const seen = new Set(); reg.cams = reg.cams.filter(c => !seen.has(c.id) && seen.add(c.id)).sort((a, b) => a.source.localeCompare(b.source) || a.name.localeCompare(b.name));
   reg.meta.updatedAt = NOW.toISOString(); reg.meta.count = reg.cams.length;
-  return reg;
+  const enabled = Object.values(summary).filter(x => x.status !== 'disabled');
+  const allFailed = enabled.length > 0 && enabled.every(x => x.status === 'error');
+  return { reg, prevCount: prev.cams.length, summary, allFailed };
 }
 
-async function readJson(f, dflt) { try { return JSON.parse(await readFile(f, 'utf8')); } catch { return dflt; } }
-
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+  let fatal = null; const t0 = Date.now(); let result = null; let wrote = false;
   try {
     const prev = await readJson(OUT, null);
-    const reg = await run(prev);
-    await writeFile(OUT, JSON.stringify(reg, null, 0).replace(/\},\{"id"/g, '},\n{"id"') + '\n');
-    log('wrote', OUT, reg.cams.length, 'cameras');
-  } catch (e) { console.error('[discover] 画像カメラの更新を中止しました（ファイルは変更していません）:', e && e.message); }
+    if (prev !== null) { const v = validateWebcams(prev); if (!v.ok) gh.warn('前回の ' + OUT + ' に検証エラーがあります（' + v.errors.slice(0, 3).join(' / ') + '）'); }
+    result = await run(prev);
+    const v = validateWebcams(result.reg);
+    if (!v.ok) throw new CamError('invalid', v.errors.slice(0, 5).join(' / '));
+    if (result.prevCount >= 50 && result.reg.cams.length < result.prevCount * MIN_RATIO_TOTAL) throw new CamError('anomaly', '全体の件数 ' + result.prevCount + ' → ' + result.reg.cams.length);
+    await writeJsonSafe(OUT, result.reg, true);   // 失敗した提供元は前回のデータのまま、エラー内容だけ記録
+    wrote = true;
+    log('wrote', OUT, result.reg.cams.length, 'cameras');
+    if (result.allFailed) throw new CamError('network', 'すべての提供元から取得できませんでした（前回のデータを維持）');
+  } catch (e) { fatal = e; gh.error((wrote ? 'カメラは前回の登録のまま、エラー内容だけ記録しました：' : '画像カメラの台帳を更新しませんでした（前回の台帳を維持）：') + (e && e.message)); }
+  let candMsg = '';
   try {
     const video = await readJson(VIDEO, { cams: [] });
     const cand = await discoverYouTube(video, await readJson(CAND, null));
-    await writeFile(CAND, JSON.stringify(cand, null, 1) + '\n');
-    log('wrote', CAND, cand.candidates.length, 'candidates ·', cand.meta.message);
-  } catch (e) { console.error('[discover] YouTube候補の更新を中止しました:', e && e.message); }
-  process.exit(0);
+    await writeJsonSafe(CAND, cand); candMsg = cand.meta.message; log('wrote', CAND, cand.candidates.length, 'candidates ·', cand.meta.message);
+  } catch (e) { gh.warn('YouTube候補の更新に失敗：' + (e && e.message)); candMsg = 'error: ' + (e && e.message); }
+  await appendLog({ at: NOW.toISOString(), job: 'discover', ok: !fatal, fatal: fatal ? fatal.message : null, total: result ? result.reg.cams.length : null, previous: result ? result.prevCount : null, sources: result ? result.summary : null, youtube: candMsg, ms: Date.now() - t0 });
+  process.exit(fatal ? 1 : 0);
 }

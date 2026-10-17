@@ -9,7 +9,8 @@
  *   videos.list  … 1回1ユニット（最大50本まとめて確認）。共通枠は既定で1日10,000ユニット
  *   search.list  … 専用枠。既定で1日100回まで（配信が終わったカメラの、同じチャンネルの新しいライブを探す）
  */
-import { readFile, writeFile } from 'node:fs/promises';
+import { readFile } from 'node:fs/promises';
+import { validateLivecams, writeJsonSafe, appendLog, gh } from './lib-cams.mjs';
 import { pathToFileURL } from 'node:url';
 
 const FILE = process.argv[2] || 'livecams.json';
@@ -83,7 +84,7 @@ async function videosList(client, ids) {
   for (let i = 0; i < ids.length; i += 50) {
     const chunk = ids.slice(i, i + 50);
     const j = await client.call('videos', { part: 'snippet,status,liveStreamingDetails', id: chunk.join(','), maxResults: '50',
-      fields: 'items(id,snippet(channelId,channelTitle,title,liveBroadcastContent),status(privacyStatus,embeddable,uploadStatus),liveStreamingDetails(actualStartTime,actualEndTime))' }, 1);
+      fields: 'items(id,snippet(channelId,channelTitle,title,liveBroadcastContent),status(privacyStatus,embeddable,uploadStatus),liveStreamingDetails(actualStartTime,actualEndTime,concurrentViewers))' }, 1);
     for (const it of j.items || []) out.set(it.id, it);
   }
   return out;
@@ -113,6 +114,9 @@ export async function run(reg) {
       if (it && it.snippet && it.snippet.title) c.title = it.snippet.title;
       if (it && it.snippet && it.snippet.channelTitle) c.author = it.snippet.channelTitle;
       c.status = j.status; c.statusDetail = j.detail; c.checkedAt = iso; c.liveSince = j.since || null;
+      // 人気順の並べ替え用：配信中の同時視聴者数（YouTube が公開している場合のみ）
+      const vw = it && it.liveStreamingDetails && Number(it.liveStreamingDetails.concurrentViewers);
+      if (j.status === 'live' && Number.isFinite(vw)) { c.viewers = vw; c.viewersAt = iso; } else if (j.status !== 'live') c.viewers = 0;
     }
     /* 2) 配信が終わったカメラは、同じチャンネルの新しいライブを探す（search.list 専用枠を1回消費） */
     phase = 'search';
@@ -136,13 +140,15 @@ export async function run(reg) {
           const it = confirmed.get(x.id.videoId); const jj = judge(it);
           const t = (it && it.snippet && it.snippet.title) || x.snippet.title;
           const kw = (c.match || []).length && c.match.every(m => t.toLowerCase().includes(String(m).toLowerCase()));
-          return { videoId: x.id.videoId, title: t, live: jj.status === 'live', score: kw ? 1 : similarity(t, c.title, c.author) };
+          const vw = Number(it && it.liveStreamingDetails && it.liveStreamingDetails.concurrentViewers);
+          return { videoId: x.id.videoId, title: t, viewers: Number.isFinite(vw) ? vw : null, live: jj.status === 'live', score: kw ? 1 : similarity(t, c.title, c.author) };
         }).filter(x => x.live && !used.has(x.videoId)).sort((a, b) => b.score - a.score);
         const best = scored[0];
         if (best && best.score >= ACCEPT_SIMILARITY && !used.has(best.videoId)) {
           log('replace', c.id, c.videoId, '->', best.videoId, '(score ' + best.score.toFixed(2) + ')');
           used.add(best.videoId);
           c.previousVideoId = c.videoId; c.videoId = best.videoId; c.title = best.title;
+          if (best.viewers != null) { c.viewers = best.viewers; c.viewersAt = iso; } else delete c.viewers;
           c.status = 'live'; c.statusDetail = '配信が切り替わったため、同じチャンネルの新しいライブに自動で更新しました'; c.replacedAt = iso; c.candidates = [];
         } else {
           c.candidates = scored.slice(0, 3).map(x => ({ videoId: x.videoId, title: x.title, score: Math.round(x.score * 100) / 100 }));
@@ -153,7 +159,7 @@ export async function run(reg) {
     meta.apiStatus = 'ok'; meta.message = '自動確認しました（検索 ' + searches + ' 件）';
   } catch (e) {
     if (e instanceof QuotaError) { meta.apiStatus = 'quota'; meta.message = 'APIの利用上限に達したため、一部の確認を見送りました（' + phase + '）。前回までの結果を表示します'; }
-    else { meta.apiStatus = phase === 'videos' ? 'error' : 'partial'; meta.message = 'APIの取得に失敗しました（' + (e && e.message) + '）。前回までの結果を表示します'; }
+    else { meta.apiStatus = phase === 'videos' ? 'error' : 'partial'; meta.errorReason = String(e && e.message || ''); meta.message = 'APIの取得に失敗しました（' + (e && e.message) + '）。前回までの結果を表示します'; }
     log(meta.message);
   }
   meta.updatedAt = iso;
@@ -171,13 +177,23 @@ export function validate(reg) {
 }
 
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+  /* 終了コード：0＝成功（APIキー未設定・利用上限・検索だけの失敗を含む）
+   *            1＝致命的（livecams.json が読めない／検証エラー／保存失敗／APIキーが無効など、配信状態をまったく確認できない） */
+  const t0 = Date.now(); let fatal = null, reg = null;
   try {
-    const reg = validate(JSON.parse(await readFile(FILE, 'utf8')));
+    reg = validate(JSON.parse(await readFile(FILE, 'utf8')));
     await run(reg);
-    await writeFile(FILE, JSON.stringify(reg, null, 1) + '\n');
+    const v = validateLivecams(reg);
+    if (!v.ok) throw new Error('更新後の検証エラー：' + v.errors.slice(0, 3).join(' / '));
+    await writeJsonSafe(FILE, reg);
     log('wrote', FILE);
+    if (reg.meta.apiStatus === 'error') fatal = new Error('YouTube Data API で配信状態を確認できませんでした（' + (reg.meta.errorReason || '') + '）');
+    else if (reg.meta.apiStatus === 'nokey' || reg.meta.apiStatus === 'quota' || reg.meta.apiStatus === 'partial') gh.warn(reg.meta.message);
   } catch (e) {
-    console.error('[livecams] 更新を中止しました（ファイルは変更していません）:', e && e.message);
+    fatal = e; console.error('[livecams] 更新を中止しました（ファイルは変更していません）:', e && e.message);
   }
-  process.exit(0);
+  if (fatal) gh.error('ライブカメラの配信状態の更新：' + (fatal && fatal.message));
+  await appendLog({ at: NOW.toISOString(), job: 'update-livecams', ok: !fatal, fatal: fatal ? fatal.message : null, api: reg && reg.meta ? reg.meta.apiStatus : null,
+    live: reg ? reg.cams.filter(c => c.status === 'live').length : null, total: reg ? reg.cams.length : null, quota: reg && reg.meta ? reg.meta.quota : null, ms: Date.now() - t0 });
+  process.exit(fatal ? 1 : 0);
 }

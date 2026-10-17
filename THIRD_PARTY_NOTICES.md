@@ -198,6 +198,8 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
 加工の内容：提供元の一覧から、位置・名前・画像URLなど表示に必要な項目だけを抜き出しています。名前の「_」は空白に置き換えています。
 
+更新状態の確認（v11）：GitHub Actions が2時間ごとに、各画像のURLへ HEAD（使えない場合は先頭1バイトだけの GET）を送り、取得できるかと Last-Modified（撮影・更新時刻）を確認します。Digitraffic は提供元APIの撮影時刻（measuredTime）を使います。画像本体は保存・再配信しません。結果は `webcams-status.json` に「取得の成否・時刻・提供元の稼働状態」だけを記録します。
+
 ## 利用を停止しているサービス（通信しません）
 
 - OpenSky Network：公開サービスでの運用利用には書面ライセンスが必要と規約に記載。許諾未確認のため停止
