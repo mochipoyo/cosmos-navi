@@ -12,7 +12,7 @@
  *   offline … 画像を取得できない、または提供元が停止中としている
  *   unknown … 撮影時刻を確認できない（画像は取得できた場合を含む）＝「未確認」
  *
- * 提供元への負担を抑えるため、1回の実行で確認するのは最大 CHECK_MAX 台（既定3000）で、確認が古いものから順に回します。
+ * 提供元への負担を抑えるため、1回の実行で確認するのは最大 CHECK_MAX 台（既定4000）で、確認が古いものから順に回します。
  * 出力：webcams-status.json（ブラウザが読み込み、表示に使います）
  * 使い方： node scripts/check-stills.mjs [webcams.json] [webcams-status.json]
  * 終了コード： 0＝成功（一部の画像・提供元の失敗を含む） 1＝台帳が読めない・保存できないなどの致命的エラー
@@ -23,10 +23,10 @@ import { CamError, fetchJson, validateWebcams, validateStatus, readJson, writeJs
 const REG = process.argv[2] || 'webcams.json';
 const OUT = process.argv[3] || 'webcams-status.json';
 const NOW = process.env.LIVECAM_NOW ? new Date(process.env.LIVECAM_NOW) : new Date();
-const MAX = Number(process.env.CHECK_MAX || 3000);
+const MAX = Number(process.env.CHECK_MAX || 4000);
 const CONC = Number(process.env.CHECK_CONCURRENCY || 6);
 const TIMEOUT = Number(process.env.CHECK_TIMEOUT_MS || 15000);
-const BUDGET_MS = Number(process.env.CHECK_BUDGET_MS || 6 * 60 * 1000);   // 全体で最大6分
+const BUDGET_MS = Number(process.env.CHECK_BUDGET_MS || 8 * 60 * 1000);   // 全体で最大8分
 const DT_BASE = process.env.DIGITRAFFIC_BASE || 'https://tie.digitraffic.fi';
 const log = (...a) => console.log('[check-stills]', ...a);
 const UA = process.env.CHECK_USER_AGENT || 'cosmos-navi-status-check/1.0 (+https://github.com/mochipoyo/cosmos-navi)';   // 提供元が問い合わせ先を分かるように
@@ -54,11 +54,18 @@ export async function probeImage(url) {
     } finally { clearTimeout(to); }
   };
   let r;
-  try { r = await tryOnce('HEAD'); if (r.status === 405 || r.status === 501 || r.status === 403) r = await tryOnce('GET'); }
-  catch (e) { return { ok: false, d: e && e.name === 'AbortError' ? 'タイムアウト' : '通信エラー' }; }
+  const isImg = x => (x.headers.get('content-type') || '').toLowerCase().startsWith('image/');
+  try {
+    r = await tryOnce('HEAD');
+    // HEAD に対応しない・自動アクセスに別の応答を返すサーバーがあるため、画像以外の応答は先頭1バイトの GET で確かめ直す
+    if (r.status === 405 || r.status === 501 || r.status === 403 || ((r.status === 200 || r.status === 206) && !isImg(r))) r = await tryOnce('GET');
+  } catch (e) { return { ok: false, d: e && e.name === 'AbortError' ? 'タイムアウト' : '通信エラー' }; }
+  // 404/410（画像がない）と 5xx（サーバー障害）は「取得できない」。401/403/429 は自動確認が拒否されただけかもしれないので「未確認」
+  if (r.status === 401 || r.status === 403 || r.status === 429) return { ok: null, d: '自動確認が拒否されました（HTTP ' + r.status + '）' };
   if (!(r.status === 200 || r.status === 206)) return { ok: false, d: 'HTTP ' + r.status };
   const ct = (r.headers.get('content-type') || '').toLowerCase();
-  if (ct && !ct.startsWith('image/')) return { ok: false, d: '画像ではありません（' + ct.split(';')[0] + '）' };
+  // 画像以外（HTMLなど）が返るのは、ボット対策や案内ページの可能性があり、カメラの停止とは断定できない
+  if (ct && !ct.startsWith('image/')) return { ok: null, d: '自動確認では画像以外の応答（' + ct.split(';')[0] + '）。停止とは断定できません' };
   const lm = r.headers.get('last-modified'); const t = lm ? new Date(lm) : null;
   // 未来の時刻や不正な値は採用しない
   const cap = t && Number.isFinite(+t) && t <= new Date(+NOW + 10 * 60 * 1000) ? t.toISOString() : null;
@@ -100,7 +107,7 @@ export async function check(reg, prevStatus) {
     const p = prev[c.id] || {}; const pr = probed.get(c.id);
     const act = c.providerActive === true ? true : c.providerActive === false ? false : null;
     let ok = p.ok == null ? null : p.ok, cap = p.cap || null, d = p.d || '', checked = p.c || null;
-    if (pr) { ok = pr.ok; d = pr.d; checked = NOW.toISOString(); if (pr.ok) cap = pr.cap || null; }
+    if (pr) { ok = pr.ok; d = pr.d; checked = NOW.toISOString(); cap = pr.ok ? (pr.cap || null) : null; }
     if (dt && dt.has(c.id)) { cap = dt.get(c.id); if (!pr) checked = NOW.toISOString(); if (d === '撮影時刻の情報がありません') d = ''; }
     const fresh = !!pr || !!(dt && dt.has(c.id));
     let st;

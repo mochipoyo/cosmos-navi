@@ -112,8 +112,8 @@ export async function writeJsonSafe(file, obj, compact) {
   const tmp = file + '.tmp';
   try { await writeFile(tmp, text); await rename(tmp, file); } catch (e) { throw new CamError('write', file + '：' + (e && e.message)); }
 }
-/* 更新ログ（cam-update-log.json に追記。最新300件まで） */
-export async function appendLog(entry, file = 'cam-update-log.json') {
+/* 更新ログ（既定は cam-update-log.json。発見のワークフローは CAM_LOG_FILE=cam-discover-log.json。最新300件まで） */
+export async function appendLog(entry, file = process.env.CAM_LOG_FILE || 'cam-update-log.json') {
   const log = await readJson(file, { schema: 1, entries: [] });
   if (!Array.isArray(log.entries)) log.entries = [];
   log.entries.push(entry); if (log.entries.length > 300) log.entries = log.entries.slice(-300);

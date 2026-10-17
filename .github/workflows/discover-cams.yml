@@ -24,6 +24,8 @@ concurrency:
 jobs:
   discover:
     runs-on: ubuntu-latest
+    env:
+      CAM_LOG_FILE: cam-discover-log.json   # 更新ログ（2時間ごとの更新とは別のファイルにして、保存時の競合を避ける）
     timeout-minutes: 20
     steps:
       - name: Checkout
@@ -53,7 +55,7 @@ jobs:
       - name: Save results to the repository
         id: save
         continue-on-error: true
-        run: bash scripts/save-to-repo.sh "Discover cameras [skip ci]" webcams.json livecams-candidates.json cam-update-log.json
+        run: bash scripts/save-to-repo.sh "Discover cameras [skip ci]" webcams.json livecams-candidates.json cam-discover-log.json
 
       - name: Publish the site
         id: publish
