@@ -184,6 +184,20 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 | イルリサットの氷山 | グリーンランド（デンマーク） | afarTV | [0GRxQoFMmqo](https://www.youtube.com/watch?v=0GRxQoFMmqo) |
 | ISSから見た地球（NASA公式） | 宇宙 | NASA | [P9C25Un7xaM](https://www.youtube.com/watch?v=P9C25Un7xaM) |
 
+## 定期更新画像のカメラ（webcams.json）
+
+画像は各提供元のサーバーから直接表示しています。このアプリでは、画像の保存・加工・再配信をしていません。カメラ一覧（位置・名前・画像のURL）は、GitHub Actions が各提供元の公開APIから取得しています。
+
+| 提供元 | ライセンス・利用条件 | 出典表示 |
+|---|---|---|
+| Fintraffic Digitraffic（フィンランド） | CC BY 4.0 — https://www.digitraffic.fi/en/terms-of-service/ | Source: Fintraffic / digitraffic.fi, license CC 4.0 BY |
+| 香港特別行政区 運輸署 / DATA.GOV.HK | https://data.gov.hk/en/terms-and-conditions | Source: Transport Department, HKSAR Government / DATA.GOV.HK |
+| DriveBC（カナダ・ブリティッシュコロンビア州） | Open Government Licence – British Columbia — https://www2.gov.bc.ca/gov/content/data/policy-standards/open-data/open-government-licence-bc | Contains information licensed under the Open Government Licence – British Columbia. |
+| Transport for NSW（オーストラリア） | CC BY 4.0 — https://opendata.transport.nsw.gov.au/datalicence | © Transport for NSW, licensed under CC BY 4.0 |
+| Transport for London（運営者が登録した場合のみ） | https://tfl.gov.uk/corporate/terms-and-conditions/transport-data-service | Powered by TfL Open Data. Contains OS data © Crown copyright and database rights 2016 |
+
+加工の内容：提供元の一覧から、位置・名前・画像URLなど表示に必要な項目だけを抜き出しています。名前の「_」は空白に置き換えています。
+
 ## 利用を停止しているサービス（通信しません）
 
 - OpenSky Network：公開サービスでの運用利用には書面ライセンスが必要と規約に記載。許諾未確認のため停止
