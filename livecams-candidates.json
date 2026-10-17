@@ -1,9 +1,9 @@
 {
  "schema": 1,
  "meta": {
-  "updatedAt": "2026-10-17T13:33:39.320Z",
+  "updatedAt": "2026-10-17T14:45:04.099Z",
   "status": "ok",
-  "message": "チャンネル 15 件を確認し、新しい候補 1 件",
+  "message": "チャンネル 15 件を確認し、新しい候補 6 件",
   "searchCalls": 15
  },
  "candidates": [
@@ -56,7 +56,67 @@
    "lastSeenAt": "2026-10-17T13:33:39.320Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
+  },
+  {
+   "videoId": "0rJ4TKsW_Ng",
+   "title": "Marejadas UV || Mejillones || Chile en vivo",
+   "channelId": "UCMfVFofrKT5qV71nG-sDBRg",
+   "channelTitle": "Marejadas UV",
+   "firstSeenAt": "2026-10-17T14:45:04.099Z",
+   "lastSeenAt": "2026-10-17T14:45:04.099Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "MIHl7F_0ayo",
+   "title": "Marejadas UV || Playa Las Torpederas || Valparaíso || chile en vivo",
+   "channelId": "UCMfVFofrKT5qV71nG-sDBRg",
+   "channelTitle": "Marejadas UV",
+   "firstSeenAt": "2026-10-17T14:45:04.099Z",
+   "lastSeenAt": "2026-10-17T14:45:04.099Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "oneTQy8PWGA",
+   "title": "Marejadas UV || Pichilemu || Chile en vivo",
+   "channelId": "UCMfVFofrKT5qV71nG-sDBRg",
+   "channelTitle": "Marejadas UV",
+   "firstSeenAt": "2026-10-17T14:45:04.099Z",
+   "lastSeenAt": "2026-10-17T14:45:04.099Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "gW7OTeLXrI4",
+   "title": "Marejadas UV || Playa Acapulco || Viña del Mar || Chile en vivo",
+   "channelId": "UCMfVFofrKT5qV71nG-sDBRg",
+   "channelTitle": "Marejadas UV",
+   "firstSeenAt": "2026-10-17T14:45:04.099Z",
+   "lastSeenAt": "2026-10-17T14:45:04.099Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "vsG7exF2IcM",
+   "title": "【LIVE】十勝岳の噴火警戒レベル「２」に　引き続き1.5キロ範囲で噴石に警戒　北海道",
+   "channelId": "UCOZv-6MiXqJdLpmYtR431Ow",
+   "channelTitle": "STVニュース北海道",
+   "firstSeenAt": "2026-10-17T14:45:04.099Z",
+   "lastSeenAt": "2026-10-17T14:45:04.099Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "3MBdJPHR8lg",
+   "title": "【LIVE】ニュースを２４時間配信　どさんこワイドの最新ニュース　ＳＴＶニュース北海道２４",
+   "channelId": "UCOZv-6MiXqJdLpmYtR431Ow",
+   "channelTitle": "STVニュース北海道",
+   "firstSeenAt": "2026-10-17T14:45:04.099Z",
+   "lastSeenAt": "2026-10-17T14:45:04.099Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
   }
  ],
- "channelCursor": 30
+ "channelCursor": 45
 }
