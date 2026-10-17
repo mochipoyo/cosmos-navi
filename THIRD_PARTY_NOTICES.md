@@ -77,6 +77,113 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 - 船舶位置：Source: Fintraffic / digitraffic.fi, license CC 4.0 BY（https://creativecommons.org/licenses/by/4.0/）。アプリ内では最終受信位置から速度と針路で現在位置を推定（改変）して表示しています
 - 衛星画像：We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS).
 
+## ライブカメラ（YouTube埋め込みプレーヤー）
+
+映像は各配信者がYouTubeで公開しているライブ配信です。このアプリは、配信者が埋め込みを許可している配信を、YouTube公式の埋め込みプレーヤーで表示するだけです。映像を保存・再配信・加工はしていません。映像の権利は各配信者にあります。利用条件は YouTube 利用規約（https://www.youtube.com/t/terms）に従います。視聴ウィンドウを開くまで、YouTubeとは通信しません。
+
+掲載は2026年10月17日時点の確認に基づきます。配信者の申し出や配信の終了があれば、掲載をやめます。
+
+| 場所 | 国・地域 | 配信者（YouTube） | 動画 |
+|---|---|---|---|
+| 渋谷スクランブル交差点 | 日本 | FNNプライムオンライン | [dfVK7ld38Ys](https://www.youtube.com/watch?v=dfVK7ld38Ys) |
+| 東京タワー | 日本 | 東京タワー公式チャンネル | [nu6NE55_X7A](https://www.youtube.com/watch?v=nu6NE55_X7A) |
+| 浅草寺 宝蔵門 | 日本 | 浅草中屋チャンネル -ASAKUSA NAKAYA CHANNEL- | [NsFHt76uwh8](https://www.youtube.com/watch?v=NsFHt76uwh8) |
+| 羽田空港 第1ターミナル | 日本 | TBS NEWS DIG Powered by JNN | [2f9NOSw-FqM](https://www.youtube.com/watch?v=2f9NOSw-FqM) |
+| 成田空港 A滑走路 | 日本 | 朝日新聞LIVE | [OuCbntsMsWY](https://www.youtube.com/watch?v=OuCbntsMsWY) |
+| 草津温泉 湯畑 | 日本 | 草津町公式YouTubeチャンネル | [GrEEoEmmrKs](https://www.youtube.com/watch?v=GrEEoEmmrKs) |
+| 薩埵峠から望む富士山 | 日本 | 静岡市さったの峠 ライブカメラ | [CWNjN2bYzsA](https://www.youtube.com/watch?v=CWNjN2bYzsA) |
+| 日本平夢テラス（富士山・駿河湾） | 日本 | 日本平夢テラスofficial | [VQB6sYDXQpo](https://www.youtube.com/watch?v=VQB6sYDXQpo) |
+| 河口湖 富士山パノラマロープウェイ | 日本 | フジヤマNAVI | [Sv9hcJ3k5h4](https://www.youtube.com/watch?v=Sv9hcJ3k5h4) |
+| 札幌市中心部 | 日本 | STV札幌テレビ放送 公式 | [z3OUPSoABJk](https://www.youtube.com/watch?v=z3OUPSoABJk) |
+| 新千歳空港 | 日本 | STVニュース北海道 | [3SKn4LgGJk8](https://www.youtube.com/watch?v=3SKn4LgGJk8) |
+| 函館山 | 日本 | ＦＭいるか | [s--MDmshT3I](https://www.youtube.com/watch?v=s--MDmshT3I) |
+| 川湯温泉 | 日本 | お宿欣喜湯＆別邸忍冬（川湯温泉） | [9KVUU0LOYmY](https://www.youtube.com/watch?v=9KVUU0LOYmY) |
+| 大阪城（天満橋から） | 日本 | 大阪NEWS【テレビ大阪ニュース】 | [dOKOq-jU1b8](https://www.youtube.com/watch?v=dOKOq-jU1b8) |
+| 通天閣・あべのハルカス | 日本 | Osaka Ebisu Hotel | [6RrmTwhbbjk](https://www.youtube.com/watch?v=6RrmTwhbbjk) |
+| 神戸港 メリケンパーク | 日本 | 神戸ウォーターフロント開発機構 | [AU_2zfM4m68](https://www.youtube.com/watch?v=AU_2zfM4m68) |
+| 高野山 金剛峯寺 | 日本 | テレビ和歌山【公式】 | [XXVXVSLbjAk](https://www.youtube.com/watch?v=XXVXVSLbjAk) |
+| 伏見稲荷大社 表参道 | 日本 | 京都観光混雑状況Live | [MMeBDRfRHyA](https://www.youtube.com/watch?v=MMeBDRfRHyA) |
+| 平安神宮 | 日本 | 京都観光混雑状況Live | [iUbbYRWIEzo](https://www.youtube.com/watch?v=iUbbYRWIEzo) |
+| 阿蘇山（草千里） | 日本 | RKK NEWS DIG | [aVGYOlIzV0A](https://www.youtube.com/watch?v=aVGYOlIzV0A) |
+| 桜島 | 日本 | MBC南日本放送 | [Hmmk0eYn0cw](https://www.youtube.com/watch?v=Hmmk0eYn0cw) |
+| 軍艦島（端島） | 日本 | 長崎ケーブルメディア[公式] | [pmdZ-D1XOJA](https://www.youtube.com/watch?v=pmdZ-D1XOJA) |
+| 福岡空港 | 日本 | FBS福岡放送ニュース | [uI8tWGe_FtA](https://www.youtube.com/watch?v=uI8tWGe_FtA) |
+| 那覇空港 | 日本 | 【琉球放送】RBC NEWS | [Yzl9offu5g8](https://www.youtube.com/watch?v=Yzl9offu5g8) |
+| 宜野湾の海 | 日本 | Laguna Garden Hotel【Official】 | [o7i9-ZK0U6c](https://www.youtube.com/watch?v=o7i9-ZK0U6c) |
+| 那覇 国際通り・県庁前 | 日本 | 琉球新報 | [j1nfkpuQDLQ](https://www.youtube.com/watch?v=j1nfkpuQDLQ) |
+| 象山から望む台北101 | 台湾 | Taipei Travel Live Cam  台北觀光即時影像  | [z_fY1pj1VBw](https://www.youtube.com/watch?v=z_fY1pj1VBw) |
+| 三仙台（台湾東海岸） | 台湾 | 東部海岸國家風景區管理處 | [dQ7Sd6PGLdA](https://www.youtube.com/watch?v=dQ7Sd6PGLdA) |
+| 阿里山 牛埔仔草原 | 台湾 | 阿里山國家風景區管理處 | [hMYs60qtkK8](https://www.youtube.com/watch?v=hMYs60qtkK8) |
+| 高雄 旗津海水浴場 | 台湾 | 高雄旅遊網 | [ka7FV0sCvxQ](https://www.youtube.com/watch?v=ka7FV0sCvxQ) |
+| 小烏来スカイウォーク | 台湾 | 遊桃園 Taoyuan Travel | [neaiCec1kec](https://www.youtube.com/watch?v=neaiCec1kec) |
+| ソウル 漢江・西江大橋 | 韓国 | GiGAeyes Live TV | [_gmTN6ssF7I](https://www.youtube.com/watch?v=_gmTN6ssF7I) |
+| タオ島の浜辺 | タイ | Scuba Birds PADI 5 * IDC Dive Center, Koh Tao | [Ai9IV72sR2E](https://www.youtube.com/watch?v=Ai9IV72sR2E) |
+| サムイ島ラマイ | タイ | Banyan Tree Samui | [wP6hpWgPJ98](https://www.youtube.com/watch?v=wP6hpWgPJ98) |
+| ウェディオンボ海岸 | インドネシア | Kominfo Gunungkidul | [gwUwOto2gJg](https://www.youtube.com/watch?v=gwUwOto2gJg) |
+| ダナン ロン橋（ドラゴンブリッジ）西側 | ベトナム | Phát Triển Đà Nẵng | [VHxNpNjKurU](https://www.youtube.com/watch?v=VHxNpNjKurU) |
+| ニューカッスル港 | オーストラリア | Port of Newcastle | [tbQPUvUifEc](https://www.youtube.com/watch?v=tbQPUvUifEc) |
+| ワイキキ水族館前の海 | アメリカ（ハワイ） | Waikiki Aquarium | [6tHEWDnxj2Y](https://www.youtube.com/watch?v=6tHEWDnxj2Y) |
+| キラウエア火山 ハレマウマウ火口 | アメリカ（ハワイ） | USGS | [tk0tfYDxrUA](https://www.youtube.com/watch?v=tk0tfYDxrUA) |
+| ワイキキビーチ | アメリカ（ハワイ） | EarthCam | [z_Dn0wGfGSU](https://www.youtube.com/watch?v=z_Dn0wGfGSU) |
+| アビー・ロードの横断歩道 | イギリス | EarthCam | [zMCea32gpmg](https://www.youtube.com/watch?v=zMCea32gpmg) |
+| ダブリン市街 | アイルランド | EarthCam | [3nyPER2kzqk](https://www.youtube.com/watch?v=3nyPER2kzqk) |
+| セント・アイヴス港 | イギリス | Aspects Holidays | [T83mKGf_c3k](https://www.youtube.com/watch?v=T83mKGf_c3k) |
+| ヴェネツィア 大運河 | イタリア | I Love You Venice | [r8N6IsoIkTk](https://www.youtube.com/watch?v=r8N6IsoIkTk) |
+| ストロンボリ火山 | イタリア | Stromboli Volcano Live Webcam | [RYqExqxrpvs](https://www.youtube.com/watch?v=RYqExqxrpvs) |
+| ロヴァニエミ アプッカ・リゾート | フィンランド | Apukka Resort Rovaniemi - Glass Igloo Hotel | [wT8Zhh9MBEE](https://www.youtube.com/watch?v=wT8Zhh9MBEE) |
+| ヘルシンキ港 西港 | フィンランド | Port of Helsinki | [6hPWq2IG08M](https://www.youtube.com/watch?v=6hPWq2IG08M) |
+| アムステルダム ダムラック（ベルラーへの取引所前） | オランダ | WebCam NL | [43qH0tDA6lM](https://www.youtube.com/watch?v=43qH0tDA6lM) |
+| タマリウの浜辺（コスタ・ブラバ） | スペイン | EarthCam | [wiVzU1mcCTA](https://www.youtube.com/watch?v=wiVzU1mcCTA) |
+| フンシャル市街（マデイラ島） | ポルトガル | Webcamtaxi | [_idE_q5kgtA](https://www.youtube.com/watch?v=_idE_q5kgtA) |
+| ルツェルン市街 | スイス | Tele1 - Zentralschweizer Fernsehen | [QIt1FaDMnQc](https://www.youtube.com/watch?v=QIt1FaDMnQc) |
+| レイキャネス半島の火山 | アイスランド | afarTV | [E_4y8jgvSRA](https://www.youtube.com/watch?v=E_4y8jgvSRA) |
+| プラハ中心部 | チェコ | ITS akciová společnost | [3C8W4Rlgiog](https://www.youtube.com/watch?v=3C8W4Rlgiog) |
+| コルフ島 アリラス | ギリシャ | Arillas Corfu LIVE streaming | [CcnlJI_UXyM](https://www.youtube.com/watch?v=CcnlJI_UXyM) |
+| ガイランゲルフィヨルド | ノルウェー | Hotel Union Geiranger | [wAdTV6Uc5eA](https://www.youtube.com/watch?v=wAdTV6Uc5eA) |
+| スカルスヴォーグ（ノールカップ近くの漁村） | ノルウェー | Skarsvåg bygdelag live cam | [iMqrD-HBDGo](https://www.youtube.com/watch?v=iMqrD-HBDGo) |
+| タイムズスクエア | アメリカ | EarthCam | [AdUw5RdyZxI](https://www.youtube.com/watch?v=AdUw5RdyZxI) |
+| ニューオーリンズ バーボン・ストリート | アメリカ | EarthCam | [ryyC8t-mxyQ](https://www.youtube.com/watch?v=ryyC8t-mxyQ) |
+| ラスベガス フリーモント・ストリート | アメリカ | EarthCam | [2-WiWMLgfBs](https://www.youtube.com/watch?v=2-WiWMLgfBs) |
+| コニーアイランド | アメリカ | EarthCam | [H67j7H-7QD0](https://www.youtube.com/watch?v=H67j7H-7QD0) |
+| シーサイドハイツの海岸 | アメリカ | EarthCam | [OBgCrw-IyhE](https://www.youtube.com/watch?v=OBgCrw-IyhE) |
+| ナイアガラの滝 | カナダ | Niagara Falls Live | [7gBzLGlJnwk](https://www.youtube.com/watch?v=7gBzLGlJnwk) |
+| ピースブリッジ（米加国境の検問レーン） | カナダ | PeaceBridgeAuthority | [WPMgP2C3_co](https://www.youtube.com/watch?v=WPMgP2C3_co) |
+| ポポカテペトル山 | メキシコ | afarTV | [8c4M11yu5L4](https://www.youtube.com/watch?v=8c4M11yu5L4) |
+| フエゴ山 | グアテマラ | afarTV | [mRRrJJlO0vg](https://www.youtube.com/watch?v=mRRrJJlO0vg) |
+| マホビーチ（飛行機が頭上を通る海岸） | シント・マールテン | Flightradar24 | [2IQmpCXbOmM](https://www.youtube.com/watch?v=2IQmpCXbOmM) |
+| パロミノ島ビーチ | プエルトリコ | EarthCam | [MU8kI-PbVnM](https://www.youtube.com/watch?v=MU8kI-PbVnM) |
+| リオデジャネイロ コパカバーナ海岸 | ブラジル | EarthCam | [6QoLEltTzIM](https://www.youtube.com/watch?v=6QoLEltTzIM) |
+| ビジャリカ山 | チリ | Muni Pucón | [o0UgvQgceiE](https://www.youtube.com/watch?v=o0UgvQgceiE) |
+| ビーニャ・デル・マールの海岸 | チリ | Marejadas UV | [EfMhfMtbN2Y](https://www.youtube.com/watch?v=EfMhfMtbN2Y) |
+| ナミブ砂漠の水場 | ナミビア | NamibiaCam | [ydYDqZQpim8](https://www.youtube.com/watch?v=ydYDqZQpim8) |
+| テンベ象公園の水場 | 南アフリカ | Explore Live Nature Cams | [0P_LBKqVbfs](https://www.youtube.com/watch?v=0P_LBKqVbfs) |
+| ムパラの川（カバとワニ） | ケニア | Explore African Wildlife | [7x5kRo1B84Y](https://www.youtube.com/watch?v=7x5kRo1B84Y) |
+| ムパラの水場 | ケニア | Explore African Wildlife | [oORXfTviuCs](https://www.youtube.com/watch?v=oORXfTviuCs) |
+| ンコルホ・ブッシュロッジ | 南アフリカ | Explore Africa | [dIChLG4_WNs](https://www.youtube.com/watch?v=dIChLG4_WNs) |
+| オリファンツ川 | 南アフリカ | Explore Africa | [_NXaovxB-Bk](https://www.youtube.com/watch?v=_NXaovxB-Bk) |
+| ジュマ私営動物保護区 | 南アフリカ | Djuma Cam | [i1QL7zLACeA](https://www.youtube.com/watch?v=i1QL7zLACeA) |
+| エルサレム 嘆きの壁 | イスラエル | EarthCam | [77akujLn4k8](https://www.youtube.com/watch?v=77akujLn4k8) |
+| メッカ マスジド・ハラーム | サウジアラビア | قناة القران الكريم | [Cm1v4bteXbI](https://www.youtube.com/watch?v=Cm1v4bteXbI) |
+| タイアロア岬 ロイヤルアルバトロスの巣 | ニュージーランド | Cornell Lab Bird Cams | [fDhIv9iBzWk](https://www.youtube.com/watch?v=fDhIv9iBzWk) |
+| オアマルのブルーペンギン | ニュージーランド | Ōamaru Penguins | [IKhGWZeCns8](https://www.youtube.com/watch?v=IKhGWZeCns8) |
+| タロンガ動物園のカピバラ | オーストラリア | Taronga Zoo Sydney | [6j7pqjym1EE](https://www.youtube.com/watch?v=6j7pqjym1EE) |
+| ウェリビー動物園のライオン | オーストラリア | Zoos Victoria | [gTz_7tKUfYM](https://www.youtube.com/watch?v=gTz_7tKUfYM) |
+| ポートリンカーンのミサゴの巣 | オーストラリア | Port Lincoln Osprey | [5SQd6QkBbc0](https://www.youtube.com/watch?v=5SQd6QkBbc0) |
+| 成都パンダ繁育研究基地 | 中国 | iPanda | [gnEuhfyZPPQ](https://www.youtube.com/watch?v=gnEuhfyZPPQ) |
+| 臥龍 耿達神樹坪パンダ基地 | 中国 | Explore Bears | [DP9hbJmwbNU](https://www.youtube.com/watch?v=DP9hbJmwbNU) |
+| アビスコのオーロラ | スウェーデン | Lights Over Lapland - Abisko National Park, Sweden | [pCpB5z99nC8](https://www.youtube.com/watch?v=pCpB5z99nC8) |
+| チャーチルのツンドラ（ホッキョクグマ） | カナダ | Explore Bears | [JwgMYoHvDoo](https://www.youtube.com/watch?v=JwgMYoHvDoo) |
+| モントレーベイ水族館 ケルプの森 | アメリカ | Monterey Bay Aquarium | [w3LjpFhySTg](https://www.youtube.com/watch?v=w3LjpFhySTg) |
+| モントレー湾（ラッコ・アザラシ） | アメリカ | Monterey Bay Aquarium | [fVa6-zCBR7A](https://www.youtube.com/watch?v=fVa6-zCBR7A) |
+| ボネール島 サンゴ礁の水中 | オランダ領カリブ | Explore Live Nature Cams | [5o-ADtqyTJk](https://www.youtube.com/watch?v=5o-ADtqyTJk) |
+| ジョージア水族館 ジンベエザメの水槽 | アメリカ | Ozolio Live | [8WTFWvePutc](https://www.youtube.com/watch?v=8WTFWvePutc) |
+| コーネル鳥類学研究所の餌台 | アメリカ | Cornell Lab Bird Cams | [N609loYkFJo](https://www.youtube.com/watch?v=N609loYkFJo) |
+| カトマイ ブルックス滝のヒグマ | アメリカ | Explore Bears | [EwTH5yY7Mks](https://www.youtube.com/watch?v=EwTH5yY7Mks) |
+| チャーチルのオーロラ | カナダ | Explore Northern Lights & Nature Meditation Cams | [a0i1Kg6fROg](https://www.youtube.com/watch?v=a0i1Kg6fROg) |
+| アビスコのオーロラ | スウェーデン | Lights Over Lapland - Abisko National Park, Sweden | [_zy6kB7W77I](https://www.youtube.com/watch?v=_zy6kB7W77I) |
+| イルリサットの氷山 | グリーンランド（デンマーク） | afarTV | [0GRxQoFMmqo](https://www.youtube.com/watch?v=0GRxQoFMmqo) |
+| ISSから見た地球（NASA公式） | 宇宙 | NASA | [P9C25Un7xaM](https://www.youtube.com/watch?v=P9C25Un7xaM) |
+
 ## 利用を停止しているサービス（通信しません）
 
 - OpenSky Network：公開サービスでの運用利用には書面ライセンスが必要と規約に記載。許諾未確認のため停止
