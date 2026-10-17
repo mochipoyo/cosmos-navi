@@ -58,7 +58,7 @@ jobs:
       - name: Prepare site files
         run: |
           mkdir -p _site
-          for f in index.html livecams.json README.md THIRD_PARTY_NOTICES.md favicon.ico favicon.svg apple-touch-icon.png icon-192.png icon-512.png site.webmanifest; do
+          for f in index.html livecams.json webcams.json README.md THIRD_PARTY_NOTICES.md favicon.ico favicon.svg apple-touch-icon.png icon-192.png icon-512.png site.webmanifest; do
             if [ -f "$f" ]; then cp "$f" _site/; fi
           done
           ls -la _site
