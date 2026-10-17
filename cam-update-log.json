@@ -2,57 +2,64 @@
  "schema": 1,
  "entries": [
   {
-   "at": "2026-10-17T14:45:04.099Z",
-   "job": "discover",
+   "at": "2026-10-17T14:45:03.733Z",
+   "job": "update-livecams",
    "ok": true,
    "fatal": null,
-   "total": 3059,
-   "previous": 2047,
-   "sources": {
-    "digitraffic": {
-     "status": "ok",
-     "count": 811,
-     "skipped": 2
-    },
-    "hongkong": {
-     "status": "ok",
-     "count": 1013,
-     "skipped": 0
-    },
-    "drivebc": {
-     "status": "ok",
-     "count": 985,
-     "skipped": 0
-    },
-    "nsw": {
-     "status": "ok",
-     "count": 250,
-     "skipped": 0
-    },
-    "tfl": {
-     "status": "disabled",
-     "count": 0
-    },
-    "caltrans": {
-     "status": "disabled",
-     "count": 0
-    },
-    "windy": {
-     "status": "disabled",
-     "count": 0
-    }
+   "api": "ok",
+   "live": 85,
+   "total": 97,
+   "quota": {
+    "day": "2026-10-17",
+    "used": 29,
+    "search": 15,
+    "limit": 8000,
+    "searchLimit": 70
    },
-   "youtube": "チャンネル 15 件を確認し、新しい候補 6 件",
-   "ms": 4679
+   "ms": 375
   },
   {
-   "at": "2026-10-17T14:45:08.856Z",
+   "at": "2026-10-17T14:45:04.159Z",
+   "job": "check-stills",
+   "ok": true,
+   "fatal": null,
+   "probed": 2047,
+   "sources": {
+    "digitraffic": {
+     "total": 812,
+     "checked": 812,
+     "live": 794,
+     "stale": 17,
+     "offline": 0,
+     "unknown": 1
+    },
+    "drivebc": {
+     "total": 985,
+     "checked": 985,
+     "live": 0,
+     "stale": 0,
+     "offline": 0,
+     "unknown": 985
+    },
+    "nsw": {
+     "total": 250,
+     "checked": 250,
+     "live": 0,
+     "stale": 1,
+     "offline": 249,
+     "unknown": 0
+    }
+   },
+   "ms": 92145
+  },
+  {
+   "at": "2026-10-17T14:46:36.404Z",
    "job": "validate",
    "ok": true,
    "report": {
     "livecams.json": "OK（97件）",
-    "webcams.json": "OK（3059件）",
-    "webcams-status.json": "なし"
+    "webcams.json": "OK（2047件）",
+    "webcams-status.json": "OK（2047件）"
    }
   }
  ]
