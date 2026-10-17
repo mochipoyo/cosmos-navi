@@ -1936,12 +1936,12 @@
   },
   {
    "id": "efmhfmtbn2y78",
-   "name": "ビーニャ・デル・マールの海岸",
+   "name": "レニャカ海岸（ビーニャ・デル・マール）",
    "country": "チリ",
-   "city": "バルパライソ州",
+   "city": "バルパライソ州ビーニャ・デル・マール",
    "area": "南北アメリカ",
-   "lat": -33.0205,
-   "lon": -71.556,
+   "lat": -32.969,
+   "lon": -71.543,
    "prec": "city",
    "tz": "America/Santiago",
    "channelId": "UCMfVFofrKT5qV71nG-sDBRg",
@@ -1958,8 +1958,10 @@
    "liveSince": null,
    "lastSearchAt": "2026-10-17T12:53:50.140Z",
    "candidates": [],
-   "match": [],
-   "note": "バルパライソ大学の高波警報システムのカメラ。",
+   "match": [
+    "Reñaca"
+   ],
+   "note": "バルパライソ大学の高波警報システムのカメラ。2026-10-17に、同じ大学のレニャカ海岸のカメラに切り替わりました。",
    "previousVideoId": "EfMhfMtbN2Y",
    "replacedAt": "2026-10-17T12:53:50.140Z"
   },
