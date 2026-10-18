@@ -58,13 +58,15 @@ export const KINDS = { cont: '大陸', ocean: '大洋', sea: '海', bay: '湾', 
 /* ---------- Natural Earth ---------- */
 function neRead(dir, name) { const f = path.join(dir, name + '.geojson'); if (!fs.existsSync(f)) { log('なし', name); return []; } return JSON.parse(fs.readFileSync(f, 'utf8')).features; }
 const P = (o, k) => o[k] != null ? o[k] : o[k.toUpperCase()] != null ? o[k.toUpperCase()] : o[k.toLowerCase()];
+/* Natural Earth marks a few countries (e.g. France, Norway) with -99 in ISO_A2; ISO_A2_EH has the code */
+const ccOf = p => { const a = String(P(p, 'iso_a2') || ''); return a && a !== '-99' ? a : String(P(p, 'iso_a2_eh') || '').replace('-99', ''); };
 export function loadNE(dir) {
   const out = [];
   const add = (src, f, kind, minZ, extra) => { const p = f.properties; let lat, lon;
     if (extra && extra.ll) [lon, lat] = extra.ll; else { const lp = labelPoint(f.geometry || {}); if (!lp) return; [lon, lat] = lp; }
     if (!okLL(lat, lon)) return; const ja = String(P(p, 'name_ja') || '').trim(); const local = String(P(p, 'name') || '').trim(); const en = String(P(p, 'name_en') || '').trim();
     if (!ja && !local && !en) return;
-    out.push(Object.assign({ id: 'n' + Number(P(p, 'ne_id') || out.length).toString(36), src: 'ne', lat: r4(lat), lon: r4(lon), kind, minZ, ja, local, en, cc: String(P(p, 'iso_a2') || '').replace('-99', ''), adm: '', pop: 0, wd: P(p, 'wikidataid') || '' }, extra && extra.o));
+    out.push(Object.assign({ id: 'n' + Number(P(p, 'ne_id') || out.length).toString(36), src: 'ne', lat: r4(lat), lon: r4(lon), kind, minZ, ja, local, en, cc: ccOf(p), adm: '', pop: 0, wd: P(p, 'wikidataid') || '' }, extra && extra.o));
   };
   for (const f of neRead(dir, 'ne_10m_geography_regions_polys')) { const c = String(P(f.properties, 'featurecla') || ''); const ml = +P(f.properties, 'min_label') || 4;
     const kind = c === 'Continent' ? 'cont' : /Island group/.test(c) ? 'islands' : /Island/.test(c) ? 'island' : /Pen|cape|Isthmus/.test(c) ? 'peninsula' : /Range/.test(c) ? 'range' : /Desert/.test(c) ? 'desert' : c === 'Lake' ? 'lake' : 'region';
@@ -73,12 +75,12 @@ export function loadNE(dir) {
     const kind = c === 'ocean' ? 'ocean' : /bay|gulf|sound|fjord|inlet|lagoon/.test(c) ? 'bay' : /strait|channel/.test(c) ? 'strait' : 'sea';
     add('ne', f, kind, kind === 'ocean' ? 0 : Math.max(1.5, ml), kind === 'ocean' ? { o: { maxZ: 5 } } : null); }
   for (const f of neRead(dir, 'ne_10m_admin_0_countries')) { const p = f.properties;
-    add('ne', f, 'country', Math.max(1, +P(p, 'min_label') || 3), { ll: [+P(p, 'label_x'), +P(p, 'label_y')], o: { cc: String(P(p, 'iso_a2') || '').replace('-99', '') } }); }
+    add('ne', f, 'country', Math.max(1, +P(p, 'min_label') || 3), { ll: [+P(p, 'label_x'), +P(p, 'label_y')], o: { cc: ccOf(p) } }); }
   for (const f of neRead(dir, 'ne_10m_admin_1_states_provinces')) { const p = f.properties; const lat = +P(p, 'latitude'), lon = +P(p, 'longitude');
     add('ne', f, 'admin1', Math.max(3, +P(p, 'min_label') || 5), okLL(lat, lon) ? { ll: [lon, lat] } : null); }
   for (const f of neRead(dir, 'ne_10m_populated_places')) { const p = f.properties; const c = String(P(p, 'featurecla') || '');
     const kind = /Admin-0 capital/.test(c) ? 'capital' : 'city'; const pop = +P(p, 'pop_max') || 0;
-    add('ne', f, kind, Math.max(2, +P(p, 'min_zoom') || 5), { ll: [+P(p, 'longitude'), +P(p, 'latitude')], o: { pop, adm: P(p, 'adm1name') ? 'ne:' + P(p, 'adm1name') : '' } }); }
+    add('ne', f, kind, Math.max(2, +P(p, 'min_zoom') || 5), { ll: [+P(p, 'longitude'), +P(p, 'latitude')], o: { pop, adm: P(p, 'adm1name') ? 'ne:' + ccOf(p) + ':' + P(p, 'adm1name') : '' } }); }
   for (const f of neRead(dir, 'ne_10m_geography_regions_elevation_points')) { const p = f.properties; const c = String(P(p, 'featurecla') || '');
     if (!/mountain|spot/.test(c)) continue; add('ne', f, 'mountain', Math.max(4, +P(p, 'min_zoom') || 6), { o: { elev: +P(p, 'elevation') || 0 } }); }
   for (const f of neRead(dir, 'ne_10m_geography_regions_points')) { const c = String(P(f.properties, 'featurecla') || '');
@@ -179,9 +181,16 @@ export function writeAll(outDir, ne, gn, dicts, sources) {
     const keys = new Set(); for (const n of [e.ja, e.local, e.en]) { const k = shardKey(normKey(n)); if (k) keys.add(k); }
     for (const k of keys) (shards.get(k) || shards.set(k, []).get(k)).push(row); }
   fs.mkdirSync(path.join(outDir, 's'), { recursive: true });
-  for (const [k, rows] of shards) { rows.sort((a, b) => b[10] - a[10]); fs.writeFileSync(path.join(outDir, 's', shardFile(k) + '.json'), JSON.stringify(rows)); }
-  const meta = { v: 1, generatedAt: new Date().toISOString(), sources, kinds: Object.keys(KINDS).map(k => [k, KINDS[k]]), bands: BANDS, tiles: index,
-    baseMaxZ: BASE_MAXZ, counts: { base: baseRows.length, ne: ne.length, geonames: gn.length, shards: shards.size, tiles: tiles.size }, countries: dicts.countries || {}, admins: dicts.admins || {} };
+  /* a large two-letter shard (e.g. "sa") is split by the third letter, so a search never downloads a big file */
+  const split = []; let nShards = 0;
+  for (const [k, rows] of shards) { rows.sort((a, b) => b[10] - a[10]);
+    if (k.length === 2 && JSON.stringify(rows).length > 150000) { split.push(k); const sub = new Map();
+      for (const r of rows) { for (const n of [r[0], r[1], r[2]]) { const x = normKey(n); if (x.startsWith(k) && x.length >= 3) { const k3 = x.slice(0, 3); const L = sub.get(k3) || sub.set(k3, []).get(k3); if (L[L.length - 1] !== r) L.push(r); } } }
+      for (const [k3, L] of sub) { fs.writeFileSync(path.join(outDir, 's', shardFile(k3) + '.json'), JSON.stringify(L)); nShards++; }
+      fs.writeFileSync(path.join(outDir, 's', shardFile(k) + '.json'), JSON.stringify(rows.filter(r => [r[0], r[1], r[2]].some(n => normKey(n) === k)))); nShards++; continue; }
+    fs.writeFileSync(path.join(outDir, 's', shardFile(k) + '.json'), JSON.stringify(rows)); nShards++; }
+  const meta = { v: 1, generatedAt: new Date().toISOString(), sources, split, kinds: Object.keys(KINDS).map(k => [k, KINDS[k]]), bands: BANDS, tiles: index,
+    baseMaxZ: BASE_MAXZ, counts: { base: baseRows.length, ne: ne.length, geonames: gn.length, shards: nShards, tiles: tiles.size }, countries: dicts.countries || {}, admins: dicts.admins || {} };
   fs.writeFileSync(path.join(outDir, 'meta.json'), JSON.stringify(meta));
   return meta.counts;
 }
@@ -192,12 +201,14 @@ if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) 
   const ne = loadNE(neDir); log('Natural Earth', ne.length);
   /* country names in Japanese from Natural Earth (used when GeoNames is not present) */
   const dicts = { countries: {}, admins: {} };
-  for (const e of ne) { if (e.kind === 'country' && e.cc) dicts.countries[e.cc] = [e.ja, e.en || e.local]; }
+  /* the most prominent country per code wins (Natural Earth also gives small territories their parent's code) */
+  for (const e of ne.filter(x => x.kind === 'country').sort((a, b) => a.minZ - b.minZ)) { if (e.cc && !dicts.countries[e.cc]) dicts.countries[e.cc] = [e.ja, e.en || e.local]; }
+  for (const e of ne) { if (e.kind === 'admin1' && e.cc) { for (const n of [e.local, e.en]) if (n) dicts.admins['ne:' + e.cc + ':' + n] = [e.ja, e.en || e.local]; } }
   let gn = [];
   if (args.geonames) {
     const g = await loadGeoNames(args.geonames);
     for (const [k, v] of Object.entries(g.countries)) { const c = dicts.countries[k]; dicts.countries[k] = [(c && c[0]) || v[0], v[1]]; }
-    dicts.admins = g.admins; gn = dedupe(ne, g.places);
+    Object.assign(dicts.admins, g.admins); gn = dedupe(ne, g.places);
     sources.push({ name: 'GeoNames', license: 'CC BY 4.0', url: 'https://www.geonames.org/', licenseUrl: 'https://creativecommons.org/licenses/by/4.0/', attribution: 'GeoNames（www.geonames.org）、CC BY 4.0', downloadedAt: args.geonamesDate || new Date().toISOString().slice(0, 10),
       note: '人口1,000人以上の市町村（cities1000）と、Wikipediaの記事がある地物（allCountries から抽出）。日本語名・英語名は alternateNamesV2（俗称・旧称は除外）。' });
   }
