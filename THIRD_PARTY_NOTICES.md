@@ -200,10 +200,29 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
 更新状態の確認（v11）：GitHub Actions が2時間ごとに、各画像のURLへ HEAD（使えない場合は先頭1バイトだけの GET）を送り、取得できるかと Last-Modified（撮影・更新時刻）を確認します。Digitraffic は提供元APIの撮影時刻（measuredTime）を使います。画像本体は保存・再配信しません。結果は `webcams-status.json` に「取得の成否・時刻・提供元の稼働状態」だけを記録します。
 
+## 地名データ（geo/ と geo-data ブランチ。v13）
+
+`scripts/build-geo.mjs` が下のデータを変換して作っています。地名・位置・名前は元データのままで、このアプリで作った地名や推測した日本語名はありません。
+
+### Natural Earth（1:10m Cultural / Physical vectors）
+
+- 出典：Natural Earth（https://www.naturalearthdata.com/）。GitHub の nvkelso/natural-earth-vector から取得
+- ライセンス：パブリックドメイン（https://www.naturalearthdata.com/about/terms-of-use/）。表示は任意ですが「Made with Natural Earth」と記載します
+- 使っているもの：国・地域（admin_0）、州・県（admin_1）、人口の多い地点（populated_places）、海・湾・海峡（geography_marine_polys）、地形（geography_regions_*）、湖、川、空港、港の名前と位置（代表点）
+
+### GeoNames
+
+- 出典：GeoNames（https://www.geonames.org/）。download.geonames.org/export/dump/ の cities1000、allCountries、alternateNamesV2、countryInfo、admin1CodesASCII
+- ライセンス：Creative Commons Attribution 4.0（CC BY 4.0、https://creativecommons.org/licenses/by/4.0/）
+- 表示：アプリの地球ライブ画面に「地名：Natural Earth・GeoNames（CC BY 4.0）」を表示しています
+- 変更点：必要な列（ID・名前・日本語名・英語名・緯度経度・種類・国・州/県・人口）だけを取り出し、種類を独自の分類（都市・町・駅など）に置き換え、表示を始める拡大率と重要度を付け、地域ごとのファイルに分割しています。alternateNamesV2 の Wikipedia リンクは「記事がある地物かどうか」の判定だけに使い、Wikipedia の本文は使っていません
+- 注意：GeoNames は利用者が編集できるデータベースで、誤りを含むことがあります。GeoNames は内容を保証していません
+
 ## 利用を停止しているサービス（通信しません）
 
 - OpenSky Network：公開サービスでの運用利用には書面ライセンスが必要と規約に記載。許諾未確認のため停止
 - Open-Meteo：無料APIは非商用限定。運営用途の確認ができていないため停止
+- Windy Webcams API v3：規約が API・データの第三者への再配布を禁じており、公開JSONでの利用が許されるか書面で確認できていないため停止（対応処理のみ用意。README「Windy Webcams を有効にするには」）
 
 ## 天体の画像（NASA Image and Video Library）
 
