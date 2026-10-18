@@ -97,7 +97,7 @@ export const SOURCES = {
     termsUrl: 'https://api.windy.com/webcams/terms',
     pageUrl: 'https://www.windy.com/webcams',
     maxCams: 200, operator: 'Windy.com',
-    disabledMessage: '利用規約（第11.2条：データの再配布の禁止）との関係を Windy に確認できていないため停止中',
+    disabledMessage: '利用規約（API・データの第三者への再配布の禁止）との関係を Windy に書面で確認できていないため停止中。手順は README「Windy Webcams を有効にするには」',
   },
 };
 
@@ -196,18 +196,43 @@ export async function fetchTfL(diag) {
       providerActive: String(props.available).toLowerCase() !== 'false' }); }, diag);
 }
 
-/* ---------- Windy Webcams（既定で停止） ---------- */
+/* ---------- Windy Webcams API v3（既定で停止） ----------
+   ・対象地域：WINDY_COUNTRIES（例 "JP,KR"）／WINDY_REGIONS（例 "JP.13"）／WINDY_BBOX（"北緯,東経,南緯,西経"）のどれか。未指定なら人気順。
+   ・取得するのは位置・公式プレーヤーのURL・詳細ページURL・カテゴリだけ。画像URL（無料版は10〜15分で失効）は取得も保存もしません。
+   ・プレーヤーは Windy の公式埋め込み（webcams.windy.com）をそのまま使い、広告の除去や映像URLの抜き出しはしません。
+   ・player.live があるものだけ「ライブ動画（live_video）」、それ以外は「タイムラプス（timelapse）」として扱い、LIVE とは表示しません。 */
+export function windyQuery(env, offset) {
+  const q = new URLSearchParams({ limit: '50', offset: String(offset), include: 'categories,location,player,urls', lang: 'en' });
+  const list = v => String(v || '').split(',').map(x => x.trim()).filter(Boolean);
+  if (list(env.WINDY_COUNTRIES).length) q.set('countries', list(env.WINDY_COUNTRIES).map(x => x.toUpperCase()).filter(x => /^[A-Z]{2}$/.test(x)).join(','));
+  else if (list(env.WINDY_REGIONS).length) q.set('regions', list(env.WINDY_REGIONS).filter(x => /^[A-Z]{2}\.[A-Za-z0-9]+$/.test(x)).join(','));
+  else if (env.WINDY_BBOX) { const b = list(env.WINDY_BBOX).map(Number); if (b.length === 4 && b.every(Number.isFinite)) q.set('bbox', b.join(',')); }
+  else { q.set('sortKey', 'popularity'); q.set('sortDirection', 'desc'); }
+  return q;
+}
+export function windyRecord(w, S) {
+  const L = w.location || {}; const lat = Number(L.latitude), lon = Number(L.longitude);
+  const P = w.player || {}; const live = httpsUrl(P.live) ? P.live : ''; const lapse = live ? '' : [P.day, P.month, P.year, P.lifetime].find(httpsUrl) || '';
+  const embed = live || lapse;
+  if (!w.webcamId || !okLatLon(lat, lon) || !embed) return null;
+  try { if (!/(^|\.)windy\.com$/.test(new URL(embed).hostname)) return null; } catch (_) { return null; }   // Windy の公式プレーヤー以外は使わない
+  const cats = Array.isArray(w.categories) ? w.categories.map(c => String(c && (c.name || c.id) || '')).filter(Boolean).slice(0, 4) : [];
+  return { id: 'wy-' + safeId(w.webcamId), kind: 'direct', source: 'windy', provider: 'windy', name: String(w.title || w.webcamId).replace(/\s+/g, ' ').trim(),
+    country: String(L.country || ''), city: String(L.city || ''), region: String(L.region || ''), area: '', lat: r5(lat), lon: r5(lon), tz: '',
+    embedUrl: embed, mediaType: live ? 'live_video' : 'timelapse', playerType: 'windy', providerCategories: cats,
+    listed: true, providerActive: w.status === 'active', pageUrl: (w.urls && httpsUrl(w.urls.detail) && w.urls.detail) || S.pageUrl,
+    attribution: S.license.attribution };
+}
 export async function fetchWindy(diag) {
   const S = SOURCES.windy; const key = process.env.WINDY_API_KEY || ''; if (!key) throw new CamError('disabled', 'WINDY_API_KEY がありません');
-  const out = [];
+  const out = []; let rows = 0, skipped = 0;
   for (let offset = 0; offset < S.maxCams; offset += 50) {
-    const j = await fetchJson(BASE.windy + '/webcams/api/v3/webcams?limit=50&offset=' + offset + '&sortKey=popularity&sortDirection=desc&include=location,player,urls', { headers: { 'x-windy-api-key': key } });
-    const list = (j && j.webcams) || [];
-    out.push(...collect(list, w => { const L = w.location || {}; const lat = Number(L.latitude), lon = Number(L.longitude); const embed = w.player && (w.player.live || w.player.day);
-      if (!w.webcamId || !okLatLon(lat, lon) || !httpsUrl(embed)) return null;
-      return { id: 'wy-' + w.webcamId, kind: 'direct', source: 'windy', name: String(w.title || w.webcamId), country: String(L.country || ''), city: String(L.city || ''), area: '', lat, lon, tz: '', embedUrl: embed, listed: true, providerActive: w.status === 'active', pageUrl: (w.urls && w.urls.detail) || S.pageUrl }; }, {}));
+    const j = await fetchJson(BASE.windy + '/webcams/api/v3/webcams?' + windyQuery(process.env, offset), { headers: { 'x-windy-api-key': key } });   // キーはヘッダーだけに入れ、ログやファイルには出さない
+    const list = (j && j.webcams) || []; rows += list.length;
+    out.push(...collect(list, w => windyRecord(w, S), diag)); skipped += diag.skipped || 0;
     if (list.length < 50) break;
   }
+  diag.rows = rows; diag.skipped = skipped; diag.live = out.filter(c => c.mediaType === 'live_video').length; diag.timelapse = out.length - diag.live;
   return out;
 }
 
