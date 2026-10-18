@@ -111,21 +111,25 @@ export async function loadGeoNames(dir) {
   for await (const l of linesOf(F('cities1000.zip'), 'cities1000.txt')) { const c = l.split('\t'); if (c.length < 15 || !okLL(+c[4], +c[5])) continue; const pop = +c[14] || 0;
     places.set(+c[0], row(c, cityKind(pop, c[7]), cityMinZ(pop, c[7]))); nc++; }
   log('GeoNames 市町村', nc);
+  /* pass 1: which places have a Wikipedia article (this marks a notable feature) */
+  const linked = new Set(); let nl = 0;
+  for await (const l of linesOf(F('alternateNamesV2.zip'), 'alternateNamesV2.txt')) { const i1 = l.indexOf('\t'), i2 = l.indexOf('\t', i1 + 1); if (l.slice(i2 + 1, i2 + 6) !== 'link\t') continue;
+    if (l.indexOf('wikipedia.org', i2) < 0) continue; linked.add(+l.slice(i1 + 1, i2)); nl++; }
+  log('Wikipedia の記事がある地点', linked.size);
+  /* pass 2: notable features from allCountries */
   const cand = new Map(); let nf = 0;
-  for await (const l of linesOf(F('allCountries.zip'), 'allCountries.txt')) { const c = l.split('\t', 15); const kind = GN_FEAT[c[7]]; if (!kind) continue; if (!okLL(+c[4], +c[5]) || places.has(+c[0])) continue;
-    cand.set(+c[0], row(c, kind, featMinZ(kind))); nf++; }
-  log('GeoNames 地物の候補', nf);
-  /* alternate names: Japanese, English and Wikipedia links (the link marks a notable place) */
-  const want = id => places.has(id) || cand.has(id);
+  for await (const l of linesOf(F('allCountries.zip'), 'allCountries.txt')) { const c = l.split('\t', 15); const kind = GN_FEAT[c[7]]; if (!kind) continue; const id = +c[0]; if (!linked.has(id) || places.has(id) || !okLL(+c[4], +c[5])) continue;
+    cand.set(id, row(c, kind, featMinZ(kind))); nf++; }
+  log('GeoNames 注目地物', nf);
+  for (const [id, e] of cand) { e.wiki = 1; places.set(id, e); }
+  /* pass 3: Japanese and English names for the places kept, their countries and regions */
   const extraIds = new Set([...Object.values(countries).map(v => +v.gid), ...Object.values(admin1).map(v => +v.gid)]);
-  const alt = new Map(); // id → {ja, jaPref, en, enPref, link}
-  for await (const l of linesOf(F('alternateNamesV2.zip'), 'alternateNamesV2.txt')) { const c = l.split('\t'); const lang = c[2]; if (lang !== 'ja' && lang !== 'en' && lang !== 'link') continue;
-    const id = +c[1]; if (!want(id) && !extraIds.has(id)) continue; if (c[6] === '1' || c[7] === '1') continue; // colloquial / historic names are not used
+  const alt = new Map();
+  for await (const l of linesOf(F('alternateNamesV2.zip'), 'alternateNamesV2.txt')) { const c = l.split('\t'); const lang = c[2]; if (lang !== 'ja' && lang !== 'en') continue;
+    const id = +c[1]; if (!places.has(id) && !extraIds.has(id)) continue; if (c[6] === '1' || c[7] === '1') continue; // colloquial / historic names are not used
     let a = alt.get(id); if (!a) { a = {}; alt.set(id, a); }
-    if (lang === 'link') { if (/wikipedia\.org/.test(c[3])) a.link = 1; continue; }
     const pref = c[4] === '1'; if (lang === 'ja') { if (!a.ja || (pref && !a.jaPref)) { a.ja = c[3]; a.jaPref = pref; } } else { if (!a.en || (pref && !a.enPref)) { a.en = c[3]; a.enPref = pref; } } }
-  for (const [id, e] of cand) { const a = alt.get(id); if (a && a.link) places.set(id, e); }
-  for (const [id, e] of places) { const a = alt.get(id); if (a) { e.ja = a.ja || ''; e.en = a.en || ''; if (a.link) e.wiki = 1; } }
+  for (const [id, e] of places) { const a = alt.get(id); if (a) { e.ja = a.ja || ''; e.en = a.en || ''; } }
   const admins = {}; for (const [k, v] of Object.entries(admin1)) { const a = alt.get(+v.gid) || {}; admins[k] = [a.ja || '', v.name]; }
   const ctry = {}; for (const [k, v] of Object.entries(countries)) { const a = alt.get(+v.gid) || {}; ctry[k] = [a.ja || '', v.name]; }
   log('GeoNames 地名（市町村＋注目地物）', places.size);

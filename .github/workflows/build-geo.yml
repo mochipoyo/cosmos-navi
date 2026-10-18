@@ -53,7 +53,9 @@ jobs:
           ls -la gn
 
       - name: Build
-        run: node scripts/build-geo.mjs --ne ne --geonames gn --geonamesDate "$(date -u +%F)" --out out
+        run: |
+          set -o pipefail
+          node --max-old-space-size=6144 scripts/build-geo.mjs --ne ne --geonames gn --geonamesDate "$(date -u +%F)" --out out 2>&1 | tee build.log || { tail -15 build.log | while IFS= read -r l; do echo "::error::$l"; done; exit 1; }
 
       - name: Check the result
         run: |
