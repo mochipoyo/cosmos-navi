@@ -1,9 +1,9 @@
 {
  "schema": 1,
  "meta": {
-  "updatedAt": "2026-10-18T08:10:16.053Z",
+  "updatedAt": "2026-10-19T09:06:14.192Z",
   "status": "ok",
-  "message": "チャンネル 15 件を確認し、新しい候補 6 件",
+  "message": "チャンネル 15 件を確認し、新しい候補 3 件",
   "searchCalls": 15
  },
  "candidates": [
@@ -176,7 +176,37 @@
    "lastSeenAt": "2026-10-18T08:10:16.053Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
+  },
+  {
+   "videoId": "pCxvj3PcnUc",
+   "title": "【イッキ見】最新ニュース 10月19日夜〈FNNプライムオンライン〉",
+   "channelId": "UCoQBJMzcwmXrRSHBFAlTsIw",
+   "channelTitle": "FNNプライムオンライン",
+   "firstSeenAt": "2026-10-19T09:06:14.192Z",
+   "lastSeenAt": "2026-10-19T09:06:14.192Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "X9IjUxs_WzI",
+   "title": "不正アクセス急増　これまでの被害状況と対策は？【まとめ】",
+   "channelId": "UCoQBJMzcwmXrRSHBFAlTsIw",
+   "channelTitle": "FNNプライムオンライン",
+   "firstSeenAt": "2026-10-19T09:06:14.192Z",
+   "lastSeenAt": "2026-10-19T09:06:14.192Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "AKcsJqkcRP0",
+   "title": "서울실시간 석촌호수라이브 Live Cam I Seoul, &quot;Seokchon Lake&quot;, Seoul,Korea I 서울관광지 서울호수 잠실롯데몰 송리단길 잠실소피텔",
+   "channelId": "UCsy6UOjk8q7Ajq9yQ7iDAbA",
+   "channelTitle": "GiGAeyes Live TV",
+   "firstSeenAt": "2026-10-19T09:06:14.192Z",
+   "lastSeenAt": "2026-10-19T09:06:14.192Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
   }
  ],
- "channelCursor": 60
+ "channelCursor": 75
 }
