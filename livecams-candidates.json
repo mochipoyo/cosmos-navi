@@ -1,9 +1,9 @@
 {
  "schema": 1,
  "meta": {
-  "updatedAt": "2026-10-19T09:06:14.192Z",
+  "updatedAt": "2026-10-20T08:43:01.905Z",
   "status": "ok",
-  "message": "チャンネル 15 件を確認し、新しい候補 3 件",
+  "message": "チャンネル 15 件を確認し、新しい候補 0 件",
   "searchCalls": 15
  },
  "candidates": [
@@ -208,5 +208,5 @@
    "dismissed": false
   }
  ],
- "channelCursor": 75
+ "channelCursor": 13
 }
