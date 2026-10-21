@@ -1,9 +1,9 @@
 {
  "schema": 1,
  "meta": {
-  "updatedAt": "2026-10-20T08:43:01.905Z",
+  "updatedAt": "2026-10-21T08:43:40.574Z",
   "status": "ok",
-  "message": "チャンネル 15 件を確認し、新しい候補 0 件",
+  "message": "チャンネル 15 件を確認し、新しい候補 31 件",
   "searchCalls": 15
  },
  "candidates": [
@@ -53,7 +53,7 @@
    "channelId": "UC6qrG3W8SMK0jior2olka3g",
    "channelTitle": "EarthCam",
    "firstSeenAt": "2026-10-17T13:33:39.320Z",
-   "lastSeenAt": "2026-10-17T13:33:39.320Z",
+   "lastSeenAt": "2026-10-21T08:43:40.574Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -206,7 +206,317 @@
    "lastSeenAt": "2026-10-19T09:06:14.192Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
+  },
+  {
+   "videoId": "G1zgkkguCyc",
+   "title": "Maui LIVE Cam | Fairmont Kea Lani Resort Cam | Hawaii Beach View",
+   "channelId": "UC5lNakfSdpqXCW214H5sBgQ",
+   "channelTitle": "Ozolio Live",
+   "firstSeenAt": "2026-10-21T08:43:40.574Z",
+   "lastSeenAt": "2026-10-21T08:43:40.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "fwX04Gsb8W4",
+   "title": "Napili Kai Beach Resort Live Cam | Maui Beach Cam – Watch Paradise Live",
+   "channelId": "UC5lNakfSdpqXCW214H5sBgQ",
+   "channelTitle": "Ozolio Live",
+   "firstSeenAt": "2026-10-21T08:43:40.574Z",
+   "lastSeenAt": "2026-10-21T08:43:40.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "TZAvviB_o-4",
+   "title": "LIVE: The Kahala Resort &amp; Hotel | Oahu Hawaii Live Beach Cam | Oahu Ocean View",
+   "channelId": "UC5lNakfSdpqXCW214H5sBgQ",
+   "channelTitle": "Ozolio Live",
+   "firstSeenAt": "2026-10-21T08:43:40.574Z",
+   "lastSeenAt": "2026-10-21T08:43:40.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "Anr15FA9OCI",
+   "title": "【24h LIVE】最新ニュースをライブ配信中！ |  TBS NEWS DIG",
+   "channelId": "UC6AG81pAkf6Lbi_1VC5NmPA",
+   "channelTitle": "TBS NEWS DIG Powered by JNN",
+   "firstSeenAt": "2026-10-21T08:43:40.574Z",
+   "lastSeenAt": "2026-10-21T08:43:40.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "KmByZJwXXFI",
+   "title": "【ニュースライブ】昼のニュース（Japan News Digest Live）最新情報など（10月21日）｜TBS NEWS DIG",
+   "channelId": "UC6AG81pAkf6Lbi_1VC5NmPA",
+   "channelTitle": "TBS NEWS DIG Powered by JNN",
+   "firstSeenAt": "2026-10-21T08:43:40.574Z",
+   "lastSeenAt": "2026-10-21T08:43:40.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "4LTSTw4jnZc",
+   "title": "EarthCam Live:  Sanibel Island",
+   "channelId": "UC6qrG3W8SMK0jior2olka3g",
+   "channelTitle": "EarthCam",
+   "firstSeenAt": "2026-10-21T08:43:40.574Z",
+   "lastSeenAt": "2026-10-21T08:43:40.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "9fzUjSTK5F8",
+   "title": "EarthCam Live:  Kansas City Cam (Kansas City, MO)",
+   "channelId": "UC6qrG3W8SMK0jior2olka3g",
+   "channelTitle": "EarthCam",
+   "firstSeenAt": "2026-10-21T08:43:40.574Z",
+   "lastSeenAt": "2026-10-21T08:43:40.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "2_PDaUJbfuI",
+   "title": "EarthCam Live:  SUMMIT One Vanderbilt (New York City, NY)",
+   "channelId": "UC6qrG3W8SMK0jior2olka3g",
+   "channelTitle": "EarthCam",
+   "firstSeenAt": "2026-10-21T08:43:40.574Z",
+   "lastSeenAt": "2026-10-21T08:43:40.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "3nzuUOreQqI",
+   "title": "EarthCam Live: Giraffe Cam Barn - Greenville, SC",
+   "channelId": "UC6qrG3W8SMK0jior2olka3g",
+   "channelTitle": "EarthCam",
+   "firstSeenAt": "2026-10-21T08:43:40.574Z",
+   "lastSeenAt": "2026-10-21T08:43:40.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "ZYQlLQHz2Mg",
+   "title": "9/11 Memorial &amp; Museum",
+   "channelId": "UC6qrG3W8SMK0jior2olka3g",
+   "channelTitle": "EarthCam",
+   "firstSeenAt": "2026-10-21T08:43:40.574Z",
+   "lastSeenAt": "2026-10-21T08:43:40.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "tErYxn2UM5Y",
+   "title": "EarthCam Live:  Brooklyn Bridge Cam",
+   "channelId": "UC6qrG3W8SMK0jior2olka3g",
+   "channelTitle": "EarthCam",
+   "firstSeenAt": "2026-10-21T08:43:40.574Z",
+   "lastSeenAt": "2026-10-21T08:43:40.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "qsrevo5Vdkw",
+   "title": "EarthCam Live:  Council Bluffs, Iowa",
+   "channelId": "UC6qrG3W8SMK0jior2olka3g",
+   "channelTitle": "EarthCam",
+   "firstSeenAt": "2026-10-21T08:43:40.574Z",
+   "lastSeenAt": "2026-10-21T08:43:40.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "IU_-Pl9O5jQ",
+   "title": "EarthCam Live: Snowman Cam - Animals and Wildlife (Gaylord, Michigan)",
+   "channelId": "UC6qrG3W8SMK0jior2olka3g",
+   "channelTitle": "EarthCam",
+   "firstSeenAt": "2026-10-21T08:43:40.574Z",
+   "lastSeenAt": "2026-10-21T08:43:40.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "EiUyBIcG4fQ",
+   "title": "EarthCam Live:  Midway Airport (Chicago, IL)",
+   "channelId": "UC6qrG3W8SMK0jior2olka3g",
+   "channelTitle": "EarthCam",
+   "firstSeenAt": "2026-10-21T08:43:40.574Z",
+   "lastSeenAt": "2026-10-21T08:43:40.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "zqWUG_BZlpY",
+   "title": "EarthCamTV 3 Live:  Trending Cams",
+   "channelId": "UC6qrG3W8SMK0jior2olka3g",
+   "channelTitle": "EarthCam",
+   "firstSeenAt": "2026-10-21T08:43:40.574Z",
+   "lastSeenAt": "2026-10-21T08:43:40.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "9mMnqO1UuIU",
+   "title": "EarthCam Live: Philadelphia, PA",
+   "channelId": "UC6qrG3W8SMK0jior2olka3g",
+   "channelTitle": "EarthCam",
+   "firstSeenAt": "2026-10-21T08:43:40.574Z",
+   "lastSeenAt": "2026-10-21T08:43:40.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "5C9oM7C2Q9k",
+   "title": "EarthCam Live:  World Trade Center - New York City, NY",
+   "channelId": "UC6qrG3W8SMK0jior2olka3g",
+   "channelTitle": "EarthCam",
+   "firstSeenAt": "2026-10-21T08:43:40.574Z",
+   "lastSeenAt": "2026-10-21T08:43:40.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "qx7gry390YA",
+   "title": "EarthCam Live:  Niagara Falls",
+   "channelId": "UC6qrG3W8SMK0jior2olka3g",
+   "channelTitle": "EarthCam",
+   "firstSeenAt": "2026-10-21T08:43:40.574Z",
+   "lastSeenAt": "2026-10-21T08:43:40.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "T0SI9iz9yzE",
+   "title": "EarthCam Live:  Giraffe Paddock  Cam - Greenville, SC",
+   "channelId": "UC6qrG3W8SMK0jior2olka3g",
+   "channelTitle": "EarthCam",
+   "firstSeenAt": "2026-10-21T08:43:40.574Z",
+   "lastSeenAt": "2026-10-21T08:43:40.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "6tq8S2pp8PQ",
+   "title": "EarthCam Live: Pigeon River Cam (Hartford, TN)",
+   "channelId": "UC6qrG3W8SMK0jior2olka3g",
+   "channelTitle": "EarthCam",
+   "firstSeenAt": "2026-10-21T08:43:40.574Z",
+   "lastSeenAt": "2026-10-21T08:43:40.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "jtdyLykT_XY",
+   "title": "EarthCam Live:  Mallorca, Spain",
+   "channelId": "UC6qrG3W8SMK0jior2olka3g",
+   "channelTitle": "EarthCam",
+   "firstSeenAt": "2026-10-21T08:43:40.574Z",
+   "lastSeenAt": "2026-10-21T08:43:40.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "XUWjAsajKXg",
+   "title": "Daxi Old Street Live Cam 大溪老街即時影像",
+   "channelId": "UCARB8y6PuoOBjZXJKIG-LDw",
+   "channelTitle": "遊桃園 Taoyuan Travel",
+   "firstSeenAt": "2026-10-21T08:43:40.574Z",
+   "lastSeenAt": "2026-10-21T08:43:40.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "EUOp2LchPQM",
+   "title": "【4K】Amuping Ginger Island Live Cam 阿姆坪薑母島即時影像",
+   "channelId": "UCARB8y6PuoOBjZXJKIG-LDw",
+   "channelTitle": "遊桃園 Taoyuan Travel",
+   "firstSeenAt": "2026-10-21T08:43:40.574Z",
+   "lastSeenAt": "2026-10-21T08:43:40.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "5YDXZ1aiR5Y",
+   "title": "【4K】Three Swimming Turtles Live Cam 三龜戲水觀景平台即時影像",
+   "channelId": "UCARB8y6PuoOBjZXJKIG-LDw",
+   "channelTitle": "遊桃園 Taoyuan Travel",
+   "firstSeenAt": "2026-10-21T08:43:40.574Z",
+   "lastSeenAt": "2026-10-21T08:43:40.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "HytzfZWhkTs",
+   "title": "【LIVE】ＲＫＫ災害報道チャンネル",
+   "channelId": "UCG1ApxYbWaC9xUxgHCWyR5Q",
+   "channelTitle": "RKK NEWS DIG",
+   "firstSeenAt": "2026-10-21T08:43:40.574Z",
+   "lastSeenAt": "2026-10-21T08:43:40.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "HjRnex1akEs",
+   "title": "北海道の天気予報・気象情報(ＳＴＶ札幌テレビ放送)",
+   "channelId": "UCGrZAL2OKyKHj5flMIVU72A",
+   "channelTitle": "STV札幌テレビ放送 公式",
+   "firstSeenAt": "2026-10-21T08:43:40.574Z",
+   "lastSeenAt": "2026-10-21T08:43:40.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "DWTW3yqK5kU",
+   "title": "ライブカメラ 北海道(ＳＴＶ札幌テレビ放送)/LiveCamera Hokkaido Japan",
+   "channelId": "UCGrZAL2OKyKHj5flMIVU72A",
+   "channelTitle": "STV札幌テレビ放送 公式",
+   "firstSeenAt": "2026-10-21T08:43:40.574Z",
+   "lastSeenAt": "2026-10-21T08:43:40.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "uvNVpMKG8rw",
+   "title": "ライブカメラ 新千歳空港ターミナル(ＳＴＶ札幌テレビ放送)/ Live Camera New Chitose Airport Terminal",
+   "channelId": "UCGrZAL2OKyKHj5flMIVU72A",
+   "channelTitle": "STV札幌テレビ放送 公式",
+   "firstSeenAt": "2026-10-21T08:43:40.574Z",
+   "lastSeenAt": "2026-10-21T08:43:40.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "Ndo_8RuefH4",
+   "title": "【Taipei Live Cam】大稻埕碼頭 - 4K即時影像 | Taipei Dadaocheng Wharf | 台北大稲埕埠頭",
+   "channelId": "UCJLjpq7pTJRbP3vtx0LxB9Q",
+   "channelTitle": "Taipei Travel Live Cam  台北觀光即時影像 ",
+   "firstSeenAt": "2026-10-21T08:43:40.574Z",
+   "lastSeenAt": "2026-10-21T08:43:40.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "34h_Cy_n0Ok",
+   "title": "【Taipei Live Cam】劍潭山微風平台 - 4K即時影像 | Jiantanshan Weifeng Observatory | 剣潭山微風デッキ",
+   "channelId": "UCJLjpq7pTJRbP3vtx0LxB9Q",
+   "channelTitle": "Taipei Travel Live Cam  台北觀光即時影像 ",
+   "firstSeenAt": "2026-10-21T08:43:40.574Z",
+   "lastSeenAt": "2026-10-21T08:43:40.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "xW1YcHVp7Ko",
+   "title": "Port Lincoln Osprey Live Stream PTZ",
+   "channelId": "UCK_BLeXdJeHqA1SlC79CruQ",
+   "channelTitle": "Port Lincoln Osprey",
+   "firstSeenAt": "2026-10-21T08:43:40.574Z",
+   "lastSeenAt": "2026-10-21T08:43:40.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
   }
  ],
- "channelCursor": 13
+ "channelCursor": 28
 }
