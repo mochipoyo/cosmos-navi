@@ -1,9 +1,9 @@
 {
  "schema": 1,
  "meta": {
-  "updatedAt": "2026-10-21T08:43:40.574Z",
+  "updatedAt": "2026-10-22T08:45:47.839Z",
   "status": "ok",
-  "message": "チャンネル 15 件を確認し、新しい候補 31 件",
+  "message": "チャンネル 15 件を確認し、新しい候補 40 件",
   "searchCalls": 15
  },
  "candidates": [
@@ -63,7 +63,7 @@
    "channelId": "UCMfVFofrKT5qV71nG-sDBRg",
    "channelTitle": "Marejadas UV",
    "firstSeenAt": "2026-10-17T14:45:04.099Z",
-   "lastSeenAt": "2026-10-17T14:45:04.099Z",
+   "lastSeenAt": "2026-10-22T08:45:47.839Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -73,7 +73,7 @@
    "channelId": "UCMfVFofrKT5qV71nG-sDBRg",
    "channelTitle": "Marejadas UV",
    "firstSeenAt": "2026-10-17T14:45:04.099Z",
-   "lastSeenAt": "2026-10-17T14:45:04.099Z",
+   "lastSeenAt": "2026-10-22T08:45:47.839Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -83,7 +83,7 @@
    "channelId": "UCMfVFofrKT5qV71nG-sDBRg",
    "channelTitle": "Marejadas UV",
    "firstSeenAt": "2026-10-17T14:45:04.099Z",
-   "lastSeenAt": "2026-10-17T14:45:04.099Z",
+   "lastSeenAt": "2026-10-22T08:45:47.839Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -93,7 +93,7 @@
    "channelId": "UCMfVFofrKT5qV71nG-sDBRg",
    "channelTitle": "Marejadas UV",
    "firstSeenAt": "2026-10-17T14:45:04.099Z",
-   "lastSeenAt": "2026-10-17T14:45:04.099Z",
+   "lastSeenAt": "2026-10-22T08:45:47.839Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -113,7 +113,7 @@
    "channelId": "UCOZv-6MiXqJdLpmYtR431Ow",
    "channelTitle": "STVニュース北海道",
    "firstSeenAt": "2026-10-17T14:45:04.099Z",
-   "lastSeenAt": "2026-10-17T14:45:04.099Z",
+   "lastSeenAt": "2026-10-22T08:45:47.839Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -516,7 +516,407 @@
    "lastSeenAt": "2026-10-21T08:43:40.574Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
+  },
+  {
+   "videoId": "awQzjn72bI0",
+   "title": "Live High-Definition Views from the International Space Station (Official NASA Stream)",
+   "channelId": "UCLA_DiR1FfKNvjuUpBHmylQ",
+   "channelTitle": "NASA",
+   "firstSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "DRZkCLZ7g-o",
+   "title": "Marejadas UV || Rapa Nui || Chile en vivo",
+   "channelId": "UCMfVFofrKT5qV71nG-sDBRg",
+   "channelTitle": "Marejadas UV",
+   "firstSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "ysqxSxIqiq0",
+   "title": "Marejadas UV || Av. Perú || Viña del Mar || Chile en vivo",
+   "channelId": "UCMfVFofrKT5qV71nG-sDBRg",
+   "channelTitle": "Marejadas UV",
+   "firstSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "LC-DK_22eK4",
+   "title": "LIVE African Safari - Kenya Wildlife - MPALA | explore.org",
+   "channelId": "UCMfjW-9aZnsR-Rq-Ngo4CpQ",
+   "channelTitle": "Explore African Wildlife",
+   "firstSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "I6o7UWEaSbw",
+   "title": "🔴 ♫ Live Piano Music - Live 24/7: focus music, study music, relaxing music ♫",
+   "channelId": "UCMpn1qLudF-zb4M4bqxLIbw",
+   "channelTitle": "I Love You Venice",
+   "firstSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "IByOruhl2ik",
+   "title": "🔴 4K Live Cam - Chioggia Sottomarina - Live Streaming from Hotel Park Chioggia (Venice) - 4K",
+   "channelId": "UCMpn1qLudF-zb4M4bqxLIbw",
+   "channelTitle": "I Love You Venice",
+   "firstSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "ASqGNET31VY",
+   "title": "🔴 Venice Live Cam - San Marco Basin in Live Streaming - Webcam en direct ベネチア ライブ",
+   "channelId": "UCMpn1qLudF-zb4M4bqxLIbw",
+   "channelTitle": "I Love You Venice",
+   "firstSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "Ts4cAVmJrWE",
+   "title": "🔴 4k Venice Live Cam - Laguna of Venice with 4K Cam PTZ 30x - Stream from Cantieri Biasin",
+   "channelId": "UCMpn1qLudF-zb4M4bqxLIbw",
+   "channelTitle": "I Love You Venice",
+   "firstSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "GQbUdGhHw_o",
+   "title": "🔴 4K View of the Ponte delle Guglie and Strada Nova - Live Stream from Hotel Marte Venice",
+   "channelId": "UCMpn1qLudF-zb4M4bqxLIbw",
+   "channelTitle": "I Love You Venice",
+   "firstSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "V7YQ_vYyz38",
+   "title": "🔴 Bacino di San Marco from Via Garibaldi - Live View from Hotel Ca&#39; Formenta Venezia",
+   "channelId": "UCMpn1qLudF-zb4M4bqxLIbw",
+   "channelTitle": "I Love You Venice",
+   "firstSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "3LGl860wEaY",
+   "title": "🔴 Bagni Miki - Chioggia Sottomarina (Venezia) - Live Full HD",
+   "channelId": "UCMpn1qLudF-zb4M4bqxLIbw",
+   "channelTitle": "I Love You Venice",
+   "firstSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "gzgrofStPJ0",
+   "title": "🔴 Venice Italy Live Webcam - Dorsoduro in Live Streaming from Hotel American Dinesen - Full HD",
+   "channelId": "UCMpn1qLudF-zb4M4bqxLIbw",
+   "channelTitle": "I Love You Venice",
+   "firstSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "7-XBRpKSv4Q",
+   "title": "🔴 4K Live Webcam Venice - St. Mark&#39;s Basin in Live Streaming from Tribute to Music Venice",
+   "channelId": "UCMpn1qLudF-zb4M4bqxLIbw",
+   "channelTitle": "I Love You Venice",
+   "firstSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "CJLrYIS7NFg",
+   "title": "🔴 Venezia Italia Live Webcam - Campo Santa Maria Formosa Venice - Stream from Ruzzini Palace Hotel",
+   "channelId": "UCMpn1qLudF-zb4M4bqxLIbw",
+   "channelTitle": "I Love You Venice",
+   "firstSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "i10aOLMK76k",
+   "title": "🔴 Live Cam around the World - Rolling Cam with Chill &amp; Lounge Music",
+   "channelId": "UCMpn1qLudF-zb4M4bqxLIbw",
+   "channelTitle": "I Love You Venice",
+   "firstSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "a1mcaV3Sf9U",
+   "title": "🔴 LIVE 24/7  Rolling Cam Venice - Live Cam in Venice Italy - Livecam en direct #venice",
+   "channelId": "UCMpn1qLudF-zb4M4bqxLIbw",
+   "channelTitle": "I Love You Venice",
+   "firstSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "mt7uE-n0YPI",
+   "title": "🔴 4K Live Cam of Ponte delle Guglie Venice - View from Hotel Leone Venezia  - Live stream ライブカメラ",
+   "channelId": "UCMpn1qLudF-zb4M4bqxLIbw",
+   "channelTitle": "I Love You Venice",
+   "firstSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "ofyDg3_72-s",
+   "title": "🔴 Venice Italy Live WebCam - The View on Canal from Hotel Pausania",
+   "channelId": "UCMpn1qLudF-zb4M4bqxLIbw",
+   "channelTitle": "I Love You Venice",
+   "firstSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "aaJT8y3zfWs",
+   "title": "🔴 Venice Italy Live Camera - Grand Canal in Live Streaming from Ca&#39; Angeli",
+   "channelId": "UCMpn1qLudF-zb4M4bqxLIbw",
+   "channelTitle": "I Love You Venice",
+   "firstSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "9r4CJfpflmA",
+   "title": "🔴 4K Live Webcam on Scalzi bridge, Venice - Live Stream from the new 4**** Hotel U-Visionary Venice",
+   "channelId": "UCMpn1qLudF-zb4M4bqxLIbw",
+   "channelTitle": "I Love You Venice",
+   "firstSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "zKGzYuT5tg0",
+   "title": "🔴 4K Venice Italy Live - Live Streaming of Grand Canal from Ca&#39; Angeli",
+   "channelId": "UCMpn1qLudF-zb4M4bqxLIbw",
+   "channelTitle": "I Love You Venice",
+   "firstSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "JFpV_LBgK3M",
+   "title": "🔴 Termini Beach Hotel &amp; Suites **** - Jesolo Lido (VE) - Live Cam Jesolo - 4k Live Cam",
+   "channelId": "UCMpn1qLudF-zb4M4bqxLIbw",
+   "channelTitle": "I Love You Venice",
+   "firstSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "-wMWwWQiFgI",
+   "title": "🔴 Venice Italy Live Cam - Laguna Nord Venice - Stream from Cantieri Biasin - Instant Weather",
+   "channelId": "UCMpn1qLudF-zb4M4bqxLIbw",
+   "channelTitle": "I Love You Venice",
+   "firstSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "k66z_r1C1vM",
+   "title": "🔴 Webcam - Live Streaming from Chioggia Sottomarina (Venezia) - Live HD",
+   "channelId": "UCMpn1qLudF-zb4M4bqxLIbw",
+   "channelTitle": "I Love You Venice",
+   "firstSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "C9EKnYzYt9o",
+   "title": "Venice Italy Live - Live Streaming of Teatro La Fenice area",
+   "channelId": "UCMpn1qLudF-zb4M4bqxLIbw",
+   "channelTitle": "I Love You Venice",
+   "firstSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "_JiCy9b99JE",
+   "title": "【LIVE】▼今季一番の寒さで“初雪”…雪景色に驚き　▼【中継】雪の中山峠の様子　▼札幌市公式や北洋銀行も…「PHP」欠陥でサイト影響　１０月２２日（木）昼に放送した北海道のニュースと天気予報",
+   "channelId": "UCOZv-6MiXqJdLpmYtR431Ow",
+   "channelTitle": "STVニュース北海道",
+   "firstSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "dF6frKSZZU8",
+   "title": "LIVE Arctic Tundra: Cape South - Wapusk National Park | explore.org",
+   "channelId": "UCQI1rdPytw4jDAjwqXVSgfA",
+   "channelTitle": "Explore Panda and Polar Bear Cams",
+   "firstSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "Bq0jBJ4GPQQ",
+   "title": "Cape East Camera - Churchill Cam, Wapusk National Park powered by EXPLORE.org",
+   "channelId": "UCQI1rdPytw4jDAjwqXVSgfA",
+   "channelTitle": "Explore Panda and Polar Bear Cams",
+   "firstSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "SETJ79HmwI0",
+   "title": "Peace Bridge - QEW to Canada Duty Free",
+   "channelId": "UCQYD2m67h_Y85VD6t3LHcsQ",
+   "channelTitle": "PeaceBridgeAuthority",
+   "firstSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "9En2186vo5g",
+   "title": "Peace Bridge - U.S. Inspection Plaza",
+   "channelId": "UCQYD2m67h_Y85VD6t3LHcsQ",
+   "channelTitle": "PeaceBridgeAuthority",
+   "firstSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "g9hNGJxw6Yw",
+   "title": "Peace Bridge -  Canada Bound Truck Inspection",
+   "channelId": "UCQYD2m67h_Y85VD6t3LHcsQ",
+   "channelTitle": "PeaceBridgeAuthority",
+   "firstSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "DnUFAShZKus",
+   "title": "Peace Bridge - Canada Bound",
+   "channelId": "UCQYD2m67h_Y85VD6t3LHcsQ",
+   "channelTitle": "PeaceBridgeAuthority",
+   "firstSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "j2L_559nCjc",
+   "title": "4K Live cam-Alishan【阿里山美景4K直播】-二延平步道 Eryanping Trail",
+   "channelId": "UCQqyZgPh9Lu0w_rmWWBvuNg",
+   "channelTitle": "阿里山國家風景區管理處",
+   "firstSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "8KnqJBf_dow",
+   "title": "Live cam-Alishan【阿里山美景直播】-阿里山國家風景區管理處(觸口遊客中心)Alishan National Scenic Area Administration",
+   "channelId": "UCQqyZgPh9Lu0w_rmWWBvuNg",
+   "channelTitle": "阿里山國家風景區管理處",
+   "firstSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "dY2cRNr5Buw",
+   "title": "Live cam-Alishan【阿里山美景直播】-太平雲梯 Taiping Suspension Bridge",
+   "channelId": "UCQqyZgPh9Lu0w_rmWWBvuNg",
+   "channelTitle": "阿里山國家風景區管理處",
+   "firstSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "QPFEvMS-LoU",
+   "title": "【LIVE】串本町 情報カメラ／テレビ和歌山",
+   "channelId": "UCRIIrdFTB6jdToXF8KkJQFQ",
+   "channelTitle": "テレビ和歌山【公式】",
+   "firstSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "hNexlUkTTuc",
+   "title": "Giraffe Cam",
+   "channelId": "UCS9UBqaUtoIXUhX0J1BnxwQ",
+   "channelTitle": "Zoos Victoria",
+   "firstSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "4wb6o3QvrxY",
+   "title": "Snow Leopards Outdoor Cam",
+   "channelId": "UCS9UBqaUtoIXUhX0J1BnxwQ",
+   "channelTitle": "Zoos Victoria",
+   "firstSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "3CAU9Ex_GKk",
+   "title": "Penguin Cam",
+   "channelId": "UCS9UBqaUtoIXUhX0J1BnxwQ",
+   "channelTitle": "Zoos Victoria",
+   "firstSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "pZkj95YqQvM",
+   "title": "Ōamaru Penguins Nest",
+   "channelId": "UCSlIi8WXERrJUce_les6V6w",
+   "channelTitle": "Ōamaru Penguins",
+   "firstSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
   }
  ],
- "channelCursor": 28
+ "channelCursor": 43
 }
