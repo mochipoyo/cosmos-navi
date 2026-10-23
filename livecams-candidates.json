@@ -1,9 +1,9 @@
 {
  "schema": 1,
  "meta": {
-  "updatedAt": "2026-10-22T08:45:47.839Z",
+  "updatedAt": "2026-10-23T08:41:24.166Z",
   "status": "ok",
-  "message": "チャンネル 15 件を確認し、新しい候補 40 件",
+  "message": "チャンネル 15 件を確認し、新しい候補 71 件",
   "searchCalls": 15
  },
  "candidates": [
@@ -123,7 +123,7 @@
    "channelId": "UCZXZQxS3d6NpR-eH_gdDwYA",
    "channelTitle": "Cornell Lab Bird Cams",
    "firstSeenAt": "2026-10-18T08:10:16.053Z",
-   "lastSeenAt": "2026-10-18T08:10:16.053Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -133,7 +133,7 @@
    "channelId": "UCaG0IHN1RMOZ4-U3wDXAkwA",
    "channelTitle": "afarTV",
    "firstSeenAt": "2026-10-18T08:10:16.053Z",
-   "lastSeenAt": "2026-10-18T08:10:16.053Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -143,7 +143,7 @@
    "channelId": "UCaG0IHN1RMOZ4-U3wDXAkwA",
    "channelTitle": "afarTV",
    "firstSeenAt": "2026-10-18T08:10:16.053Z",
-   "lastSeenAt": "2026-10-18T08:10:16.053Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -153,7 +153,7 @@
    "channelId": "UCcGI_kXwKl_QhyW9jK_8gIA",
    "channelTitle": "Flightradar24",
    "firstSeenAt": "2026-10-18T08:10:16.053Z",
-   "lastSeenAt": "2026-10-18T08:10:16.053Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -163,7 +163,7 @@
    "channelId": "UCcGI_kXwKl_QhyW9jK_8gIA",
    "channelTitle": "Flightradar24",
    "firstSeenAt": "2026-10-18T08:10:16.053Z",
-   "lastSeenAt": "2026-10-18T08:10:16.053Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -173,7 +173,7 @@
    "channelId": "UCcGI_kXwKl_QhyW9jK_8gIA",
    "channelTitle": "Flightradar24",
    "firstSeenAt": "2026-10-18T08:10:16.053Z",
-   "lastSeenAt": "2026-10-18T08:10:16.053Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -916,7 +916,717 @@
    "lastSeenAt": "2026-10-22T08:45:47.839Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
+  },
+  {
+   "videoId": "f5Rjm5tiEkU",
+   "title": "Mount Diablo Cam powered by EXPLORE.org",
+   "channelId": "UCUtGnX65osNPQ98Y3-SSgpg",
+   "channelTitle": "Explore Northern Lights & Nature Meditation Cams",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "jJI5w_RVGtQ",
+   "title": "Mendenhall Glacier and Mountain Goat Cam  powered by EXPLORE.org",
+   "channelId": "UCUtGnX65osNPQ98Y3-SSgpg",
+   "channelTitle": "Explore Northern Lights & Nature Meditation Cams",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "uLgdUiT9WZQ",
+   "title": "LIVE Dumpling Mountain - Katmai National Park, Alaska Camera | explore.org",
+   "channelId": "UCUtGnX65osNPQ98Y3-SSgpg",
+   "channelTitle": "Explore Northern Lights & Nature Meditation Cams",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "wDgZkzkOP-s",
+   "title": "Mission Mountain Range powered by Explore.org",
+   "channelId": "UCUtGnX65osNPQ98Y3-SSgpg",
+   "channelTitle": "Explore Northern Lights & Nature Meditation Cams",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "-qwXenyHDN4",
+   "title": "LIVE: Lisbon Falls | Relaxing Waterfall Background",
+   "channelId": "UCUtGnX65osNPQ98Y3-SSgpg",
+   "channelTitle": "Explore Northern Lights & Nature Meditation Cams",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "O52zDyxg5QI",
+   "title": "Fairbanks Aurora Camera powered by EXPLORE.org",
+   "channelId": "UCUtGnX65osNPQ98Y3-SSgpg",
+   "channelTitle": "Explore Northern Lights & Nature Meditation Cams",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "oKqvQa4J8VY",
+   "title": "Djuma Ad Free Members Stream",
+   "channelId": "UCWh93l9snW90iP2ybPHikAg",
+   "channelTitle": "Djuma Cam",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "0xFARCdZ3vA",
+   "title": "Colorful Tropical Hummingbirds at the Panama Hummingbird Feeder Cam at Canopy Tower | Cornell Lab",
+   "channelId": "UCZXZQxS3d6NpR-eH_gdDwYA",
+   "channelTitle": "Cornell Lab Bird Cams",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "WtoxxHADnGk",
+   "title": "Live Tropical Birds at the Panama Fruit Feeder Cam at Canopy Lodge | Cornell Lab",
+   "channelId": "UCZXZQxS3d6NpR-eH_gdDwYA",
+   "channelTitle": "Cornell Lab Bird Cams",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "afsaYKQ3vac",
+   "title": "Cornell Red-tailed Hawks Live Cam - #CornellHawks | Cornell Lab",
+   "channelId": "UCZXZQxS3d6NpR-eH_gdDwYA",
+   "channelTitle": "Cornell Lab Bird Cams",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "yqz0GC-Sd50",
+   "title": "🔴 Live Now: 24/7 Taal Volcano, Philippines in 4K Ultra HD (CAM A)",
+   "channelId": "UCaG0IHN1RMOZ4-U3wDXAkwA",
+   "channelTitle": "afarTV",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "4MpPqNz70bw",
+   "title": "🔴 LIVE 4K VR180°: Stand 8 KM from Popocatépetl Volcano | Mexico 24/7",
+   "channelId": "UCaG0IHN1RMOZ4-U3wDXAkwA",
+   "channelTitle": "afarTV",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "w6WsMTQw9ac",
+   "title": "🔴 Live Now: 24/7 Erupting Popocatépetl Volcano from San Pedro Benito Juárez, Mexico in 4K Ultra HD",
+   "channelId": "UCaG0IHN1RMOZ4-U3wDXAkwA",
+   "channelTitle": "afarTV",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "uC6nVnMfRDY",
+   "title": "🔴 Live Now: 24/7 Etna Volcano, Sicily Italy in 4K",
+   "channelId": "UCaG0IHN1RMOZ4-U3wDXAkwA",
+   "channelTitle": "afarTV",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "2E7jzu5mP-o",
+   "title": "🔴 Live Now: 24/7 Bromo and Semeru Volcano, Java, Indonesia in 4K Ultra HD",
+   "channelId": "UCaG0IHN1RMOZ4-U3wDXAkwA",
+   "channelTitle": "afarTV",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "5c_OI_GSThU",
+   "title": "🔴 LIVE 4K VR180°: Stand 14 KM from Taal Volcano | Philippines 24/7",
+   "channelId": "UCaG0IHN1RMOZ4-U3wDXAkwA",
+   "channelTitle": "afarTV",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "DwMEl1sSQdA",
+   "title": "🔴 LIVE 4K VR180° Stand Before an Erupting Volcano - Semeru Volcano, Indonesia",
+   "channelId": "UCaG0IHN1RMOZ4-U3wDXAkwA",
+   "channelTitle": "afarTV",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "C_xt5Z9ZHxg",
+   "title": "🔴 LIVE 4K VR180° Stand in Iceland’s Active Volcanic Landscape",
+   "channelId": "UCaG0IHN1RMOZ4-U3wDXAkwA",
+   "channelTitle": "afarTV",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "tj4knR4r1UU",
+   "title": "🔴 Live Now: 24/7 NASA Live Stream of Earth from Space (ISS)",
+   "channelId": "UCaG0IHN1RMOZ4-U3wDXAkwA",
+   "channelTitle": "afarTV",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "F2KrH4QQnms",
+   "title": "🔴 Live Now: 24/7 Strait of Georgia, British Columbia Canada in 4K Ultra HD",
+   "channelId": "UCaG0IHN1RMOZ4-U3wDXAkwA",
+   "channelTitle": "afarTV",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "6IaMqotNF_s",
+   "title": "🔴 Live Now: 24/7 Kilauea Volcano Livestream in Hawaii (Cam B)",
+   "channelId": "UCaG0IHN1RMOZ4-U3wDXAkwA",
+   "channelTitle": "afarTV",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "QzQ-7eiMw1w",
+   "title": "🔴 Live Now: 24/7 Hawaii Humpback Whale Marine Sanctuary in Maui, Hawaii in 4K Ultra HD",
+   "channelId": "UCaG0IHN1RMOZ4-U3wDXAkwA",
+   "channelTitle": "afarTV",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "FVdmnpJ2kM0",
+   "title": "🔴 Live Now:  24/7 Kilauea Volcano Watch in Hawaii (Multi-cams)",
+   "channelId": "UCaG0IHN1RMOZ4-U3wDXAkwA",
+   "channelTitle": "afarTV",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "LjhN6FZWqi0",
+   "title": "🔴 Live Now: 24/7 Kanlaon Volcano in the Philippines",
+   "channelId": "UCaG0IHN1RMOZ4-U3wDXAkwA",
+   "channelTitle": "afarTV",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "hw7RKvTGAhE",
+   "title": "🔴 LIVE 4K VR180° Stand 8 KM from Kanlaon Volcano | Philippines 24/7",
+   "channelId": "UCaG0IHN1RMOZ4-U3wDXAkwA",
+   "channelTitle": "afarTV",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "LWZrMfVJ-_I",
+   "title": "🔴 Live Now: 24/7 Napili Bay Beach in West Maui, Hawaii in 4K Ultra HD",
+   "channelId": "UCaG0IHN1RMOZ4-U3wDXAkwA",
+   "channelTitle": "afarTV",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "OKQEMp2555A",
+   "title": "🔴 Live Now: 24/7 Overview Camera - View Earth from the International Space Station",
+   "channelId": "UCaG0IHN1RMOZ4-U3wDXAkwA",
+   "channelTitle": "afarTV",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "gZa9xUursO4",
+   "title": "🔴 Live Now: 24/7 Kennedy Space Center Rocket Launches | SpaceX, NASA, Artemis Missions",
+   "channelId": "UCaG0IHN1RMOZ4-U3wDXAkwA",
+   "channelTitle": "afarTV",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "u_kuCgoE5Ys",
+   "title": "🔴 LIVE 4K VR180° Life Beneath an Active Volcano | Bulusan, Philippines 24/7",
+   "channelId": "UCaG0IHN1RMOZ4-U3wDXAkwA",
+   "channelTitle": "afarTV",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "qkSvU9j4kqM",
+   "title": "🔴 Live Now: 24/7 Iceland Volcano Watch (Multi-cams)",
+   "channelId": "UCaG0IHN1RMOZ4-U3wDXAkwA",
+   "channelTitle": "afarTV",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "G7djnZQ-OPc",
+   "title": "【LIVE】東京国際空港（羽田空港）ライブカメラ＠朝日新聞社格納庫　第２",
+   "channelId": "UCaHr0a1x8zmQ1dxanCeuesA",
+   "channelTitle": "朝日新聞LIVE",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "bKVGdsMVuMA",
+   "title": "【LIVE】東京・築地ライブカメラ　湾岸やレインボーブリッジのある風景　 at Tsukiji, view of Tokyo waterfront and Rainbow bridge",
+   "channelId": "UCaHr0a1x8zmQ1dxanCeuesA",
+   "channelTitle": "朝日新聞LIVE",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "h9v4l3maqfs",
+   "title": "【LIVE】宮崎・大淀川ライブカメラ　現在の宮崎市内　Miyazaki",
+   "channelId": "UCaHr0a1x8zmQ1dxanCeuesA",
+   "channelTitle": "朝日新聞LIVE",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "qwKh-LOkomQ",
+   "title": "【LIVE】大阪国際空港（伊丹空港）ライブカメラ　＠朝日新聞社格納庫",
+   "channelId": "UCaHr0a1x8zmQ1dxanCeuesA",
+   "channelTitle": "朝日新聞LIVE",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "yETDDgrE2E4",
+   "title": "【LIVE】福岡・博多駅前ライブカメラ　Hakata station in Fukuoka, Kyushu 하카타 역 라이브",
+   "channelId": "UCaHr0a1x8zmQ1dxanCeuesA",
+   "channelTitle": "朝日新聞LIVE",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "_o2Ejpmets8",
+   "title": "【LIVE】東京国際空港（羽田空港）ライブカメラ＠朝日新聞社格納庫",
+   "channelId": "UCaHr0a1x8zmQ1dxanCeuesA",
+   "channelTitle": "朝日新聞LIVE",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "0ytmbJ6mn70",
+   "title": "【LIVE】東京国際空港（羽田空港）ライブカメラ＠朝日新聞社格納庫　第3",
+   "channelId": "UCaHr0a1x8zmQ1dxanCeuesA",
+   "channelTitle": "朝日新聞LIVE",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "LPcDAtkX0-Q",
+   "title": "【LIVE】大阪・中之島ライブカメラ＠朝日新聞大阪本社",
+   "channelId": "UCaHr0a1x8zmQ1dxanCeuesA",
+   "channelTitle": "朝日新聞LIVE",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "6HYjCFkmDPA",
+   "title": "【LIVE】沖縄ライブカメラ　那覇市内の現在の様子　眼下には「ゆいレール」　Okinawa, Naha　 오키나와、 나하",
+   "channelId": "UCaHr0a1x8zmQ1dxanCeuesA",
+   "channelTitle": "朝日新聞LIVE",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "RBHsITnIoI0",
+   "title": "【LIVE】札幌ライブカメラ＠さっぽろ創世スクエア　Sapporo Odori Park in Hokkaido　삿포로 라이브　札幌LIVE",
+   "channelId": "UCaHr0a1x8zmQ1dxanCeuesA",
+   "channelTitle": "朝日新聞LIVE",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "_1PfF1v9GJc",
+   "title": "「LIVECAMERA 」草津温泉・温泉門無料駐車場",
+   "channelId": "UCbn5eHDjwmPC2K9RG8P0i_A",
+   "channelTitle": "草津町公式YouTubeチャンネル",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "RT_yg_qsK_M",
+   "title": "「LIVECAMERA」草津温泉 西の河原・湯川LIVE",
+   "channelId": "UCbn5eHDjwmPC2K9RG8P0i_A",
+   "channelTitle": "草津町公式YouTubeチャンネル",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "0ACRdNv3D9w",
+   "title": "「LIVECAMERA」裏草津地蔵 漫画堂 カフェ月の貌",
+   "channelId": "UCbn5eHDjwmPC2K9RG8P0i_A",
+   "channelTitle": "草津町公式YouTubeチャンネル",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "ybOa_LRzp_I",
+   "title": "「LIVECAMERA」裏草津地蔵 源泉広場",
+   "channelId": "UCbn5eHDjwmPC2K9RG8P0i_A",
+   "channelTitle": "草津町公式YouTubeチャンネル",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "_Z1UzjJ6o2E",
+   "title": "「LIVECAMERA」草津温泉・本白根山ライブカメラ（移動式）",
+   "channelId": "UCbn5eHDjwmPC2K9RG8P0i_A",
+   "channelTitle": "草津町公式YouTubeチャンネル",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "Xr781EeLdqs",
+   "title": "「LIVE CAMERA」草津温泉・温泉門",
+   "channelId": "UCbn5eHDjwmPC2K9RG8P0i_A",
+   "channelTitle": "草津町公式YouTubeチャンネル",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "eX7vAL4Jtfk",
+   "title": "「LIVECAMERA」草津温泉スキー場　天狗山山麓エリア",
+   "channelId": "UCbn5eHDjwmPC2K9RG8P0i_A",
+   "channelTitle": "草津町公式YouTubeチャンネル",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "hN8mxz3-1pg",
+   "title": "「LIVE CAMERA」草津温泉スキー場　天狗山山頂エリア",
+   "channelId": "UCbn5eHDjwmPC2K9RG8P0i_A",
+   "channelTitle": "草津町公式YouTubeチャンネル",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "rHuoK_TWOnA",
+   "title": "「LIVECAMERA」国道292号 草津温泉入口",
+   "channelId": "UCbn5eHDjwmPC2K9RG8P0i_A",
+   "channelTitle": "草津町公式YouTubeチャンネル",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "VnRb8aFDK2M",
+   "title": "「LIVECAMERA」天狗山 第一駐車場",
+   "channelId": "UCbn5eHDjwmPC2K9RG8P0i_A",
+   "channelTitle": "草津町公式YouTubeチャンネル",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "J3zIOmIrSzM",
+   "title": "「LIVECAMERA」草津運動茶屋公園 道の駅",
+   "channelId": "UCbn5eHDjwmPC2K9RG8P0i_A",
+   "channelTitle": "草津町公式YouTubeチャンネル",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "gL7YgPM0Jvk",
+   "title": "「LIVECAMERA 」草津温泉・白根山ライブカメラ（固定式）",
+   "channelId": "UCbn5eHDjwmPC2K9RG8P0i_A",
+   "channelTitle": "草津町公式YouTubeチャンネル",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "UdOAbyzxKto",
+   "title": "「LIVECAMERA 」草津温泉・西の河原公園駐車場",
+   "channelId": "UCbn5eHDjwmPC2K9RG8P0i_A",
+   "channelTitle": "草津町公式YouTubeチャンネル",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "VZ7UthXFfTw",
+   "title": "「LIVECAMERA 」草津温泉・本白根山ライブカメラ（固定式）",
+   "channelId": "UCbn5eHDjwmPC2K9RG8P0i_A",
+   "channelTitle": "草津町公式YouTubeチャンネル",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "ZFhzy9-sy3U",
+   "title": "「LIVECAMERA 」草津温泉・温泉門観光バス専用駐車場",
+   "channelId": "UCbn5eHDjwmPC2K9RG8P0i_A",
+   "channelTitle": "草津町公式YouTubeチャンネル",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "SgvpyjQX_HM",
+   "title": "LHR Airport LIVE 24/7 • Heathrow, London",
+   "channelId": "UCcGI_kXwKl_QhyW9jK_8gIA",
+   "channelTitle": "Flightradar24",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "V7_orOtu-oo",
+   "title": "LAS Vegas Airport LIVE 24/7 with views of 26R &amp; 26L",
+   "channelId": "UCcGI_kXwKl_QhyW9jK_8gIA",
+   "channelTitle": "Flightradar24",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "4nC8r5neaow",
+   "title": "ACE Lanzarote Airport LIVE 24/7 - Canary Islands SPAIN",
+   "channelId": "UCcGI_kXwKl_QhyW9jK_8gIA",
+   "channelTitle": "Flightradar24",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "fFl0qD108sk",
+   "title": "RNO Airport LIVE 24/7 • Reno",
+   "channelId": "UCcGI_kXwKl_QhyW9jK_8gIA",
+   "channelTitle": "Flightradar24",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "lPlBcj6yWpE",
+   "title": "JR大阪駅 いまの様子は【LIVE CAMERA】osaka station",
+   "channelId": "UCd6GEK664CTEWRZda7Fu7Lg",
+   "channelTitle": "大阪NEWS【テレビ大阪ニュース】",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "gXKuUyKt8mc",
+   "title": "[V3cam] Kīlauea volcano, Hawaii (south Halemaʻumaʻu crater)",
+   "channelId": "UCeXH8GZyV3sVqAr45AvupOA",
+   "channelTitle": "USGS",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "f9-oSpYpubg",
+   "title": "[V2cam] Kīlauea volcano, Hawaii (east Halemaʻumaʻu crater)",
+   "channelId": "UCeXH8GZyV3sVqAr45AvupOA",
+   "channelTitle": "USGS",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "Bz9Hkrk1NcY",
+   "title": "Panorama Webcam Rio de Janeiro - Copacabana beach - Posto 6",
+   "channelId": "UChWGYkK0I8U83C0FxAxWy4w",
+   "channelTitle": "Homes in Rio",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "WEl_I5vmuSs",
+   "title": "Rio de Janeiro Cam - Copacabana Posto 3",
+   "channelId": "UChWGYkK0I8U83C0FxAxWy4w",
+   "channelTitle": "Homes in Rio",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "DsNtwGJXTTs",
+   "title": "Africam Tau powered by EXPLORE.org",
+   "channelId": "UCiGOIXjFqy5_mUNxQNOMfHw",
+   "channelTitle": "Explore Africa",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "-7GOA9KIWcs",
+   "title": "LIVE Main Crossing: Masai Mara Great Migration River Crossing - Africam | explore.org",
+   "channelId": "UCiGOIXjFqy5_mUNxQNOMfHw",
+   "channelTitle": "Explore Africa",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "Io1Kle7QR-E",
+   "title": "LIVE Fig Tree Crossing: Masai Mara Great Migration River Crossing - Africam | explore.org",
+   "channelId": "UCiGOIXjFqy5_mUNxQNOMfHw",
+   "channelTitle": "Explore Africa",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "ItdXaWUVF48",
+   "title": "Africam Rosie&#39;s Pan powered by EXPLORE.org",
+   "channelId": "UCiGOIXjFqy5_mUNxQNOMfHw",
+   "channelTitle": "Explore Africa",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "7hKbyXxWT2k",
+   "title": "Africam Boteti River Zebra Migration powered by EXPLORE.org",
+   "channelId": "UCiGOIXjFqy5_mUNxQNOMfHw",
+   "channelTitle": "Explore Africa",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "pZZst4BOpVI",
+   "title": "Africam Naledi Cat-EYE powered by EXPLORE.org",
+   "channelId": "UCiGOIXjFqy5_mUNxQNOMfHw",
+   "channelTitle": "Explore Africa",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "epZP0VOirh0",
+   "title": "Kalahari Salt Pan powered by EXPLORE.org",
+   "channelId": "UCiGOIXjFqy5_mUNxQNOMfHw",
+   "channelTitle": "Explore Africa",
+   "firstSeenAt": "2026-10-23T08:41:24.166Z",
+   "lastSeenAt": "2026-10-23T08:41:24.166Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
   }
  ],
- "channelCursor": 43
+ "channelCursor": 58
 }
