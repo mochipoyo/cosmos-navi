@@ -1,9 +1,9 @@
 {
  "schema": 1,
  "meta": {
-  "updatedAt": "2026-10-23T08:41:24.166Z",
+  "updatedAt": "2026-10-24T08:16:22.282Z",
   "status": "ok",
-  "message": "チャンネル 15 件を確認し、新しい候補 71 件",
+  "message": "チャンネル 15 件を確認し、新しい候補 62 件",
   "searchCalls": 15
  },
  "candidates": [
@@ -203,7 +203,7 @@
    "channelId": "UCsy6UOjk8q7Ajq9yQ7iDAbA",
    "channelTitle": "GiGAeyes Live TV",
    "firstSeenAt": "2026-10-19T09:06:14.192Z",
-   "lastSeenAt": "2026-10-19T09:06:14.192Z",
+   "lastSeenAt": "2026-10-24T08:16:22.282Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -1626,7 +1626,627 @@
    "lastSeenAt": "2026-10-23T08:41:24.166Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
+  },
+  {
+   "videoId": "4ql2DKvmWK0",
+   "title": "LIVE PEMANTAUAN CCTV LALULINTAS SIMPANG EMPAT BALEHARJO BARAT",
+   "channelId": "UCkEiJMkX7n3rZpZ2PDVc3Ow",
+   "channelTitle": "Kominfo Gunungkidul",
+   "firstSeenAt": "2026-10-24T08:16:22.282Z",
+   "lastSeenAt": "2026-10-24T08:16:22.282Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "QiIkBSYNZMU",
+   "title": "LIVE PEMANTAUAN CCTV LALULINTAS KODIM GUNUNGKIDUL",
+   "channelId": "UCkEiJMkX7n3rZpZ2PDVc3Ow",
+   "channelTitle": "Kominfo Gunungkidul",
+   "firstSeenAt": "2026-10-24T08:16:22.282Z",
+   "lastSeenAt": "2026-10-24T08:16:22.282Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "V4O5VM_UL9A",
+   "title": "LIVE PEMANTAUAN CCTV LALULINTAS SIMPANG 3 SIYONO",
+   "channelId": "UCkEiJMkX7n3rZpZ2PDVc3Ow",
+   "channelTitle": "Kominfo Gunungkidul",
+   "firstSeenAt": "2026-10-24T08:16:22.282Z",
+   "lastSeenAt": "2026-10-24T08:16:22.282Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "FQ5n4lLHq7I",
+   "title": "LIVE PEMANTAUAN BUNDERAN KODIM GUNUNGKIDUL",
+   "channelId": "UCkEiJMkX7n3rZpZ2PDVc3Ow",
+   "channelTitle": "Kominfo Gunungkidul",
+   "firstSeenAt": "2026-10-24T08:16:22.282Z",
+   "lastSeenAt": "2026-10-24T08:16:22.282Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "KR6HtxBedzs",
+   "title": "LIVE PEMANTAUAN CCTV LALULINTAS PANCURAN UTARA",
+   "channelId": "UCkEiJMkX7n3rZpZ2PDVc3Ow",
+   "channelTitle": "Kominfo Gunungkidul",
+   "firstSeenAt": "2026-10-24T08:16:22.282Z",
+   "lastSeenAt": "2026-10-24T08:16:22.282Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "nJImKIJyY0o",
+   "title": "LIVE PEMANTAUAN CCTV LALULINTAS ALUN-ALUN WONOSARI",
+   "channelId": "UCkEiJMkX7n3rZpZ2PDVc3Ow",
+   "channelTitle": "Kominfo Gunungkidul",
+   "firstSeenAt": "2026-10-24T08:16:22.282Z",
+   "lastSeenAt": "2026-10-24T08:16:22.282Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "_zmq4hOQOA4",
+   "title": "LIVE PEMANTAUAN CCTV LALULINTAS SIMPANG EMPAT SELANG BARAT",
+   "channelId": "UCkEiJMkX7n3rZpZ2PDVc3Ow",
+   "channelTitle": "Kominfo Gunungkidul",
+   "firstSeenAt": "2026-10-24T08:16:22.282Z",
+   "lastSeenAt": "2026-10-24T08:16:22.282Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "PV3CiIZsvMo",
+   "title": "LIVE PEMANTAUAN CCTV LALULINTAS PUSKESWAN PUTAT",
+   "channelId": "UCkEiJMkX7n3rZpZ2PDVc3Ow",
+   "channelTitle": "Kominfo Gunungkidul",
+   "firstSeenAt": "2026-10-24T08:16:22.282Z",
+   "lastSeenAt": "2026-10-24T08:16:22.282Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "CpeiYBljpdo",
+   "title": "LIVE PEMANTAUAN CCTV LALULINTAS AREA KOTA WONOSARI",
+   "channelId": "UCkEiJMkX7n3rZpZ2PDVc3Ow",
+   "channelTitle": "Kominfo Gunungkidul",
+   "firstSeenAt": "2026-10-24T08:16:22.282Z",
+   "lastSeenAt": "2026-10-24T08:16:22.282Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "R8iN8shIjNk",
+   "title": "LIVE PEMANTAUAN CCTV LALULINTAS SMP 2 PATUK TIMUR",
+   "channelId": "UCkEiJMkX7n3rZpZ2PDVc3Ow",
+   "channelTitle": "Kominfo Gunungkidul",
+   "firstSeenAt": "2026-10-24T08:16:22.282Z",
+   "lastSeenAt": "2026-10-24T08:16:22.282Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "xXSKmVeK1k0",
+   "title": "LIVE PEMANTAUAN PANTAI SEPANJANG PTZ",
+   "channelId": "UCkEiJMkX7n3rZpZ2PDVc3Ow",
+   "channelTitle": "Kominfo Gunungkidul",
+   "firstSeenAt": "2026-10-24T08:16:22.282Z",
+   "lastSeenAt": "2026-10-24T08:16:22.282Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "c5nSXO8RgWg",
+   "title": "LIVE PEMANTAUAN CCTV LALULINTAS KAPANEWON SEMIN UTARA",
+   "channelId": "UCkEiJMkX7n3rZpZ2PDVc3Ow",
+   "channelTitle": "Kominfo Gunungkidul",
+   "firstSeenAt": "2026-10-24T08:16:22.282Z",
+   "lastSeenAt": "2026-10-24T08:16:22.282Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "CEdIbRrbNSg",
+   "title": "LIVE PEMANTAUAN CCTV PASAR BESOLE",
+   "channelId": "UCkEiJMkX7n3rZpZ2PDVc3Ow",
+   "channelTitle": "Kominfo Gunungkidul",
+   "firstSeenAt": "2026-10-24T08:16:22.282Z",
+   "lastSeenAt": "2026-10-24T08:16:22.282Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "bNTWLtbNWHg",
+   "title": "LIVE PEMANTAUAN CCTV LAPANGAN KESATRIAN",
+   "channelId": "UCkEiJMkX7n3rZpZ2PDVc3Ow",
+   "channelTitle": "Kominfo Gunungkidul",
+   "firstSeenAt": "2026-10-24T08:16:22.282Z",
+   "lastSeenAt": "2026-10-24T08:16:22.282Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "qNQMsASjQWc",
+   "title": "LIVE PEMANTAUAN CCTV LALULINTAS NGINGRONG",
+   "channelId": "UCkEiJMkX7n3rZpZ2PDVc3Ow",
+   "channelTitle": "Kominfo Gunungkidul",
+   "firstSeenAt": "2026-10-24T08:16:22.282Z",
+   "lastSeenAt": "2026-10-24T08:16:22.282Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "c-gWrOG6_ss",
+   "title": "LIVE PEMANTAUAN CCTV LALULINTAS SMP 2 PATUK BARAT",
+   "channelId": "UCkEiJMkX7n3rZpZ2PDVc3Ow",
+   "channelTitle": "Kominfo Gunungkidul",
+   "firstSeenAt": "2026-10-24T08:16:22.282Z",
+   "lastSeenAt": "2026-10-24T08:16:22.282Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "H1-tTvlIf-Q",
+   "title": "LIVE PEMANTAUAN CCTV LALULINTAS BPP SEMANU BARAT",
+   "channelId": "UCkEiJMkX7n3rZpZ2PDVc3Ow",
+   "channelTitle": "Kominfo Gunungkidul",
+   "firstSeenAt": "2026-10-24T08:16:22.282Z",
+   "lastSeenAt": "2026-10-24T08:16:22.282Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "fUAqyZHNERw",
+   "title": "LIVE PEMANTAUAN CCTV LALULINTAS SIMPANG TIGA PASAR PLAYEN PTZ",
+   "channelId": "UCkEiJMkX7n3rZpZ2PDVc3Ow",
+   "channelTitle": "Kominfo Gunungkidul",
+   "firstSeenAt": "2026-10-24T08:16:22.282Z",
+   "lastSeenAt": "2026-10-24T08:16:22.282Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "xaDIoFqXC5g",
+   "title": "LIVE PEMANTAUAN CCTV LAPANGAN PEMDA GUNUNGKIDUL",
+   "channelId": "UCkEiJMkX7n3rZpZ2PDVc3Ow",
+   "channelTitle": "Kominfo Gunungkidul",
+   "firstSeenAt": "2026-10-24T08:16:22.282Z",
+   "lastSeenAt": "2026-10-24T08:16:22.282Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "J9Gkxc0IGkU",
+   "title": "LIVE PEMANTAUAN CCTV KAPANEWON RONGKOP TIMUR",
+   "channelId": "UCkEiJMkX7n3rZpZ2PDVc3Ow",
+   "channelTitle": "Kominfo Gunungkidul",
+   "firstSeenAt": "2026-10-24T08:16:22.282Z",
+   "lastSeenAt": "2026-10-24T08:16:22.282Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "J2Tw8DsVh00",
+   "title": "LIVE PEMANTAUAN CCTV LALULINTAS SIMPANG EMPAT KARANGMOJO BARAT",
+   "channelId": "UCkEiJMkX7n3rZpZ2PDVc3Ow",
+   "channelTitle": "Kominfo Gunungkidul",
+   "firstSeenAt": "2026-10-24T08:16:22.282Z",
+   "lastSeenAt": "2026-10-24T08:16:22.282Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "XhmQkH-8_qw",
+   "title": "LIVE PEMANTAUAN CCTV LALULINTAS BUNDERAN SIYONO",
+   "channelId": "UCkEiJMkX7n3rZpZ2PDVc3Ow",
+   "channelTitle": "Kominfo Gunungkidul",
+   "firstSeenAt": "2026-10-24T08:16:22.282Z",
+   "lastSeenAt": "2026-10-24T08:16:22.282Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "gEhipmUVeWc",
+   "title": "LIVE PEMANTAUAN CCTV LALULINTAS SIMPANG TIGA BUNDER",
+   "channelId": "UCkEiJMkX7n3rZpZ2PDVc3Ow",
+   "channelTitle": "Kominfo Gunungkidul",
+   "firstSeenAt": "2026-10-24T08:16:22.282Z",
+   "lastSeenAt": "2026-10-24T08:16:22.282Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "38iz5WrcT8o",
+   "title": "LIVE PEMANTAUAN CCTV LALULINTAS JJLS PLANJAN FIX",
+   "channelId": "UCkEiJMkX7n3rZpZ2PDVc3Ow",
+   "channelTitle": "Kominfo Gunungkidul",
+   "firstSeenAt": "2026-10-24T08:16:22.282Z",
+   "lastSeenAt": "2026-10-24T08:16:22.282Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "4xtLdfYhTmE",
+   "title": "LIVE PEMANTAUAN CCTV LALULINTAS TUGU SELAMAT DATANG PATUK 2",
+   "channelId": "UCkEiJMkX7n3rZpZ2PDVc3Ow",
+   "channelTitle": "Kominfo Gunungkidul",
+   "firstSeenAt": "2026-10-24T08:16:22.282Z",
+   "lastSeenAt": "2026-10-24T08:16:22.282Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "6S4qvf97cbQ",
+   "title": "【LIVE】静岡市さった峠　交通の要衝",
+   "channelId": "UCkUdb6wh-TE9MK7Q2VTE5-A",
+   "channelTitle": "静岡市さった峠 ライブカメラ",
+   "firstSeenAt": "2026-10-24T08:16:22.282Z",
+   "lastSeenAt": "2026-10-24T08:16:22.282Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "5jHCxMEGor0",
+   "title": "【LIVE】沖縄・石垣島（Ishigaki Island) Okinawa JAPAN｜RBC News",
+   "channelId": "UCl27leged0PT2kIrRtrFYKA",
+   "channelTitle": "【琉球放送】RBC NEWS",
+   "firstSeenAt": "2026-10-24T08:16:22.282Z",
+   "lastSeenAt": "2026-10-24T08:16:22.282Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "eQ_foBERmzA",
+   "title": "Live Jelly Cam | Monterey Bay Aquarium",
+   "channelId": "UCnM5iMGiKsZg-iOlIO2ZkdQ",
+   "channelTitle": "Monterey Bay Aquarium",
+   "firstSeenAt": "2026-10-24T08:16:22.282Z",
+   "lastSeenAt": "2026-10-24T08:16:22.282Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "tEtg5Kg3voQ",
+   "title": "Live Shark Cam | Monterey Bay Aquarium",
+   "channelId": "UCnM5iMGiKsZg-iOlIO2ZkdQ",
+   "channelTitle": "Monterey Bay Aquarium",
+   "firstSeenAt": "2026-10-24T08:16:22.282Z",
+   "lastSeenAt": "2026-10-24T08:16:22.282Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "abbR-Ttd-cA",
+   "title": "Live Sea Otter Cam | Monterey Bay Aquarium",
+   "channelId": "UCnM5iMGiKsZg-iOlIO2ZkdQ",
+   "channelTitle": "Monterey Bay Aquarium",
+   "firstSeenAt": "2026-10-24T08:16:22.282Z",
+   "lastSeenAt": "2026-10-24T08:16:22.282Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "zL68biE6wAs",
+   "title": "Live Moon Jelly Cam | Monterey Bay Aquarium",
+   "channelId": "UCnM5iMGiKsZg-iOlIO2ZkdQ",
+   "channelTitle": "Monterey Bay Aquarium",
+   "firstSeenAt": "2026-10-24T08:16:22.282Z",
+   "lastSeenAt": "2026-10-24T08:16:22.282Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "dzmJXWmA2EM",
+   "title": "Live Spider Crab Cam | Monterey Bay Aquarium",
+   "channelId": "UCnM5iMGiKsZg-iOlIO2ZkdQ",
+   "channelTitle": "Monterey Bay Aquarium",
+   "firstSeenAt": "2026-10-24T08:16:22.282Z",
+   "lastSeenAt": "2026-10-24T08:16:22.282Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "n_GpVsz4nHU",
+   "title": "Live Open Sea Cam | Monterey Bay Aquarium",
+   "channelId": "UCnM5iMGiKsZg-iOlIO2ZkdQ",
+   "channelTitle": "Monterey Bay Aquarium",
+   "firstSeenAt": "2026-10-24T08:16:22.282Z",
+   "lastSeenAt": "2026-10-24T08:16:22.282Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "AWJi0LgyA28",
+   "title": "Live Aviary Cam | Monterey Bay Aquarium",
+   "channelId": "UCnM5iMGiKsZg-iOlIO2ZkdQ",
+   "channelTitle": "Monterey Bay Aquarium",
+   "firstSeenAt": "2026-10-24T08:16:22.282Z",
+   "lastSeenAt": "2026-10-24T08:16:22.282Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "RtH22WvFgbs",
+   "title": "フランスでデモに紛れた破壊行為相次ぐ　アメリカでは道路に巨大な“パンプキン”車の前に…海外のニュースまとめ",
+   "channelId": "UCoQBJMzcwmXrRSHBFAlTsIw",
+   "channelTitle": "FNNプライムオンライン",
+   "firstSeenAt": "2026-10-24T08:16:22.282Z",
+   "lastSeenAt": "2026-10-24T08:16:22.282Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "D6j5Oe6gH7A",
+   "title": "台風30号“急カーブ”し列島接近か…接近前から“警報級”大雨も【まとめ】",
+   "channelId": "UCoQBJMzcwmXrRSHBFAlTsIw",
+   "channelTitle": "FNNプライムオンライン",
+   "firstSeenAt": "2026-10-24T08:16:22.282Z",
+   "lastSeenAt": "2026-10-24T08:16:22.282Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "kGG1CaeQ9oM",
+   "title": "【ライブ】お台場・レインボーブリッジ - 首都高　ライブカメラ　Rainbow Bridge - Tokyo, Japan　 Live Cam",
+   "channelId": "UCoQBJMzcwmXrRSHBFAlTsIw",
+   "channelTitle": "FNNプライムオンライン",
+   "firstSeenAt": "2026-10-24T08:16:22.282Z",
+   "lastSeenAt": "2026-10-24T08:16:22.282Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "xAQN-uKmE_0",
+   "title": "JR長崎駅カメラ【LIVE】",
+   "channelId": "UCpOBAWYh0T5Zz5S7uKIiEmQ",
+   "channelTitle": "長崎ケーブルメディア[公式]",
+   "firstSeenAt": "2026-10-24T08:16:22.282Z",
+   "lastSeenAt": "2026-10-24T08:16:22.282Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "ZoETGE0w5w8",
+   "title": "市役所カメラ【LIVE】",
+   "channelId": "UCpOBAWYh0T5Zz5S7uKIiEmQ",
+   "channelTitle": "長崎ケーブルメディア[公式]",
+   "firstSeenAt": "2026-10-24T08:16:22.282Z",
+   "lastSeenAt": "2026-10-24T08:16:22.282Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "ECA5G89gogI",
+   "title": "鍋冠山カメラ【LIVE】",
+   "channelId": "UCpOBAWYh0T5Zz5S7uKIiEmQ",
+   "channelTitle": "長崎ケーブルメディア[公式]",
+   "firstSeenAt": "2026-10-24T08:16:22.282Z",
+   "lastSeenAt": "2026-10-24T08:16:22.282Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "oif_zZFIfB4",
+   "title": "Camera cổng Sau bệnh viện C Đà Nẵng",
+   "channelId": "UCr5Z4Oi3UFwkM6sLPFDC6QA",
+   "channelTitle": "Phát Triển Đà Nẵng",
+   "firstSeenAt": "2026-10-24T08:16:22.282Z",
+   "lastSeenAt": "2026-10-24T08:16:22.282Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "sJvEFrG0wq0",
+   "title": "Camera cổng trường Nguyễn Huệ Đà Nẵng",
+   "channelId": "UCr5Z4Oi3UFwkM6sLPFDC6QA",
+   "channelTitle": "Phát Triển Đà Nẵng",
+   "firstSeenAt": "2026-10-24T08:16:22.282Z",
+   "lastSeenAt": "2026-10-24T08:16:22.282Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "G_G8A6JU_LI",
+   "title": "Camera PTZ Trang Phục biểu diễn Phương Trần Đà Nẵng",
+   "channelId": "UCr5Z4Oi3UFwkM6sLPFDC6QA",
+   "channelTitle": "Phát Triển Đà Nẵng",
+   "firstSeenAt": "2026-10-24T08:16:22.282Z",
+   "lastSeenAt": "2026-10-24T08:16:22.282Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "x8tUUv-NGXs",
+   "title": "Camera View Công Trình bệnh viện Đà Nẵng",
+   "channelId": "UCr5Z4Oi3UFwkM6sLPFDC6QA",
+   "channelTitle": "Phát Triển Đà Nẵng",
+   "firstSeenAt": "2026-10-24T08:16:22.282Z",
+   "lastSeenAt": "2026-10-24T08:16:22.282Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "ynokzE-tJGs",
+   "title": "Waikoloa Beach LIVE 4K | Marriott Resort &amp; Spa Webcam | Big Island, Hawaii",
+   "channelId": "UCspnu6n44ydqafj6nFIw5hw",
+   "channelTitle": "Ozolio Plus",
+   "firstSeenAt": "2026-10-24T08:16:22.282Z",
+   "lastSeenAt": "2026-10-24T08:16:22.282Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "5ITmKN3arIA",
+   "title": "Honolulu LIVE Cam | Ward Village, Oahu, Hawaii | Ocean &amp; Surf Views",
+   "channelId": "UCspnu6n44ydqafj6nFIw5hw",
+   "channelTitle": "Ozolio Plus",
+   "firstSeenAt": "2026-10-24T08:16:22.282Z",
+   "lastSeenAt": "2026-10-24T08:16:22.282Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "lSf2K0ntZFw",
+   "title": "Miami Skyline &amp; Biscayne Bay LIVE | MacArthur Causeway Webcam | Florida",
+   "channelId": "UCspnu6n44ydqafj6nFIw5hw",
+   "channelTitle": "Ozolio Plus",
+   "firstSeenAt": "2026-10-24T08:16:22.282Z",
+   "lastSeenAt": "2026-10-24T08:16:22.282Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "kCPppYpcY_s",
+   "title": "Park Shore Waikiki Hotel Live Cam | Waikiki Beach, Honolulu",
+   "channelId": "UCspnu6n44ydqafj6nFIw5hw",
+   "channelTitle": "Ozolio Plus",
+   "firstSeenAt": "2026-10-24T08:16:22.282Z",
+   "lastSeenAt": "2026-10-24T08:16:22.282Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "HuYWHvFWais",
+   "title": "Maui Live Beach Cam | Sheraton Maui Resort &amp; Spa | Kaanapali Beach Hawaii",
+   "channelId": "UCspnu6n44ydqafj6nFIw5hw",
+   "channelTitle": "Ozolio Plus",
+   "firstSeenAt": "2026-10-24T08:16:22.282Z",
+   "lastSeenAt": "2026-10-24T08:16:22.282Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "tuj4OvU6UZI",
+   "title": "LIVE Kauai Beach Cam | Sheraton Kauai Resort, Hawaii",
+   "channelId": "UCspnu6n44ydqafj6nFIw5hw",
+   "channelTitle": "Ozolio Plus",
+   "firstSeenAt": "2026-10-24T08:16:22.282Z",
+   "lastSeenAt": "2026-10-24T08:16:22.282Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "X1ez56Zf6OY",
+   "title": "Lyme Regis Live Cam | Jurassic Coast, Dorset, England",
+   "channelId": "UCspnu6n44ydqafj6nFIw5hw",
+   "channelTitle": "Ozolio Plus",
+   "firstSeenAt": "2026-10-24T08:16:22.282Z",
+   "lastSeenAt": "2026-10-24T08:16:22.282Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "IaN4p1SpLZY",
+   "title": "LIVE Myrtle Beach Cam | Grand Shores Resort Oceanfront | South Carolina Cam",
+   "channelId": "UCspnu6n44ydqafj6nFIw5hw",
+   "channelTitle": "Ozolio Plus",
+   "firstSeenAt": "2026-10-24T08:16:22.282Z",
+   "lastSeenAt": "2026-10-24T08:16:22.282Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "mrUciA_XZxA",
+   "title": "Wailea Beach LIVE Cam | Wailea Beach Resort – Marriott, Maui, Hawaii",
+   "channelId": "UCspnu6n44ydqafj6nFIw5hw",
+   "channelTitle": "Ozolio Plus",
+   "firstSeenAt": "2026-10-24T08:16:22.282Z",
+   "lastSeenAt": "2026-10-24T08:16:22.282Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "CQO1Ka7HqCg",
+   "title": "대전실시간 대전라이브 대전엑스포과학공원 한빛광장 LiveCam I &quot;ExpoSciencePark,Hanbit Square&quot;,Daejeon,Korea I 대전관광공사 대전여행",
+   "channelId": "UCsy6UOjk8q7Ajq9yQ7iDAbA",
+   "channelTitle": "GiGAeyes Live TV",
+   "firstSeenAt": "2026-10-24T08:16:22.282Z",
+   "lastSeenAt": "2026-10-24T08:16:22.282Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "GRwcf4_ZDYo",
+   "title": "서울실시간 롯데월드라이브 Live Cam I &quot;Lotte World&quot;, Seoul,Korea I 서울라이브 乐天世界 ロッテワールド롯데월드실시간 롯데월드혼잡도 SeoulLive",
+   "channelId": "UCsy6UOjk8q7Ajq9yQ7iDAbA",
+   "channelTitle": "GiGAeyes Live TV",
+   "firstSeenAt": "2026-10-24T08:16:22.282Z",
+   "lastSeenAt": "2026-10-24T08:16:22.282Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "ZddW7k1ZXr4",
+   "title": "강릉실시간 강문해변 Live Cam I &quot;Gangmoon beach&quot;, Gangwondo, Korea I 강릉바다 바다실시간 여행지 강원도일출 강릉일출",
+   "channelId": "UCsy6UOjk8q7Ajq9yQ7iDAbA",
+   "channelTitle": "GiGAeyes Live TV",
+   "firstSeenAt": "2026-10-24T08:16:22.282Z",
+   "lastSeenAt": "2026-10-24T08:16:22.282Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "C3hW1VrwmNc",
+   "title": "서울실시간 서울역광장 Live Cam I &quot;Seoul Station Plaza&quot;. Seoul,Korea I 서울역 서울여행 서울광장 서울시 SeoulStation ソウル駅広場",
+   "channelId": "UCsy6UOjk8q7Ajq9yQ7iDAbA",
+   "channelTitle": "GiGAeyes Live TV",
+   "firstSeenAt": "2026-10-24T08:16:22.282Z",
+   "lastSeenAt": "2026-10-24T08:16:22.282Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "udRDI1uDdvQ",
+   "title": "제주도실시간 성산일출봉라이브 Live Cam I &quot;Seongsan Ilchulbong&quot;, Jejudo,korea I SeongsanSunrisePark 济州岛城山日出峰 백색소음",
+   "channelId": "UCsy6UOjk8q7Ajq9yQ7iDAbA",
+   "channelTitle": "GiGAeyes Live TV",
+   "firstSeenAt": "2026-10-24T08:16:22.282Z",
+   "lastSeenAt": "2026-10-24T08:16:22.282Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "r06QHbh05qM",
+   "title": "포항실시간 호미곶광장라이브 Live Cam I &quot;Homigot Sunrise Square&quot;, Pohang,Korea I 포항호미곶해맞이광장 포항일출 포항바다 포항호미곶일출 상생의손",
+   "channelId": "UCsy6UOjk8q7Ajq9yQ7iDAbA",
+   "channelTitle": "GiGAeyes Live TV",
+   "firstSeenAt": "2026-10-24T08:16:22.282Z",
+   "lastSeenAt": "2026-10-24T08:16:22.282Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "IcTMxC_k57A",
+   "title": "서울실시간 경복궁 Live Cam I &quot;Gyeongbokgung&quot;, Seoul, Korea I 광화문 궁 けいふくきゅう 景福宫 서울관광 首爾風景 한국",
+   "channelId": "UCsy6UOjk8q7Ajq9yQ7iDAbA",
+   "channelTitle": "GiGAeyes Live TV",
+   "firstSeenAt": "2026-10-24T08:16:22.282Z",
+   "lastSeenAt": "2026-10-24T08:16:22.282Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "JnJhFYhIjFs",
+   "title": "Port of Helsinki - West harbour - north cam",
+   "channelId": "UCuaFFNhZkcEg2JjEPvzjzzw",
+   "channelTitle": "Port of Helsinki",
+   "firstSeenAt": "2026-10-24T08:16:22.282Z",
+   "lastSeenAt": "2026-10-24T08:16:22.282Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "CvOB-Is_yYU",
+   "title": "Port of Helsinki - South Harbour Live (Live Camera Axis Q6155-E)",
+   "channelId": "UCuaFFNhZkcEg2JjEPvzjzzw",
+   "channelTitle": "Port of Helsinki",
+   "firstSeenAt": "2026-10-24T08:16:22.282Z",
+   "lastSeenAt": "2026-10-24T08:16:22.282Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
   }
  ],
- "channelCursor": 58
+ "channelCursor": 73
 }
