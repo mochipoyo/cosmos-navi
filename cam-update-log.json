@@ -3304,6 +3304,75 @@
     "webcams.json": "OK（3063件）",
     "webcams-status.json": "OK（3063件）"
    }
+  },
+  {
+   "at": "2026-10-25T08:34:51.439Z",
+   "job": "update-livecams",
+   "ok": true,
+   "fatal": null,
+   "api": "ok",
+   "live": 86,
+   "total": 97,
+   "quota": {
+    "day": "2026-10-25",
+    "used": 4,
+    "search": 4,
+    "limit": 8000,
+    "searchLimit": 70
+   },
+   "ms": 4901
+  },
+  {
+   "at": "2026-10-25T08:34:56.400Z",
+   "job": "check-stills",
+   "ok": true,
+   "fatal": null,
+   "probed": 3063,
+   "sources": {
+    "digitraffic": {
+     "total": 815,
+     "checked": 815,
+     "live": 802,
+     "stale": 13,
+     "offline": 0,
+     "unknown": 0
+    },
+    "drivebc": {
+     "total": 985,
+     "checked": 985,
+     "live": 0,
+     "stale": 0,
+     "offline": 0,
+     "unknown": 985
+    },
+    "hongkong": {
+     "total": 1013,
+     "checked": 1013,
+     "live": 1013,
+     "stale": 0,
+     "offline": 0,
+     "unknown": 0
+    },
+    "nsw": {
+     "total": 250,
+     "checked": 250,
+     "live": 0,
+     "stale": 1,
+     "offline": 0,
+     "unknown": 249
+    }
+   },
+   "ms": 175540
+  },
+  {
+   "at": "2026-10-25T08:37:52.062Z",
+   "job": "validate",
+   "ok": true,
+   "report": {
+    "livecams.json": "OK（97件）",
+    "webcams.json": "OK（3063件）",
+    "webcams-status.json": "OK（3063件）"
+   }
   }
  ]
 }
