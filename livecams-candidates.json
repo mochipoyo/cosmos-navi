@@ -1,9 +1,9 @@
 {
  "schema": 1,
  "meta": {
-  "updatedAt": "2026-10-24T08:16:22.282Z",
+  "updatedAt": "2026-10-25T08:34:28.574Z",
   "status": "ok",
-  "message": "チャンネル 15 件を確認し、新しい候補 62 件",
+  "message": "チャンネル 15 件を確認し、新しい候補 49 件",
   "searchCalls": 15
  },
  "candidates": [
@@ -13,7 +13,7 @@
    "channelId": "UC1tBnbs03VJ34oLD8cmJSVw",
    "channelTitle": "Webcamtaxi",
    "firstSeenAt": "2026-10-17T13:29:04.587Z",
-   "lastSeenAt": "2026-10-17T13:29:04.587Z",
+   "lastSeenAt": "2026-10-25T08:34:28.574Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -23,7 +23,7 @@
    "channelId": "UC1tBnbs03VJ34oLD8cmJSVw",
    "channelTitle": "Webcamtaxi",
    "firstSeenAt": "2026-10-17T13:29:04.587Z",
-   "lastSeenAt": "2026-10-17T13:29:04.587Z",
+   "lastSeenAt": "2026-10-25T08:34:28.574Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -2246,7 +2246,497 @@
    "lastSeenAt": "2026-10-24T08:16:22.282Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
+  },
+  {
+   "videoId": "4zTR72UGZ04",
+   "title": "河口湖遊覧船「天晴(あっぱれ)」ライブカメラ／Lake Kawaguchiko Sightseeing Boat &quot;Appare&quot;",
+   "channelId": "UCwzJctz6m-0wG_evkheecZA",
+   "channelTitle": "フジヤマNAVI",
+   "firstSeenAt": "2026-10-25T08:34:28.574Z",
+   "lastSeenAt": "2026-10-25T08:34:28.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "Joer2U0vki4",
+   "title": "富士山二合目のテーマパーク「ぐりんぱ」（静岡県）ライブカメラ/ &quot;Live Camera of &#39;Grinpa&#39; Theme Park at the 2nd Station of Mt. Fuji",
+   "channelId": "UCwzJctz6m-0wG_evkheecZA",
+   "channelTitle": "フジヤマNAVI",
+   "firstSeenAt": "2026-10-25T08:34:28.574Z",
+   "lastSeenAt": "2026-10-25T08:34:28.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "YCtAXDnsyYY",
+   "title": "「箱根遊船 SORAKAZE」ライブカメラ  / Live camera ”SORAKAZE”(Hakone Cruise Ship)",
+   "channelId": "UCwzJctz6m-0wG_evkheecZA",
+   "channelTitle": "フジヤマNAVI",
+   "firstSeenAt": "2026-10-25T08:34:28.574Z",
+   "lastSeenAt": "2026-10-25T08:34:28.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "jBPc3TGZin8",
+   "title": "十国峠ライブカメラ（駿河湾ビュー）Live from Hakone-Jukkoku Pass",
+   "channelId": "UCwzJctz6m-0wG_evkheecZA",
+   "channelTitle": "フジヤマNAVI",
+   "firstSeenAt": "2026-10-25T08:34:28.574Z",
+   "lastSeenAt": "2026-10-25T08:34:28.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "0KMeH_vh0Bk",
+   "title": "FUJISAN ROOFTOP TERRACE 富士山駅屋上ライブカメラ／“FUJISAN ROOFTOP TERRACE”,Fujikyu Railway Mt.Fuji Station",
+   "channelId": "UCwzJctz6m-0wG_evkheecZA",
+   "channelTitle": "フジヤマNAVI",
+   "firstSeenAt": "2026-10-25T08:34:28.574Z",
+   "lastSeenAt": "2026-10-25T08:34:28.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "4Hro9QIrsYA",
+   "title": "十国峠ライブカメラ（富士山ビュー） / Live Camera Jukkoku（view of Mt.Fuji）",
+   "channelId": "UCwzJctz6m-0wG_evkheecZA",
+   "channelTitle": "フジヤマNAVI",
+   "firstSeenAt": "2026-10-25T08:34:28.574Z",
+   "lastSeenAt": "2026-10-25T08:34:28.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "_6nLps25Kws",
+   "title": "FUJIYAMAタワーライブカメラ／Live stream of Mt.Fuji from &quot;FUJIYAMA TOWER&quot; , Fuji-Q Highland",
+   "channelId": "UCwzJctz6m-0wG_evkheecZA",
+   "channelTitle": "フジヤマNAVI",
+   "firstSeenAt": "2026-10-25T08:34:28.574Z",
+   "lastSeenAt": "2026-10-25T08:34:28.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "Gn2CJjzY068",
+   "title": "ホテルマウント富士ライブカメラ/Live Camera Hotel Mt.fuji",
+   "channelId": "UCwzJctz6m-0wG_evkheecZA",
+   "channelTitle": "フジヤマNAVI",
+   "firstSeenAt": "2026-10-25T08:34:28.574Z",
+   "lastSeenAt": "2026-10-25T08:34:28.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "JGyGoXlKZmw",
+   "title": "富士本栖湖リゾート（富士芝桜まつり会場）ライブカメラ / Live Camera ”Fuji Motosuko Resort”",
+   "channelId": "UCwzJctz6m-0wG_evkheecZA",
+   "channelTitle": "フジヤマNAVI",
+   "firstSeenAt": "2026-10-25T08:34:28.574Z",
+   "lastSeenAt": "2026-10-25T08:34:28.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "nh0TUmU-Sko",
+   "title": "忍野しのびの里ライブカメラ／Live stream of Mt.Fuji from &quot;Oshino Ninja Village&quot;",
+   "channelId": "UCwzJctz6m-0wG_evkheecZA",
+   "channelTitle": "フジヤマNAVI",
+   "firstSeenAt": "2026-10-25T08:34:28.574Z",
+   "lastSeenAt": "2026-10-25T08:34:28.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "kFxyBm56WPk",
+   "title": "【LIVE】京都 銀閣寺ライブ中継カメラ／Ginkaku-ji Temple, Kyoto Live camera",
+   "channelId": "UCyVf8FIJ-kFpzUadi7_tgZQ",
+   "channelTitle": "京都観光混雑状況Live",
+   "firstSeenAt": "2026-10-25T08:34:28.574Z",
+   "lastSeenAt": "2026-10-25T08:34:28.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "bK9vpKisRnQ",
+   "title": "【LIVE】京都 永観堂ライブ中継カメラ／Eikando (Zenrin-ji Temple), Kyoto Live camera",
+   "channelId": "UCyVf8FIJ-kFpzUadi7_tgZQ",
+   "channelTitle": "京都観光混雑状況Live",
+   "firstSeenAt": "2026-10-25T08:34:28.574Z",
+   "lastSeenAt": "2026-10-25T08:34:28.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "cUnYPpK7ENk",
+   "title": "【LIVE】京都 清水坂ライブ中継カメラ／Kiyomizu-zaka, Kyoto Live camera",
+   "channelId": "UCyVf8FIJ-kFpzUadi7_tgZQ",
+   "channelTitle": "京都観光混雑状況Live",
+   "firstSeenAt": "2026-10-25T08:34:28.574Z",
+   "lastSeenAt": "2026-10-25T08:34:28.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "P0jNz4sEbsg",
+   "title": "【LIVE】京都 道の駅ウッディー京北ライブ中継カメラ／Michi-no-Eki Woody Keihoku, Kyoto Live camera",
+   "channelId": "UCyVf8FIJ-kFpzUadi7_tgZQ",
+   "channelTitle": "京都観光混雑状況Live",
+   "firstSeenAt": "2026-10-25T08:34:28.574Z",
+   "lastSeenAt": "2026-10-25T08:34:28.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "AhFQvPJe_Yk",
+   "title": "【LIVE】京都 東大路通・五条坂ライブ中継カメラ／HigashiojiDori Gojo-zaka",
+   "channelId": "UCyVf8FIJ-kFpzUadi7_tgZQ",
+   "channelTitle": "京都観光混雑状況Live",
+   "firstSeenAt": "2026-10-25T08:34:28.574Z",
+   "lastSeenAt": "2026-10-25T08:34:28.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "QKqHuf0O3yw",
+   "title": "【LIVE】京都 寂光院ライブ中継カメラ／Jakkoin Temple, Kyoto Live camera",
+   "channelId": "UCyVf8FIJ-kFpzUadi7_tgZQ",
+   "channelTitle": "京都観光混雑状況Live",
+   "firstSeenAt": "2026-10-25T08:34:28.574Z",
+   "lastSeenAt": "2026-10-25T08:34:28.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "5hlP34DHcFk",
+   "title": "【LIVE】京都 城南宮ライブ中継カメラ／Jonangu Shrine, Kyoto Live camera",
+   "channelId": "UCyVf8FIJ-kFpzUadi7_tgZQ",
+   "channelTitle": "京都観光混雑状況Live",
+   "firstSeenAt": "2026-10-25T08:34:28.574Z",
+   "lastSeenAt": "2026-10-25T08:34:28.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "Z37hOWHiGKw",
+   "title": "【LIVE】京都 醍醐寺ライブ中継カメラ／Daigoji Temple, Kyoto Live camera",
+   "channelId": "UCyVf8FIJ-kFpzUadi7_tgZQ",
+   "channelTitle": "京都観光混雑状況Live",
+   "firstSeenAt": "2026-10-25T08:34:28.574Z",
+   "lastSeenAt": "2026-10-25T08:34:28.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "eJAqPCdS1cY",
+   "title": "【LIVE】京都 貴船神社ライブ中継カメラ／Kifune-jinja Shrine, Kyoto Live camera",
+   "channelId": "UCyVf8FIJ-kFpzUadi7_tgZQ",
+   "channelTitle": "京都観光混雑状況Live",
+   "firstSeenAt": "2026-10-25T08:34:28.574Z",
+   "lastSeenAt": "2026-10-25T08:34:28.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "rjQZjpEjnc4",
+   "title": "【LIVE】京都 神護寺ライブ中継カメラ／Jingoji Temple, Kyoto Live camera",
+   "channelId": "UCyVf8FIJ-kFpzUadi7_tgZQ",
+   "channelTitle": "京都観光混雑状況Live",
+   "firstSeenAt": "2026-10-25T08:34:28.574Z",
+   "lastSeenAt": "2026-10-25T08:34:28.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "mEqMdNLcpGY",
+   "title": "【LIVE】京都 大原野神社ライブ中継カメラ／Oharano-jinja Shrine, Kyoto Live camera",
+   "channelId": "UCyVf8FIJ-kFpzUadi7_tgZQ",
+   "channelTitle": "京都観光混雑状況Live",
+   "firstSeenAt": "2026-10-25T08:34:28.574Z",
+   "lastSeenAt": "2026-10-25T08:34:28.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "-m_nQT62B4Y",
+   "title": "Kitten Rescue Cat Cam powered by EXPLORE.org",
+   "channelId": "UC-2KSeUU5SMCX6XLRD-AEvw",
+   "channelTitle": "Explore Live Nature Cams",
+   "firstSeenAt": "2026-10-25T08:34:28.574Z",
+   "lastSeenAt": "2026-10-25T08:34:28.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "J7ZrIDvqlic",
+   "title": "LIVE Brooks Falls - Katmai National Park, Alaska 2026 | explore.org",
+   "channelId": "UC-2KSeUU5SMCX6XLRD-AEvw",
+   "channelTitle": "Explore Live Nature Cams",
+   "firstSeenAt": "2026-10-25T08:34:28.574Z",
+   "lastSeenAt": "2026-10-25T08:34:28.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "Fz6sl9YJZE0",
+   "title": "Underwater Manatee Cam At Homosassa Springs | Fall in love with the beloved sea cows! | explore.org",
+   "channelId": "UC-2KSeUU5SMCX6XLRD-AEvw",
+   "channelTitle": "Explore Live Nature Cams",
+   "firstSeenAt": "2026-10-25T08:34:28.574Z",
+   "lastSeenAt": "2026-10-25T08:34:28.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "5e4lsEe4Vew",
+   "title": "International Wolf Center North Camera powered by EXPLORE.org",
+   "channelId": "UC-2KSeUU5SMCX6XLRD-AEvw",
+   "channelTitle": "Explore Live Nature Cams",
+   "firstSeenAt": "2026-10-25T08:34:28.574Z",
+   "lastSeenAt": "2026-10-25T08:34:28.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "GGIE1E-kaMQ",
+   "title": "Decorah Eagles - North Nest - 4k powered by EXPLORE.org",
+   "channelId": "UC-2KSeUU5SMCX6XLRD-AEvw",
+   "channelTitle": "Explore Live Nature Cams",
+   "firstSeenAt": "2026-10-25T08:34:28.574Z",
+   "lastSeenAt": "2026-10-25T08:34:28.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "RhP-_jX8-Zs",
+   "title": "LIVE Anan Bear Cam: Lower Falls &amp; Caves – Alaska | explore.org",
+   "channelId": "UC-2KSeUU5SMCX6XLRD-AEvw",
+   "channelTitle": "Explore Live Nature Cams",
+   "firstSeenAt": "2026-10-25T08:34:28.574Z",
+   "lastSeenAt": "2026-10-25T08:34:28.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "GoCh3Rw2fH4",
+   "title": "🔴 Madeira Island Live Rolling Multi-cam  Streaming 24/7  –  13 cams and local weather",
+   "channelId": "UC1tBnbs03VJ34oLD8cmJSVw",
+   "channelTitle": "Webcamtaxi",
+   "firstSeenAt": "2026-10-25T08:34:28.574Z",
+   "lastSeenAt": "2026-10-25T08:34:28.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "2m_6K6GETGI",
+   "title": "🔴 LIVE: CR7 Museum PTZ Webcam Funchal, Madeira Island @WebcamTaxi",
+   "channelId": "UC1tBnbs03VJ34oLD8cmJSVw",
+   "channelTitle": "Webcamtaxi",
+   "firstSeenAt": "2026-10-25T08:34:28.574Z",
+   "lastSeenAt": "2026-10-25T08:34:28.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "Q_AnKD9JxyU",
+   "title": "🔴 LIVE: Paul do Mar WebCam 24/7 | O Precipício, Fajã da Ovelha | @WebcamTaxi",
+   "channelId": "UC1tBnbs03VJ34oLD8cmJSVw",
+   "channelTitle": "Webcamtaxi",
+   "firstSeenAt": "2026-10-25T08:34:28.574Z",
+   "lastSeenAt": "2026-10-25T08:34:28.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "p5wr7ZWfnhU",
+   "title": "🔴 LIVE: Forum Machico Webcam, Madeira, Portugal | @WebcamTaxi",
+   "channelId": "UC1tBnbs03VJ34oLD8cmJSVw",
+   "channelTitle": "Webcamtaxi",
+   "firstSeenAt": "2026-10-25T08:34:28.574Z",
+   "lastSeenAt": "2026-10-25T08:34:28.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "eo0G5fUmwtI",
+   "title": "🔴 LIVE: Madalena do Mar Webcam - Bar La Fronteira | Banana Plantations, Webcamtaxi",
+   "channelId": "UC1tBnbs03VJ34oLD8cmJSVw",
+   "channelTitle": "Webcamtaxi",
+   "firstSeenAt": "2026-10-25T08:34:28.574Z",
+   "lastSeenAt": "2026-10-25T08:34:28.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "lfrjNVD10RU",
+   "title": "LIVE Porto Webcam Ribeira and Vila Nova de Gaia – Oporto, Portugal",
+   "channelId": "UC1tBnbs03VJ34oLD8cmJSVw",
+   "channelTitle": "Webcamtaxi",
+   "firstSeenAt": "2026-10-25T08:34:28.574Z",
+   "lastSeenAt": "2026-10-25T08:34:28.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "vu7I315gQpU",
+   "title": "LIVE Underwater Salmon Cam - Katmai National Park, Alaska | explore.org",
+   "channelId": "UC2Sk0aXLq3ADkH_USGPKT_Q",
+   "channelTitle": "Explore Bears",
+   "firstSeenAt": "2026-10-25T08:34:28.574Z",
+   "lastSeenAt": "2026-10-25T08:34:28.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "z7_GhJeFxQI",
+   "title": "LIVE Riffles - Katmai National Park, Alaska | explore.org",
+   "channelId": "UC2Sk0aXLq3ADkH_USGPKT_Q",
+   "channelTitle": "Explore Bears",
+   "firstSeenAt": "2026-10-25T08:34:28.574Z",
+   "lastSeenAt": "2026-10-25T08:34:28.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "cTsjMtjRLCo",
+   "title": "LIVE Kat&#39;s River View - Katmai National Park, Alaska | explore.org",
+   "channelId": "UC2Sk0aXLq3ADkH_USGPKT_Q",
+   "channelTitle": "Explore Bears",
+   "firstSeenAt": "2026-10-25T08:34:28.574Z",
+   "lastSeenAt": "2026-10-25T08:34:28.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "wkVLYfU-Kew",
+   "title": "LIVE River Watch - Katmai National Park, Alaska | explore.org",
+   "channelId": "UC2Sk0aXLq3ADkH_USGPKT_Q",
+   "channelTitle": "Explore Bears",
+   "firstSeenAt": "2026-10-25T08:34:28.574Z",
+   "lastSeenAt": "2026-10-25T08:34:28.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "ypMu3yA7h3s",
+   "title": "LIVE Anan Bear Cam: Fishing Hole 4 – Alaska | explore.org",
+   "channelId": "UC2Sk0aXLq3ADkH_USGPKT_Q",
+   "channelTitle": "Explore Bears",
+   "firstSeenAt": "2026-10-25T08:34:28.574Z",
+   "lastSeenAt": "2026-10-25T08:34:28.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "G839-Yj4Cvo",
+   "title": "LIVE Anan Bear Cam: Fishing Hole 3 – Alaska | explore.org",
+   "channelId": "UC2Sk0aXLq3ADkH_USGPKT_Q",
+   "channelTitle": "Explore Bears",
+   "firstSeenAt": "2026-10-25T08:34:28.574Z",
+   "lastSeenAt": "2026-10-25T08:34:28.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "RjrRz3t5kO4",
+   "title": "LIVE Anan Bear Cam: Forest View – Alaska | explore.org",
+   "channelId": "UC2Sk0aXLq3ADkH_USGPKT_Q",
+   "channelTitle": "Explore Bears",
+   "firstSeenAt": "2026-10-25T08:34:28.574Z",
+   "lastSeenAt": "2026-10-25T08:34:28.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "BnPoNatG-HE",
+   "title": "高雄蓮池潭4K即時影像 Kaohsiung Lianchihtan (Lotus Pond)  4K Live Camera",
+   "channelId": "UC2lamMZjjT-Qcq-zIx6NrCw",
+   "channelTitle": "高雄旅遊網",
+   "firstSeenAt": "2026-10-25T08:34:28.574Z",
+   "lastSeenAt": "2026-10-25T08:34:28.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "tiPpFFdCkdY",
+   "title": "【4K Live】高雄壽山動物園－狐獴展區｜[4K Live] Shoushan Zoo, Kaohsiung: Meerkat Exhibit｜【4K ライブ】高雄 寿山動物園：ミーアキャット展示場",
+   "channelId": "UC2lamMZjjT-Qcq-zIx6NrCw",
+   "channelTitle": "高雄旅遊網",
+   "firstSeenAt": "2026-10-25T08:34:28.574Z",
+   "lastSeenAt": "2026-10-25T08:34:28.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "C03Itx8iSC0",
+   "title": "高雄壽山情人觀景台 4K即時影像 | Kaohsiung Shoushan Lovers&#39; Viewing Platform 4K Live Camera",
+   "channelId": "UC2lamMZjjT-Qcq-zIx6NrCw",
+   "channelTitle": "高雄旅遊網",
+   "firstSeenAt": "2026-10-25T08:34:28.574Z",
+   "lastSeenAt": "2026-10-25T08:34:28.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "veFwViz4_OI",
+   "title": "WebCam.NL | hotelletjedeveerman.nl | live ultraHD PTZ camera, Vlieland. (4K)",
+   "channelId": "UC3Bo0LNAeN_g5U4NJQDnL-w",
+   "channelTitle": "WebCam NL",
+   "firstSeenAt": "2026-10-25T08:34:28.574Z",
+   "lastSeenAt": "2026-10-25T08:34:28.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "8nn9fAr9LCE",
+   "title": "HARTBEACH.NL | ultraHD Pan Tilt Zoom camera | Scheveningen. (4K)",
+   "channelId": "UC3Bo0LNAeN_g5U4NJQDnL-w",
+   "channelTitle": "WebCam NL",
+   "firstSeenAt": "2026-10-25T08:34:28.574Z",
+   "lastSeenAt": "2026-10-25T08:34:28.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "ddOktSWPHj8",
+   "title": "WebCam.NL | Nieuwbouw Hibi, Amstelkwartier in Amsterdam. Live stream. (1080pHD)",
+   "channelId": "UC3Bo0LNAeN_g5U4NJQDnL-w",
+   "channelTitle": "WebCam NL",
+   "firstSeenAt": "2026-10-25T08:34:28.574Z",
+   "lastSeenAt": "2026-10-25T08:34:28.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "7gikDXbCmVo",
+   "title": "residenzhochalm.com | live HD camera Saalbach Hinterglemm. (AT.)",
+   "channelId": "UC3Bo0LNAeN_g5U4NJQDnL-w",
+   "channelTitle": "WebCam NL",
+   "firstSeenAt": "2026-10-25T08:34:28.574Z",
+   "lastSeenAt": "2026-10-25T08:34:28.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "o9MIV7sep5k",
+   "title": "WebCam.NL | dezaanseschans.nl | live ultraHD Pan Tilt Zoom camera Zaanse Schans.",
+   "channelId": "UC3Bo0LNAeN_g5U4NJQDnL-w",
+   "channelTitle": "WebCam NL",
+   "firstSeenAt": "2026-10-25T08:34:28.574Z",
+   "lastSeenAt": "2026-10-25T08:34:28.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "YGuNCdksqc4",
+   "title": "aanzeeoostvoorne.nl/webcam/ live ultraHD PTZ camera, Oostvoorne. (4K)",
+   "channelId": "UC3Bo0LNAeN_g5U4NJQDnL-w",
+   "channelTitle": "WebCam NL",
+   "firstSeenAt": "2026-10-25T08:34:28.574Z",
+   "lastSeenAt": "2026-10-25T08:34:28.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
   }
  ],
- "channelCursor": 73
+ "channelCursor": 11
 }
