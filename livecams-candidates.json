@@ -1,9 +1,9 @@
 {
  "schema": 1,
  "meta": {
-  "updatedAt": "2026-10-25T08:34:28.574Z",
+  "updatedAt": "2026-10-26T09:09:03.827Z",
   "status": "ok",
-  "message": "チャンネル 15 件を確認し、新しい候補 49 件",
+  "message": "チャンネル 15 件を確認し、新しい候補 64 件",
   "searchCalls": 15
  },
  "candidates": [
@@ -33,7 +33,7 @@
    "channelId": "UC5lNakfSdpqXCW214H5sBgQ",
    "channelTitle": "Ozolio Live",
    "firstSeenAt": "2026-10-17T13:29:04.587Z",
-   "lastSeenAt": "2026-10-17T13:29:04.587Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -53,7 +53,7 @@
    "channelId": "UC6qrG3W8SMK0jior2olka3g",
    "channelTitle": "EarthCam",
    "firstSeenAt": "2026-10-17T13:33:39.320Z",
-   "lastSeenAt": "2026-10-21T08:43:40.574Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -213,7 +213,7 @@
    "channelId": "UC5lNakfSdpqXCW214H5sBgQ",
    "channelTitle": "Ozolio Live",
    "firstSeenAt": "2026-10-21T08:43:40.574Z",
-   "lastSeenAt": "2026-10-21T08:43:40.574Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -223,7 +223,7 @@
    "channelId": "UC5lNakfSdpqXCW214H5sBgQ",
    "channelTitle": "Ozolio Live",
    "firstSeenAt": "2026-10-21T08:43:40.574Z",
-   "lastSeenAt": "2026-10-21T08:43:40.574Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -233,7 +233,7 @@
    "channelId": "UC5lNakfSdpqXCW214H5sBgQ",
    "channelTitle": "Ozolio Live",
    "firstSeenAt": "2026-10-21T08:43:40.574Z",
-   "lastSeenAt": "2026-10-21T08:43:40.574Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -243,7 +243,7 @@
    "channelId": "UC6AG81pAkf6Lbi_1VC5NmPA",
    "channelTitle": "TBS NEWS DIG Powered by JNN",
    "firstSeenAt": "2026-10-21T08:43:40.574Z",
-   "lastSeenAt": "2026-10-21T08:43:40.574Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -263,7 +263,7 @@
    "channelId": "UC6qrG3W8SMK0jior2olka3g",
    "channelTitle": "EarthCam",
    "firstSeenAt": "2026-10-21T08:43:40.574Z",
-   "lastSeenAt": "2026-10-21T08:43:40.574Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -273,7 +273,7 @@
    "channelId": "UC6qrG3W8SMK0jior2olka3g",
    "channelTitle": "EarthCam",
    "firstSeenAt": "2026-10-21T08:43:40.574Z",
-   "lastSeenAt": "2026-10-21T08:43:40.574Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -283,7 +283,7 @@
    "channelId": "UC6qrG3W8SMK0jior2olka3g",
    "channelTitle": "EarthCam",
    "firstSeenAt": "2026-10-21T08:43:40.574Z",
-   "lastSeenAt": "2026-10-21T08:43:40.574Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -293,7 +293,7 @@
    "channelId": "UC6qrG3W8SMK0jior2olka3g",
    "channelTitle": "EarthCam",
    "firstSeenAt": "2026-10-21T08:43:40.574Z",
-   "lastSeenAt": "2026-10-21T08:43:40.574Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -303,7 +303,7 @@
    "channelId": "UC6qrG3W8SMK0jior2olka3g",
    "channelTitle": "EarthCam",
    "firstSeenAt": "2026-10-21T08:43:40.574Z",
-   "lastSeenAt": "2026-10-21T08:43:40.574Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -313,7 +313,7 @@
    "channelId": "UC6qrG3W8SMK0jior2olka3g",
    "channelTitle": "EarthCam",
    "firstSeenAt": "2026-10-21T08:43:40.574Z",
-   "lastSeenAt": "2026-10-21T08:43:40.574Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -323,7 +323,7 @@
    "channelId": "UC6qrG3W8SMK0jior2olka3g",
    "channelTitle": "EarthCam",
    "firstSeenAt": "2026-10-21T08:43:40.574Z",
-   "lastSeenAt": "2026-10-21T08:43:40.574Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -333,7 +333,7 @@
    "channelId": "UC6qrG3W8SMK0jior2olka3g",
    "channelTitle": "EarthCam",
    "firstSeenAt": "2026-10-21T08:43:40.574Z",
-   "lastSeenAt": "2026-10-21T08:43:40.574Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -343,7 +343,7 @@
    "channelId": "UC6qrG3W8SMK0jior2olka3g",
    "channelTitle": "EarthCam",
    "firstSeenAt": "2026-10-21T08:43:40.574Z",
-   "lastSeenAt": "2026-10-21T08:43:40.574Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -423,7 +423,7 @@
    "channelId": "UCARB8y6PuoOBjZXJKIG-LDw",
    "channelTitle": "遊桃園 Taoyuan Travel",
    "firstSeenAt": "2026-10-21T08:43:40.574Z",
-   "lastSeenAt": "2026-10-21T08:43:40.574Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -433,7 +433,7 @@
    "channelId": "UCARB8y6PuoOBjZXJKIG-LDw",
    "channelTitle": "遊桃園 Taoyuan Travel",
    "firstSeenAt": "2026-10-21T08:43:40.574Z",
-   "lastSeenAt": "2026-10-21T08:43:40.574Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -443,7 +443,7 @@
    "channelId": "UCARB8y6PuoOBjZXJKIG-LDw",
    "channelTitle": "遊桃園 Taoyuan Travel",
    "firstSeenAt": "2026-10-21T08:43:40.574Z",
-   "lastSeenAt": "2026-10-21T08:43:40.574Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -453,7 +453,7 @@
    "channelId": "UCG1ApxYbWaC9xUxgHCWyR5Q",
    "channelTitle": "RKK NEWS DIG",
    "firstSeenAt": "2026-10-21T08:43:40.574Z",
-   "lastSeenAt": "2026-10-21T08:43:40.574Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -463,7 +463,7 @@
    "channelId": "UCGrZAL2OKyKHj5flMIVU72A",
    "channelTitle": "STV札幌テレビ放送 公式",
    "firstSeenAt": "2026-10-21T08:43:40.574Z",
-   "lastSeenAt": "2026-10-21T08:43:40.574Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -473,7 +473,7 @@
    "channelId": "UCGrZAL2OKyKHj5flMIVU72A",
    "channelTitle": "STV札幌テレビ放送 公式",
    "firstSeenAt": "2026-10-21T08:43:40.574Z",
-   "lastSeenAt": "2026-10-21T08:43:40.574Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -483,7 +483,7 @@
    "channelId": "UCGrZAL2OKyKHj5flMIVU72A",
    "channelTitle": "STV札幌テレビ放送 公式",
    "firstSeenAt": "2026-10-21T08:43:40.574Z",
-   "lastSeenAt": "2026-10-21T08:43:40.574Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -493,7 +493,7 @@
    "channelId": "UCJLjpq7pTJRbP3vtx0LxB9Q",
    "channelTitle": "Taipei Travel Live Cam  台北觀光即時影像 ",
    "firstSeenAt": "2026-10-21T08:43:40.574Z",
-   "lastSeenAt": "2026-10-21T08:43:40.574Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -503,7 +503,7 @@
    "channelId": "UCJLjpq7pTJRbP3vtx0LxB9Q",
    "channelTitle": "Taipei Travel Live Cam  台北觀光即時影像 ",
    "firstSeenAt": "2026-10-21T08:43:40.574Z",
-   "lastSeenAt": "2026-10-21T08:43:40.574Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -2736,7 +2736,647 @@
    "lastSeenAt": "2026-10-25T08:34:28.574Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
+  },
+  {
+   "videoId": "mXnigLvIL0Q",
+   "title": "【Live Cam】東海岸即時影像 - 石梯坪｜Shitiping｜石梯坪 2160p",
+   "channelId": "UC5FiBoG6GcB5QqsiOsGe22A",
+   "channelTitle": "東部海岸國家風景區管理處",
+   "firstSeenAt": "2026-10-26T09:09:03.827Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "JnD8Rk3o0BM",
+   "title": "【Live Cam】東海岸即時影像 - 長虹橋｜Changhong Bridge｜長虹橋 2160p",
+   "channelId": "UC5FiBoG6GcB5QqsiOsGe22A",
+   "channelTitle": "東部海岸國家風景區管理處",
+   "firstSeenAt": "2026-10-26T09:09:03.827Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "JkoXcXI04Qk",
+   "title": "【Live Cam】東海岸即時影像 - 大石鼻山｜Dashshibi Hill｜大石鼻山 2160p",
+   "channelId": "UC5FiBoG6GcB5QqsiOsGe22A",
+   "channelTitle": "東部海岸國家風景區管理處",
+   "firstSeenAt": "2026-10-26T09:09:03.827Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "wTHhv7M0vCI",
+   "title": "【Live Cam】東海岸即時影像 - 綠島南寮漁港｜Green Island Nanliao Fishing Harbor｜緑島南寮漁港 2160p｜台東綠島｜石朗潛水區",
+   "channelId": "UC5FiBoG6GcB5QqsiOsGe22A",
+   "channelTitle": "東部海岸國家風景區管理處",
+   "firstSeenAt": "2026-10-26T09:09:03.827Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "fv1yFousBvc",
+   "title": "【Live Cam】東海岸即時影像 - 綠島帆船鼻｜Fanchuanbi Grassland in Green Island｜緑島帆船鼻の大草原 2160p",
+   "channelId": "UC5FiBoG6GcB5QqsiOsGe22A",
+   "channelTitle": "東部海岸國家風景區管理處",
+   "firstSeenAt": "2026-10-26T09:09:03.827Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "ZdqHgQwvZOw",
+   "title": "【Live Cam】東海岸即時影像 - 金樽遊憩區｜Jinzun｜金樽休憩エリア 2160p",
+   "channelId": "UC5FiBoG6GcB5QqsiOsGe22A",
+   "channelTitle": "東部海岸國家風景區管理處",
+   "firstSeenAt": "2026-10-26T09:09:03.827Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "JhQuR77AR7U",
+   "title": "【Live Cam】東海岸即時影像 - 都歷遊客中心｜Torik Visitor Center｜都歷ビジターセンター 2160p",
+   "channelId": "UC5FiBoG6GcB5QqsiOsGe22A",
+   "channelTitle": "東部海岸國家風景區管理處",
+   "firstSeenAt": "2026-10-26T09:09:03.827Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "a8nJQr5rBGs",
+   "title": "【Live Cam】東海岸即時影像 - 綠島柴口浮潛區｜Chaikou Snorkeling Area｜柴口スノーケリングスポット 2160p｜台東綠島｜Green Island",
+   "channelId": "UC5FiBoG6GcB5QqsiOsGe22A",
+   "channelTitle": "東部海岸國家風景區管理處",
+   "firstSeenAt": "2026-10-26T09:09:03.827Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "AKl3F6cAY2Q",
+   "title": "【Live Cam】東海岸即時影像 - 加路蘭遊憩區｜Jialulan｜加路蘭休憩区 2160p",
+   "channelId": "UC5FiBoG6GcB5QqsiOsGe22A",
+   "channelTitle": "東部海岸國家風景區管理處",
+   "firstSeenAt": "2026-10-26T09:09:03.827Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "BnZngOFjals",
+   "title": "ITS - demolice budovy UTB Olšanská",
+   "channelId": "UC5TM19gnri1482mnGcfUKLw",
+   "channelTitle": "ITS akciová společnost",
+   "firstSeenAt": "2026-10-26T09:09:03.827Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "RecTp45_lSg",
+   "title": "ITS - Praha Vršovice živě",
+   "channelId": "UC5TM19gnri1482mnGcfUKLw",
+   "channelTitle": "ITS akciová společnost",
+   "firstSeenAt": "2026-10-26T09:09:03.827Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "4CK0CsimBHs",
+   "title": "Waikiki Beach LIVE Cam | Waikiki Beach Marriott Resort &amp; Spa, Hawaii",
+   "channelId": "UC5lNakfSdpqXCW214H5sBgQ",
+   "channelTitle": "Ozolio Live",
+   "firstSeenAt": "2026-10-26T09:09:03.827Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "q2Dxx5704fQ",
+   "title": "Miami International Airport (MIA) Live Cam | Embassy Suites by Hilton Miami International Airport",
+   "channelId": "UC5lNakfSdpqXCW214H5sBgQ",
+   "channelTitle": "Ozolio Live",
+   "firstSeenAt": "2026-10-26T09:09:03.827Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "YXji6UQ0bwY",
+   "title": "Live From Sheraton Maui Resort &amp; Spa | Maui Beach Webcam | Kaanapali Beach Hawaii",
+   "channelId": "UC5lNakfSdpqXCW214H5sBgQ",
+   "channelTitle": "Ozolio Live",
+   "firstSeenAt": "2026-10-26T09:09:03.827Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "taI7GiyvDxE",
+   "title": "The Royal Sonesta San Juan Live Cam | Puerto Rico Beach &amp; Resort View |",
+   "channelId": "UC5lNakfSdpqXCW214H5sBgQ",
+   "channelTitle": "Ozolio Live",
+   "firstSeenAt": "2026-10-26T09:09:03.827Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "cTi5sCsUSfc",
+   "title": "Penguin Cam Live | Pittsburgh Zoo &amp; PPG Aquarium Webcam",
+   "channelId": "UC5lNakfSdpqXCW214H5sBgQ",
+   "channelTitle": "Ozolio Live",
+   "firstSeenAt": "2026-10-26T09:09:03.827Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "GL_2CrLwSDA",
+   "title": "Wailea Beach Live Webcam | Maui, Hawaii – Wailea Beach Resort Marriott",
+   "channelId": "UC5lNakfSdpqXCW214H5sBgQ",
+   "channelTitle": "Ozolio Live",
+   "firstSeenAt": "2026-10-26T09:09:03.827Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "SGy0DhtAjxY",
+   "title": "【ニュースライブ】夜のニュース（Japan News Digest Live）最新情報など（10月26日）｜TBS NEWS DIG",
+   "channelId": "UC6AG81pAkf6Lbi_1VC5NmPA",
+   "channelTitle": "TBS NEWS DIG Powered by JNN",
+   "firstSeenAt": "2026-10-26T09:09:03.827Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "dYpspgeXSaQ",
+   "title": "【ライブ】 羽田空港 第2ターミナルのライブカメラ 現在の様子は？Haneda Airport&#39;s Terminal 2| TBS NEWS DIG",
+   "channelId": "UC6AG81pAkf6Lbi_1VC5NmPA",
+   "channelTitle": "TBS NEWS DIG Powered by JNN",
+   "firstSeenAt": "2026-10-26T09:09:03.827Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "u7kCTaCX_J4",
+   "title": "【ライブ】新宿駅前のライブカメラ 現在の様子は？ Shinjuku, Tokyo JAPAN | TBS NEWS DIG",
+   "channelId": "UC6AG81pAkf6Lbi_1VC5NmPA",
+   "channelTitle": "TBS NEWS DIG Powered by JNN",
+   "firstSeenAt": "2026-10-26T09:09:03.827Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "P3sGke9M59o",
+   "title": "EarthCam Live: Philadelphia, PA",
+   "channelId": "UC6qrG3W8SMK0jior2olka3g",
+   "channelTitle": "EarthCam",
+   "firstSeenAt": "2026-10-26T09:09:03.827Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "YeEMPcYCbgQ",
+   "title": "EarthCam Live:  Cayman Islands",
+   "channelId": "UC6qrG3W8SMK0jior2olka3g",
+   "channelTitle": "EarthCam",
+   "firstSeenAt": "2026-10-26T09:09:03.827Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "OSI8qWMoK5E",
+   "title": "EarthCam Live:  Flight 93 Memorial - Tower of Voices (Shanksville, PA)",
+   "channelId": "UC6qrG3W8SMK0jior2olka3g",
+   "channelTitle": "EarthCam",
+   "firstSeenAt": "2026-10-26T09:09:03.827Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "F1EQEDL4ddU",
+   "title": "EarthCam Live:  Liberty Bell - Independence Hall (Philadelphia, PA)",
+   "channelId": "UC6qrG3W8SMK0jior2olka3g",
+   "channelTitle": "EarthCam",
+   "firstSeenAt": "2026-10-26T09:09:03.827Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "KJuGU7v5oYw",
+   "title": "EarthCam Live: Bellagio Conservatory &amp; Botanical Gardens (Las Vegas, NV)",
+   "channelId": "UC6qrG3W8SMK0jior2olka3g",
+   "channelTitle": "EarthCam",
+   "firstSeenAt": "2026-10-26T09:09:03.827Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "kLoFxVhRWtQ",
+   "title": "EarthCam Live:  Roswell, New Mexico",
+   "channelId": "UC6qrG3W8SMK0jior2olka3g",
+   "channelTitle": "EarthCam",
+   "firstSeenAt": "2026-10-26T09:09:03.827Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "o5Ie_LpZ9uk",
+   "title": "EarthCam Live:  Statue of Liberty",
+   "channelId": "UC6qrG3W8SMK0jior2olka3g",
+   "channelTitle": "EarthCam",
+   "firstSeenAt": "2026-10-26T09:09:03.827Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "oDCAAfOSqvA",
+   "title": "EarthCam Live:  Washington Monument (Washington, D.C.)",
+   "channelId": "UC6qrG3W8SMK0jior2olka3g",
+   "channelTitle": "EarthCam",
+   "firstSeenAt": "2026-10-26T09:09:03.827Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "O0UGT7AT3aw",
+   "title": "EarthCam Live:  Chicago Skydeck Cam (Chicago, IL)",
+   "channelId": "UC6qrG3W8SMK0jior2olka3g",
+   "channelTitle": "EarthCam",
+   "firstSeenAt": "2026-10-26T09:09:03.827Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "XoANQufSSXY",
+   "title": "EarthCam Live:  Ruidoso, New Mexico",
+   "channelId": "UC6qrG3W8SMK0jior2olka3g",
+   "channelTitle": "EarthCam",
+   "firstSeenAt": "2026-10-26T09:09:03.827Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "tAdTOOsrZBQ",
+   "title": "EarthCam Live:  Anglins Pier (Lauderdale-By-The-Sea, FL)",
+   "channelId": "UC6qrG3W8SMK0jior2olka3g",
+   "channelTitle": "EarthCam",
+   "firstSeenAt": "2026-10-26T09:09:03.827Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "4L2l5fpCZGY",
+   "title": "MBC南日本放送",
+   "channelId": "UC7f4czw8TuG69HuVt_uXRtQ",
+   "channelTitle": "MBC南日本放送",
+   "firstSeenAt": "2026-10-26T09:09:03.827Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "AeMUdOPFcXI",
+   "title": "Namibia: Live stream at the Okaukuejo waterhole in Etosha National Park, Namibia",
+   "channelId": "UC9X6gGKDv2yhMoofoeS7-Gg",
+   "channelTitle": "NamibiaCam",
+   "firstSeenAt": "2026-10-26T09:09:03.827Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "ME0dPuBtzug",
+   "title": "Namibia: Live stream in the Kalahari Desert",
+   "channelId": "UC9X6gGKDv2yhMoofoeS7-Gg",
+   "channelTitle": "NamibiaCam",
+   "firstSeenAt": "2026-10-26T09:09:03.827Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "oFJ6gCaBb_Q",
+   "title": "Daxi Bridge Live Cam 大溪橋即時影像",
+   "channelId": "UCARB8y6PuoOBjZXJKIG-LDw",
+   "channelTitle": "遊桃園 Taoyuan Travel",
+   "firstSeenAt": "2026-10-26T09:09:03.827Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "tD_a03trUvE",
+   "title": "【4K】Yongan Fishing Harbor Live Cam 永安漁港即時影像",
+   "channelId": "UCARB8y6PuoOBjZXJKIG-LDw",
+   "channelTitle": "遊桃園 Taoyuan Travel",
+   "firstSeenAt": "2026-10-26T09:09:03.827Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "68GFgzQxrXs",
+   "title": "【4K】Taiwan Taoyuan International Airport (TPE/RCTP)｜ Live Camera ｜桃園國際機場｜桃園國際機場凱悅酒店",
+   "channelId": "UCARB8y6PuoOBjZXJKIG-LDw",
+   "channelTitle": "遊桃園 Taoyuan Travel",
+   "firstSeenAt": "2026-10-26T09:09:03.827Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "GUCaVR88ZFU",
+   "title": "Shihmen Reservoir Live Cam 石門水庫即時影像",
+   "channelId": "UCARB8y6PuoOBjZXJKIG-LDw",
+   "channelTitle": "遊桃園 Taoyuan Travel",
+   "firstSeenAt": "2026-10-26T09:09:03.827Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "3Za9y4z_Lzc",
+   "title": "Jiaobanshan Siqin Pavilion Live Cam 角板山思親亭即時影像",
+   "channelId": "UCARB8y6PuoOBjZXJKIG-LDw",
+   "channelTitle": "遊桃園 Taoyuan Travel",
+   "firstSeenAt": "2026-10-26T09:09:03.827Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "0D6QgDOdI6c",
+   "title": "【2K】Taiwan Taoyuan International Airport (TPE/RCTP)｜Dual View with Flight Info｜桃園國際機場｜凱悅酒店｜動態資訊頻道",
+   "channelId": "UCARB8y6PuoOBjZXJKIG-LDw",
+   "channelTitle": "遊桃園 Taoyuan Travel",
+   "firstSeenAt": "2026-10-26T09:09:03.827Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "tu_gsIkNt-w",
+   "title": "【4K】Hutoushan Environmental Park Live Cam 虎頭山環保公園即時影像",
+   "channelId": "UCARB8y6PuoOBjZXJKIG-LDw",
+   "channelTitle": "遊桃園 Taoyuan Travel",
+   "firstSeenAt": "2026-10-26T09:09:03.827Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "AF550Wx7Ba0",
+   "title": "Back Cihu Live Cam 後慈湖即時影像",
+   "channelId": "UCARB8y6PuoOBjZXJKIG-LDw",
+   "channelTitle": "遊桃園 Taoyuan Travel",
+   "firstSeenAt": "2026-10-26T09:09:03.827Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "44JArbF682k",
+   "title": "【4K】Xucuogang Wetland Live Cam 許厝港濕地即時影像",
+   "channelId": "UCARB8y6PuoOBjZXJKIG-LDw",
+   "channelTitle": "遊桃園 Taoyuan Travel",
+   "firstSeenAt": "2026-10-26T09:09:03.827Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "XEbo8NzMTbQ",
+   "title": "Jiaobanshan Eco Pond Live Cam 角板山生態池即時影像",
+   "channelId": "UCARB8y6PuoOBjZXJKIG-LDw",
+   "channelTitle": "遊桃園 Taoyuan Travel",
+   "firstSeenAt": "2026-10-26T09:09:03.827Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "91PfFoqvuUk",
+   "title": "【4K】Taiwan Taoyuan International Airport (TPE/RCTP) Live Camera 24/7 桃園國際機場即時影像｜桃園機場",
+   "channelId": "UCARB8y6PuoOBjZXJKIG-LDw",
+   "channelTitle": "遊桃園 Taoyuan Travel",
+   "firstSeenAt": "2026-10-26T09:09:03.827Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "nV-DKquUjFs",
+   "title": "【4K】Taoyuan Baling Live Cam 上巴陵即時影像",
+   "channelId": "UCARB8y6PuoOBjZXJKIG-LDw",
+   "channelTitle": "遊桃園 Taoyuan Travel",
+   "firstSeenAt": "2026-10-26T09:09:03.827Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "yQSmajHyMhU",
+   "title": "Hutoushan Owl Forest School Live Cam 虎頭山奧爾森林學堂即時影像",
+   "channelId": "UCARB8y6PuoOBjZXJKIG-LDw",
+   "channelTitle": "遊桃園 Taoyuan Travel",
+   "firstSeenAt": "2026-10-26T09:09:03.827Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "-xT1bZhWLuU",
+   "title": "Jiaobanshan Plum Orchard Live Cam 角板山梅園即時影像",
+   "channelId": "UCARB8y6PuoOBjZXJKIG-LDw",
+   "channelTitle": "遊桃園 Taoyuan Travel",
+   "firstSeenAt": "2026-10-26T09:09:03.827Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "3JzbzXqusDg",
+   "title": "【4K】The Baling Malun Fort Observation Deck Live Cam 巴陵馬崙砲台觀景平台即時影像",
+   "channelId": "UCARB8y6PuoOBjZXJKIG-LDw",
+   "channelTitle": "遊桃園 Taoyuan Travel",
+   "firstSeenAt": "2026-10-26T09:09:03.827Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "YkIUZjVlhv4",
+   "title": "Lala Mountain Live Cam 拉拉山遊客中心即時影像",
+   "channelId": "UCARB8y6PuoOBjZXJKIG-LDw",
+   "channelTitle": "遊桃園 Taoyuan Travel",
+   "firstSeenAt": "2026-10-26T09:09:03.827Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "pSQ0e-ZTZ5g",
+   "title": "Cihu Memorial Sculpture Park Live Cam 慈湖水岸廣場即時影像",
+   "channelId": "UCARB8y6PuoOBjZXJKIG-LDw",
+   "channelTitle": "遊桃園 Taoyuan Travel",
+   "firstSeenAt": "2026-10-26T09:09:03.827Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "BxMeMnX6Qqw",
+   "title": "【4K】Taiwan Taoyuan International Airport (TPE/RCTP) ｜Live Camera 3｜桃園國際機場｜大古山",
+   "channelId": "UCARB8y6PuoOBjZXJKIG-LDw",
+   "channelTitle": "遊桃園 Taoyuan Travel",
+   "firstSeenAt": "2026-10-26T09:09:03.827Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "OYO_IZpUhOw",
+   "title": "人吉市内ライブカメラ",
+   "channelId": "UCG1ApxYbWaC9xUxgHCWyR5Q",
+   "channelTitle": "RKK NEWS DIG",
+   "firstSeenAt": "2026-10-26T09:09:03.827Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "HfSrh4sZf1U",
+   "title": "熊本県天草市牛深町ライブカメラ",
+   "channelId": "UCG1ApxYbWaC9xUxgHCWyR5Q",
+   "channelTitle": "RKK NEWS DIG",
+   "firstSeenAt": "2026-10-26T09:09:03.827Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "JC0_aImeb6o",
+   "title": "熊本市内の風景",
+   "channelId": "UCG1ApxYbWaC9xUxgHCWyR5Q",
+   "channelTitle": "RKK NEWS DIG",
+   "firstSeenAt": "2026-10-26T09:09:03.827Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "rGtE0C62fss",
+   "title": "熊本空港ライブカメラ",
+   "channelId": "UCG1ApxYbWaC9xUxgHCWyR5Q",
+   "channelTitle": "RKK NEWS DIG",
+   "firstSeenAt": "2026-10-26T09:09:03.827Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "Mfq_QtuyrYI",
+   "title": "熊本駅白川口ライブカメラ",
+   "channelId": "UCG1ApxYbWaC9xUxgHCWyR5Q",
+   "channelTitle": "RKK NEWS DIG",
+   "firstSeenAt": "2026-10-26T09:09:03.827Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "u0zOoLKRLvs",
+   "title": "熊本市内 白川ライブカメラ",
+   "channelId": "UCG1ApxYbWaC9xUxgHCWyR5Q",
+   "channelTitle": "RKK NEWS DIG",
+   "firstSeenAt": "2026-10-26T09:09:03.827Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "VZSrCwBZBbw",
+   "title": "ライブカメラ  大倉山ジャンプ競技場 山頂展望台(STV札幌テレビ放送)北海道札幌市中央区宮の森 /Live Camera Okurayama Ski Jump Stadium, Hokkaido",
+   "channelId": "UCGrZAL2OKyKHj5flMIVU72A",
+   "channelTitle": "STV札幌テレビ放送 公式",
+   "firstSeenAt": "2026-10-26T09:09:03.827Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "nbtzTBRBuzM",
+   "title": "ライブカメラ 北広島市（STV札幌テレビ放送）北海道北広島市／Live Camera Kitahirosima City, Hokkaido",
+   "channelId": "UCGrZAL2OKyKHj5flMIVU72A",
+   "channelTitle": "STV札幌テレビ放送 公式",
+   "firstSeenAt": "2026-10-26T09:09:03.827Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "I1kJB1jdGo0",
+   "title": "ライブカメラ ＪＲ札幌駅 (ＳＴＶ札幌テレビ放送)  Live Camera Sapporo Station , Hokkaido",
+   "channelId": "UCGrZAL2OKyKHj5flMIVU72A",
+   "channelTitle": "STV札幌テレビ放送 公式",
+   "firstSeenAt": "2026-10-26T09:09:03.827Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "fP4ecxfsJos",
+   "title": "【Taipei Live Cam】大佳河濱公園 - 4K即時影像 | Taipei Dajia Riverside Park | 台北大佳河濱公園",
+   "channelId": "UCJLjpq7pTJRbP3vtx0LxB9Q",
+   "channelTitle": "Taipei Travel Live Cam  台北觀光即時影像 ",
+   "firstSeenAt": "2026-10-26T09:09:03.827Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "uvwfYzwY8tg",
+   "title": "【Taipei Live Cam】碧山巖 - 4K即時影像 | Bishan Temple | 碧山巌開漳聖王廟 | TAIPEI 101",
+   "channelId": "UCJLjpq7pTJRbP3vtx0LxB9Q",
+   "channelTitle": "Taipei Travel Live Cam  台北觀光即時影像 ",
+   "firstSeenAt": "2026-10-26T09:09:03.827Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "215ahZ_0rTg",
+   "title": "【Taipei Live Cam】貓空指南宮 - 4K即時影像｜Maokong Zhinan Temple｜猫空指南宮",
+   "channelId": "UCJLjpq7pTJRbP3vtx0LxB9Q",
+   "channelTitle": "Taipei Travel Live Cam  台北觀光即時影像 ",
+   "firstSeenAt": "2026-10-26T09:09:03.827Z",
+   "lastSeenAt": "2026-10-26T09:09:03.827Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
   }
  ],
- "channelCursor": 11
+ "channelCursor": 26
 }
