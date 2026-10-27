@@ -1,9 +1,9 @@
 {
  "schema": 1,
  "meta": {
-  "updatedAt": "2026-10-26T09:09:03.827Z",
+  "updatedAt": "2026-10-27T09:10:42.574Z",
   "status": "ok",
-  "message": "チャンネル 15 件を確認し、新しい候補 64 件",
+  "message": "チャンネル 15 件を確認し、新しい候補 12 件",
   "searchCalls": 15
  },
  "candidates": [
@@ -63,7 +63,7 @@
    "channelId": "UCMfVFofrKT5qV71nG-sDBRg",
    "channelTitle": "Marejadas UV",
    "firstSeenAt": "2026-10-17T14:45:04.099Z",
-   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-27T09:10:42.574Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -73,7 +73,7 @@
    "channelId": "UCMfVFofrKT5qV71nG-sDBRg",
    "channelTitle": "Marejadas UV",
    "firstSeenAt": "2026-10-17T14:45:04.099Z",
-   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-27T09:10:42.574Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -83,7 +83,7 @@
    "channelId": "UCMfVFofrKT5qV71nG-sDBRg",
    "channelTitle": "Marejadas UV",
    "firstSeenAt": "2026-10-17T14:45:04.099Z",
-   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-27T09:10:42.574Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -93,7 +93,7 @@
    "channelId": "UCMfVFofrKT5qV71nG-sDBRg",
    "channelTitle": "Marejadas UV",
    "firstSeenAt": "2026-10-17T14:45:04.099Z",
-   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-27T09:10:42.574Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -113,7 +113,7 @@
    "channelId": "UCOZv-6MiXqJdLpmYtR431Ow",
    "channelTitle": "STVニュース北海道",
    "firstSeenAt": "2026-10-17T14:45:04.099Z",
-   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-27T09:10:42.574Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -513,7 +513,7 @@
    "channelId": "UCK_BLeXdJeHqA1SlC79CruQ",
    "channelTitle": "Port Lincoln Osprey",
    "firstSeenAt": "2026-10-21T08:43:40.574Z",
-   "lastSeenAt": "2026-10-21T08:43:40.574Z",
+   "lastSeenAt": "2026-10-27T09:10:42.574Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -533,7 +533,7 @@
    "channelId": "UCMfVFofrKT5qV71nG-sDBRg",
    "channelTitle": "Marejadas UV",
    "firstSeenAt": "2026-10-22T08:45:47.839Z",
-   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-27T09:10:42.574Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -543,7 +543,7 @@
    "channelId": "UCMfVFofrKT5qV71nG-sDBRg",
    "channelTitle": "Marejadas UV",
    "firstSeenAt": "2026-10-22T08:45:47.839Z",
-   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-27T09:10:42.574Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -553,7 +553,7 @@
    "channelId": "UCMfjW-9aZnsR-Rq-Ngo4CpQ",
    "channelTitle": "Explore African Wildlife",
    "firstSeenAt": "2026-10-22T08:45:47.839Z",
-   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-27T09:10:42.574Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -563,7 +563,7 @@
    "channelId": "UCMpn1qLudF-zb4M4bqxLIbw",
    "channelTitle": "I Love You Venice",
    "firstSeenAt": "2026-10-22T08:45:47.839Z",
-   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-27T09:10:42.574Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -573,7 +573,7 @@
    "channelId": "UCMpn1qLudF-zb4M4bqxLIbw",
    "channelTitle": "I Love You Venice",
    "firstSeenAt": "2026-10-22T08:45:47.839Z",
-   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-27T09:10:42.574Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -583,7 +583,7 @@
    "channelId": "UCMpn1qLudF-zb4M4bqxLIbw",
    "channelTitle": "I Love You Venice",
    "firstSeenAt": "2026-10-22T08:45:47.839Z",
-   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-27T09:10:42.574Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -593,7 +593,7 @@
    "channelId": "UCMpn1qLudF-zb4M4bqxLIbw",
    "channelTitle": "I Love You Venice",
    "firstSeenAt": "2026-10-22T08:45:47.839Z",
-   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-27T09:10:42.574Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -603,7 +603,7 @@
    "channelId": "UCMpn1qLudF-zb4M4bqxLIbw",
    "channelTitle": "I Love You Venice",
    "firstSeenAt": "2026-10-22T08:45:47.839Z",
-   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-27T09:10:42.574Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -613,7 +613,7 @@
    "channelId": "UCMpn1qLudF-zb4M4bqxLIbw",
    "channelTitle": "I Love You Venice",
    "firstSeenAt": "2026-10-22T08:45:47.839Z",
-   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-27T09:10:42.574Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -623,7 +623,7 @@
    "channelId": "UCMpn1qLudF-zb4M4bqxLIbw",
    "channelTitle": "I Love You Venice",
    "firstSeenAt": "2026-10-22T08:45:47.839Z",
-   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-27T09:10:42.574Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -633,7 +633,7 @@
    "channelId": "UCMpn1qLudF-zb4M4bqxLIbw",
    "channelTitle": "I Love You Venice",
    "firstSeenAt": "2026-10-22T08:45:47.839Z",
-   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-27T09:10:42.574Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -643,7 +643,7 @@
    "channelId": "UCMpn1qLudF-zb4M4bqxLIbw",
    "channelTitle": "I Love You Venice",
    "firstSeenAt": "2026-10-22T08:45:47.839Z",
-   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-27T09:10:42.574Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -653,7 +653,7 @@
    "channelId": "UCMpn1qLudF-zb4M4bqxLIbw",
    "channelTitle": "I Love You Venice",
    "firstSeenAt": "2026-10-22T08:45:47.839Z",
-   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-27T09:10:42.574Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -663,7 +663,7 @@
    "channelId": "UCMpn1qLudF-zb4M4bqxLIbw",
    "channelTitle": "I Love You Venice",
    "firstSeenAt": "2026-10-22T08:45:47.839Z",
-   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-27T09:10:42.574Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -673,7 +673,7 @@
    "channelId": "UCMpn1qLudF-zb4M4bqxLIbw",
    "channelTitle": "I Love You Venice",
    "firstSeenAt": "2026-10-22T08:45:47.839Z",
-   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-27T09:10:42.574Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -683,7 +683,7 @@
    "channelId": "UCMpn1qLudF-zb4M4bqxLIbw",
    "channelTitle": "I Love You Venice",
    "firstSeenAt": "2026-10-22T08:45:47.839Z",
-   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-27T09:10:42.574Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -693,7 +693,7 @@
    "channelId": "UCMpn1qLudF-zb4M4bqxLIbw",
    "channelTitle": "I Love You Venice",
    "firstSeenAt": "2026-10-22T08:45:47.839Z",
-   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-27T09:10:42.574Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -703,7 +703,7 @@
    "channelId": "UCMpn1qLudF-zb4M4bqxLIbw",
    "channelTitle": "I Love You Venice",
    "firstSeenAt": "2026-10-22T08:45:47.839Z",
-   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-27T09:10:42.574Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -713,7 +713,7 @@
    "channelId": "UCMpn1qLudF-zb4M4bqxLIbw",
    "channelTitle": "I Love You Venice",
    "firstSeenAt": "2026-10-22T08:45:47.839Z",
-   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-27T09:10:42.574Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -723,7 +723,7 @@
    "channelId": "UCMpn1qLudF-zb4M4bqxLIbw",
    "channelTitle": "I Love You Venice",
    "firstSeenAt": "2026-10-22T08:45:47.839Z",
-   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-27T09:10:42.574Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -733,7 +733,7 @@
    "channelId": "UCMpn1qLudF-zb4M4bqxLIbw",
    "channelTitle": "I Love You Venice",
    "firstSeenAt": "2026-10-22T08:45:47.839Z",
-   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-27T09:10:42.574Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -743,7 +743,7 @@
    "channelId": "UCMpn1qLudF-zb4M4bqxLIbw",
    "channelTitle": "I Love You Venice",
    "firstSeenAt": "2026-10-22T08:45:47.839Z",
-   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-27T09:10:42.574Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -753,7 +753,7 @@
    "channelId": "UCMpn1qLudF-zb4M4bqxLIbw",
    "channelTitle": "I Love You Venice",
    "firstSeenAt": "2026-10-22T08:45:47.839Z",
-   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-27T09:10:42.574Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -763,7 +763,7 @@
    "channelId": "UCMpn1qLudF-zb4M4bqxLIbw",
    "channelTitle": "I Love You Venice",
    "firstSeenAt": "2026-10-22T08:45:47.839Z",
-   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-27T09:10:42.574Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -783,7 +783,7 @@
    "channelId": "UCQI1rdPytw4jDAjwqXVSgfA",
    "channelTitle": "Explore Panda and Polar Bear Cams",
    "firstSeenAt": "2026-10-22T08:45:47.839Z",
-   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-27T09:10:42.574Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -793,7 +793,7 @@
    "channelId": "UCQI1rdPytw4jDAjwqXVSgfA",
    "channelTitle": "Explore Panda and Polar Bear Cams",
    "firstSeenAt": "2026-10-22T08:45:47.839Z",
-   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-27T09:10:42.574Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -803,7 +803,7 @@
    "channelId": "UCQYD2m67h_Y85VD6t3LHcsQ",
    "channelTitle": "PeaceBridgeAuthority",
    "firstSeenAt": "2026-10-22T08:45:47.839Z",
-   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-27T09:10:42.574Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -813,7 +813,7 @@
    "channelId": "UCQYD2m67h_Y85VD6t3LHcsQ",
    "channelTitle": "PeaceBridgeAuthority",
    "firstSeenAt": "2026-10-22T08:45:47.839Z",
-   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-27T09:10:42.574Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -823,7 +823,7 @@
    "channelId": "UCQYD2m67h_Y85VD6t3LHcsQ",
    "channelTitle": "PeaceBridgeAuthority",
    "firstSeenAt": "2026-10-22T08:45:47.839Z",
-   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-27T09:10:42.574Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -833,7 +833,7 @@
    "channelId": "UCQYD2m67h_Y85VD6t3LHcsQ",
    "channelTitle": "PeaceBridgeAuthority",
    "firstSeenAt": "2026-10-22T08:45:47.839Z",
-   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-27T09:10:42.574Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -843,7 +843,7 @@
    "channelId": "UCQqyZgPh9Lu0w_rmWWBvuNg",
    "channelTitle": "阿里山國家風景區管理處",
    "firstSeenAt": "2026-10-22T08:45:47.839Z",
-   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-27T09:10:42.574Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -853,7 +853,7 @@
    "channelId": "UCQqyZgPh9Lu0w_rmWWBvuNg",
    "channelTitle": "阿里山國家風景區管理處",
    "firstSeenAt": "2026-10-22T08:45:47.839Z",
-   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-27T09:10:42.574Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -863,7 +863,7 @@
    "channelId": "UCQqyZgPh9Lu0w_rmWWBvuNg",
    "channelTitle": "阿里山國家風景區管理處",
    "firstSeenAt": "2026-10-22T08:45:47.839Z",
-   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-27T09:10:42.574Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -873,7 +873,7 @@
    "channelId": "UCRIIrdFTB6jdToXF8KkJQFQ",
    "channelTitle": "テレビ和歌山【公式】",
    "firstSeenAt": "2026-10-22T08:45:47.839Z",
-   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-27T09:10:42.574Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -883,7 +883,7 @@
    "channelId": "UCS9UBqaUtoIXUhX0J1BnxwQ",
    "channelTitle": "Zoos Victoria",
    "firstSeenAt": "2026-10-22T08:45:47.839Z",
-   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-27T09:10:42.574Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -893,7 +893,7 @@
    "channelId": "UCS9UBqaUtoIXUhX0J1BnxwQ",
    "channelTitle": "Zoos Victoria",
    "firstSeenAt": "2026-10-22T08:45:47.839Z",
-   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-27T09:10:42.574Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -903,7 +903,7 @@
    "channelId": "UCS9UBqaUtoIXUhX0J1BnxwQ",
    "channelTitle": "Zoos Victoria",
    "firstSeenAt": "2026-10-22T08:45:47.839Z",
-   "lastSeenAt": "2026-10-22T08:45:47.839Z",
+   "lastSeenAt": "2026-10-27T09:10:42.574Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -3376,7 +3376,127 @@
    "lastSeenAt": "2026-10-26T09:09:03.827Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
+  },
+  {
+   "videoId": "DFO1bS546Z0",
+   "title": "Hawaiian Monk Seal Habitat Mauka",
+   "channelId": "UCJW_nwNBvudCacX7c5hR6aA",
+   "channelTitle": "Waikiki Aquarium",
+   "firstSeenAt": "2026-10-27T09:10:42.574Z",
+   "lastSeenAt": "2026-10-27T09:10:42.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "ROboUHfPUrU",
+   "title": "Live High-Definition Views from the International Space Station (Official NASA Stream)",
+   "channelId": "UCLA_DiR1FfKNvjuUpBHmylQ",
+   "channelTitle": "NASA",
+   "firstSeenAt": "2026-10-27T09:10:42.574Z",
+   "lastSeenAt": "2026-10-27T09:10:42.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "wtylzrJvCKU",
+   "title": "LIVE Africam Rhino Cam at the Hoedspruit Endangered Species Centre - South Africa | explore.org",
+   "channelId": "UCMfjW-9aZnsR-Rq-Ngo4CpQ",
+   "channelTitle": "Explore African Wildlife",
+   "firstSeenAt": "2026-10-27T09:10:42.574Z",
+   "lastSeenAt": "2026-10-27T09:10:42.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "AaIUo_jTlxo",
+   "title": "LIVE African Animal Lookout - Kenya Savannah View - MPALA | explore.org",
+   "channelId": "UCMfjW-9aZnsR-Rq-Ngo4CpQ",
+   "channelTitle": "Explore African Wildlife",
+   "firstSeenAt": "2026-10-27T09:10:42.574Z",
+   "lastSeenAt": "2026-10-27T09:10:42.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "nviU2HYj-Jc",
+   "title": "🔴 4k Venice Italy Live Cam - Rialto Bridge Live Streaming from Palazzo Bembo - Live Webcam - ライブカメラ",
+   "channelId": "UCMpn1qLudF-zb4M4bqxLIbw",
+   "channelTitle": "I Love You Venice",
+   "firstSeenAt": "2026-10-27T09:10:42.574Z",
+   "lastSeenAt": "2026-10-27T09:10:42.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "tdE-Uu87XmE",
+   "title": "🔴 Spectacular View of Grand Canal - Live view from Hotel San Cassiano",
+   "channelId": "UCMpn1qLudF-zb4M4bqxLIbw",
+   "channelTitle": "I Love You Venice",
+   "firstSeenAt": "2026-10-27T09:10:42.574Z",
+   "lastSeenAt": "2026-10-27T09:10:42.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "HZRu6fOyEBY",
+   "title": "【LIVE】▼手稲区役所内でガス漏れ検知…300人避難　▼カボチャ食害も…小学校でクマ目撃　▼家族や友人を亡くした人へ「海の電話」羅臼町に設置　１０月２７日（火）昼に放送した北海道のニュースと天気予報",
+   "channelId": "UCOZv-6MiXqJdLpmYtR431Ow",
+   "channelTitle": "STVニュース北海道",
+   "firstSeenAt": "2026-10-27T09:10:42.574Z",
+   "lastSeenAt": "2026-10-27T09:10:42.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "8MoaBHl8U3A",
+   "title": "LIVE Polar Bear Cam: Buggy One - Polar Bears International | explore.org",
+   "channelId": "UCQI1rdPytw4jDAjwqXVSgfA",
+   "channelTitle": "Explore Panda and Polar Bear Cams",
+   "firstSeenAt": "2026-10-27T09:10:42.574Z",
+   "lastSeenAt": "2026-10-27T09:10:42.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "muO2i8ShZrY",
+   "title": "LIVE Polar Bear Cam: Tundra Buggy Lodge North – Polar Bears International | explore.org",
+   "channelId": "UCQI1rdPytw4jDAjwqXVSgfA",
+   "channelTitle": "Explore Panda and Polar Bear Cams",
+   "firstSeenAt": "2026-10-27T09:10:42.574Z",
+   "lastSeenAt": "2026-10-27T09:10:42.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "agEzlv9n9Eg",
+   "title": "Live cam-Alishan【阿里山美景直播】-生力農場 Sheng-Li Farm",
+   "channelId": "UCQqyZgPh9Lu0w_rmWWBvuNg",
+   "channelTitle": "阿里山國家風景區管理處",
+   "firstSeenAt": "2026-10-27T09:10:42.574Z",
+   "lastSeenAt": "2026-10-27T09:10:42.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "B6eki-0-w0g",
+   "title": "4K Live cam-Alishan【阿里山美景4K直播】-奮起湖 Fenqihu",
+   "channelId": "UCQqyZgPh9Lu0w_rmWWBvuNg",
+   "channelTitle": "阿里山國家風景區管理處",
+   "firstSeenAt": "2026-10-27T09:10:42.574Z",
+   "lastSeenAt": "2026-10-27T09:10:42.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "zDt8FBPozZQ",
+   "title": "Live cam-Alishan【阿里山美景直播】-里佳資訊站 Lijia Information station",
+   "channelId": "UCQqyZgPh9Lu0w_rmWWBvuNg",
+   "channelTitle": "阿里山國家風景區管理處",
+   "firstSeenAt": "2026-10-27T09:10:42.574Z",
+   "lastSeenAt": "2026-10-27T09:10:42.574Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
   }
  ],
- "channelCursor": 26
+ "channelCursor": 41
 }
