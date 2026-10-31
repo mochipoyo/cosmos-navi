@@ -702,6 +702,60 @@
     "webcams.json": "OK（3062件）",
     "webcams-status.json": "OK（3062件）"
    }
+  },
+  {
+   "at": "2026-10-31T09:49:09.096Z",
+   "job": "discover",
+   "ok": true,
+   "fatal": null,
+   "total": 3060,
+   "previous": 3062,
+   "sources": {
+    "digitraffic": {
+     "status": "ok",
+     "count": 812,
+     "skipped": 2
+    },
+    "hongkong": {
+     "status": "ok",
+     "count": 1013,
+     "skipped": 0
+    },
+    "drivebc": {
+     "status": "ok",
+     "count": 985,
+     "skipped": 0
+    },
+    "nsw": {
+     "status": "ok",
+     "count": 250,
+     "skipped": 0
+    },
+    "tfl": {
+     "status": "disabled",
+     "count": 0
+    },
+    "caltrans": {
+     "status": "disabled",
+     "count": 0
+    },
+    "windy": {
+     "status": "disabled",
+     "count": 0
+    }
+   },
+   "youtube": "チャンネル 15 件を確認し、新しい候補 4 件",
+   "ms": 4784
+  },
+  {
+   "at": "2026-10-31T09:49:13.988Z",
+   "job": "validate",
+   "ok": true,
+   "report": {
+    "livecams.json": "OK（97件）",
+    "webcams.json": "OK（3060件）",
+    "webcams-status.json": "OK（3062件）"
+   }
   }
  ]
 }
