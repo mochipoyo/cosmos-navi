@@ -1,12 +1,12 @@
 {
  "schema": 1,
  "meta": {
-  "updatedAt": "2026-10-30T23:45:50.594Z",
+  "updatedAt": "2026-10-31T05:39:41.708Z",
   "apiStatus": "ok",
-  "message": "自動確認しました（検索 1 件）",
+  "message": "自動確認しました（検索 0 件）",
   "quota": {
    "day": "2026-10-30",
-   "used": 12,
+   "used": 14,
    "search": 8,
    "limit": 8000,
    "searchLimit": 70
@@ -32,15 +32,15 @@
    "title": "【ライブ】ハロウィンでハチ公像を封鎖　ハロウィン警戒中の渋谷・スクランブル交差点　ライブカメラ　Shibuya Scramble Crossing - Tokyo, Japan　 Live Cam",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": "2025-11-12T07:59:17Z",
    "lastSearchAt": null,
    "candidates": [],
    "match": [],
    "note": "",
-   "viewers": 293,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewers": 628,
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "nu6ne55xx7a1",
@@ -61,15 +61,15 @@
    "title": "現在の東京タワーライブカメラ",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": "2024-07-01T02:45:05Z",
    "lastSearchAt": null,
    "candidates": [],
    "match": [],
    "note": "",
-   "viewers": 17,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewers": 10,
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "nsfht76uwh82",
@@ -90,15 +90,15 @@
    "title": "【LIVE】浅草ライブカメラ「浅草寺 宝蔵門」【ASAKUSA】",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": "2026-05-14T10:53:04Z",
    "lastSearchAt": null,
    "candidates": [],
    "match": [],
    "note": "",
-   "viewers": 22,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewers": 20,
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "2f9noswyfqm3",
@@ -119,15 +119,15 @@
    "title": "【ライブ】羽田空港 第1ターミナルのライブカメラ 現在の様子は？Haneda Airport's Terminal 1| TBS NEWS DIG",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": "2025-03-31T09:52:58Z",
    "lastSearchAt": null,
    "candidates": [],
    "match": [],
    "note": "",
-   "viewers": 97,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewers": 77,
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "oucbntsmswy4",
@@ -148,15 +148,15 @@
    "title": "【LIVE】成田空港ライブカメラ　A滑走路(南側）＠朝日新聞成田支局  LIVE at Narita International airport",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": "2025-10-19T09:18:36Z",
    "lastSearchAt": null,
    "candidates": [],
    "match": [],
    "note": "",
-   "viewers": 18,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewers": 19,
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "greeoemmrks5",
@@ -177,15 +177,15 @@
    "title": "「LIVECAMERA 」草津温泉・温泉門無料駐車場",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": "2023-11-09T02:57:43Z",
    "lastSearchAt": "2026-10-26T00:23:08.691Z",
    "candidates": [],
    "match": [],
    "note": "",
-   "viewers": 5,
-   "viewersAt": "2026-10-30T23:45:50.594Z",
+   "viewers": 7,
+   "viewersAt": "2026-10-31T05:39:41.708Z",
    "previousVideoId": "GrEEoEmmrKs",
    "replacedAt": "2026-10-26T00:23:08.691Z"
   },
@@ -208,7 +208,7 @@
    "title": "【LIVE】静岡市さった峠　広重の富士山 / Mt. Fuji (World Heritage Site): Live Streaming in Shizuoka City",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T13:30:00Z",
    "liveSince": "2023-12-26T07:55:19Z",
    "lastSearchAt": "2026-10-17T12:40:00.767Z",
@@ -217,8 +217,8 @@
    "note": "",
    "previousVideoId": "CWNjN2bYzsA",
    "replacedAt": "2026-10-17T13:30:00Z",
-   "viewers": 164,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewers": 100,
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "vqb6sydxqpo7",
@@ -239,15 +239,15 @@
    "title": "【4Kライブ】日本平夢テラス・富士山ライブカメラ",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": "2025-06-30T07:55:28Z",
    "lastSearchAt": null,
    "candidates": [],
    "match": [],
    "note": "",
-   "viewers": 14,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewers": 12,
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "sv9hcj3k5h48",
@@ -268,15 +268,15 @@
    "title": "【4K】富士山ライブカメラ / 4K Live Camera Mt.FUJI　～河口湖～富士山パノラマロープウェイ",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": "2020-11-24T06:11:29Z",
    "lastSearchAt": null,
    "candidates": [],
    "match": [],
    "note": "",
-   "viewers": 23,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewers": 12,
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "z3oupsoabjk9",
@@ -297,15 +297,15 @@
    "title": "いまの札幌 ライブカメラ（STV札幌テレビ放送）北海道札幌市中央区 /Live Camera Sapporo , Hokkaido",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": "2026-06-03T06:16:29Z",
    "lastSearchAt": null,
    "candidates": [],
    "match": [],
    "note": "",
-   "viewers": 4,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewers": 8,
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "3skn4lggjk810",
@@ -326,15 +326,15 @@
    "title": "【LIVE】新千歳空港（CTS）ライブカメラ　飛行機の離着陸と天気（札幌テレビ）/ Live Camera New Chitose Airport Terminal",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": "2025-12-09T04:37:52Z",
    "lastSearchAt": null,
    "candidates": [],
    "match": [],
    "note": "",
-   "viewers": 3,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewers": 2,
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "syymdmsht3i11",
@@ -355,15 +355,15 @@
    "title": "【LIVE】函館山ライブカメラ ／ Mt. Hakodate Ropeway Live Camera",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": "2023-05-18T03:03:13Z",
    "lastSearchAt": null,
    "candidates": [],
    "match": [],
    "note": "",
-   "viewers": 25,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewers": 23,
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "9kvuu0loymy12",
@@ -384,15 +384,15 @@
    "title": "川湯温泉ライブカメラ",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": "2026-03-16T12:45:38Z",
    "lastSearchAt": null,
    "candidates": [],
    "match": [],
    "note": "",
-   "viewers": 2,
-   "viewersAt": "2026-10-29T05:46:47.137Z"
+   "viewers": 1,
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "dokoqyju1b813",
@@ -413,7 +413,7 @@
    "title": "【osaka】天満橋～大阪城 天気LIVEカメラ #osaka #Osaka Castle",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": "2026-10-14T07:17:32Z",
    "lastSearchAt": "2026-10-18T15:52:16.947Z",
@@ -421,7 +421,7 @@
    "match": [],
    "note": "放送局が配信を張り替えることがあり、その場合は再生できなくなります。",
    "viewers": 7,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "6rrmtwhbbjk14",
@@ -442,15 +442,15 @@
    "title": "大阪通天閣・あべのハルカス　ライブカメラ Osaka Tsutenkaku & Harukas Live Cam",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": "2026-08-07T01:26:43Z",
    "lastSearchAt": null,
    "candidates": [],
    "match": [],
    "note": "",
-   "viewers": 3,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewers": 2,
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "aux2zfm4m6815",
@@ -471,15 +471,15 @@
    "title": "【LIVE】神戸ウォーターフロント  ＃メリケンパーク＃神戸ポートタワー",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": "2022-12-16T00:19:14Z",
    "lastSearchAt": null,
    "candidates": [],
    "match": [],
    "note": "",
-   "viewers": 54,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewers": 49,
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "xxvxvslbjak16",
@@ -500,15 +500,15 @@
    "title": "【LIVE】高野山 情報カメラ／テレビ和歌山",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": "2024-08-09T05:30:16Z",
    "lastSearchAt": null,
    "candidates": [],
    "match": [],
    "note": "",
-   "viewers": 5,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewers": 7,
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "mmebdrfrhya17",
@@ -529,15 +529,15 @@
    "title": "【LIVE】京都 伏見稲荷大社 表参道ライブ中継カメラ／Fushimi Inari Taisha, Kyoto Live camera",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": "2024-11-19T02:43:22Z",
    "lastSearchAt": null,
    "candidates": [],
    "match": [],
    "note": "京都市の観光サイトによると、国土交通省京都国道事務所などによる配信。",
-   "viewers": 8,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewers": 3,
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "iubbyrwiezo18",
@@ -558,15 +558,15 @@
    "title": "【LIVE】京都 平安神宮ライブ中継カメラ／Heian Jingu Shrine, Kyoto Live camera",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": "2024-10-30T05:41:36Z",
    "lastSearchAt": null,
    "candidates": [],
    "match": [],
    "note": "",
-   "viewers": 3,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewers": 4,
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "avgyolizv0a19",
@@ -587,15 +587,15 @@
    "title": "阿蘇ライブカメラ～阿蘇火山博物館・草千里～",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": "2023-01-11T09:08:09Z",
    "lastSearchAt": null,
    "candidates": [],
    "match": [],
    "note": "",
-   "viewers": 6,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewers": 9,
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "hmmk0eyn0cw20",
@@ -616,15 +616,15 @@
    "title": "【LIVE】鹿児島県「桜島」ライブカメラ【南日本放送】",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": "2025-05-14T01:30:21Z",
    "lastSearchAt": null,
    "candidates": [],
    "match": [],
    "note": "夜間や霧のときは見えないことがあります。",
-   "viewers": 8,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewers": 6,
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "pmdzyd1xoja21",
@@ -645,15 +645,15 @@
    "title": "世界遺産・軍艦島カメラ【LIVE】",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": "2026-02-09T01:40:07Z",
    "lastSearchAt": null,
    "candidates": [],
    "match": [],
    "note": "夜間は暗く、配信時間が限られることがあります（配信者の案内による）。",
-   "viewers": 2,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewers": 5,
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "ui8twgexfta22",
@@ -674,15 +674,15 @@
    "title": "【LIVE】#福岡空港の今の様子　FBS福岡放送　#ライブカメラ #ライブ配信 #空港",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": "2026-10-23T02:40:56Z",
    "lastSearchAt": "2026-10-26T09:09:25.029Z",
    "candidates": [],
    "match": [],
    "note": "",
-   "viewers": 35,
-   "viewersAt": "2026-10-30T23:45:50.594Z",
+   "viewers": 24,
+   "viewersAt": "2026-10-31T05:39:41.708Z",
    "previousVideoId": "uI8tWGe_FtA",
    "replacedAt": "2026-10-26T09:09:25.029Z"
   },
@@ -705,15 +705,15 @@
    "title": "【LIVE】沖縄・那覇空港（Naha Airport） Okinawa JAPAN｜RBC News",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": "2025-11-26T06:51:51Z",
    "lastSearchAt": null,
    "candidates": [],
    "match": [],
    "note": "",
-   "viewers": 34,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewers": 40,
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "o7i9yzk0u6c24",
@@ -734,7 +734,7 @@
    "title": "沖縄の“今”をライブで！ラグナガーデンホテルから南国の絶景をお楽しみください。 #ラグナガーデンホテル #沖縄 #沖縄配信 #LagunaGardenHotel #Okinawa",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T13:30:00Z",
    "liveSince": "2026-09-29T07:07:43Z",
    "lastSearchAt": "2026-10-17T12:40:00.767Z",
@@ -743,8 +743,8 @@
    "note": "",
    "previousVideoId": "o7i9-ZK0U6c",
    "replacedAt": "2026-10-17T13:30:00Z",
-   "viewers": 39,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewers": 15,
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "j1nfkpuqdlq25",
@@ -765,7 +765,7 @@
    "title": "【きょうの沖縄】りゅうちゃんカメラ　国際通り、沖縄県庁前　琉球新報からライブ配信",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": "2026-08-28T01:56:18Z",
    "lastSearchAt": null,
@@ -773,7 +773,7 @@
    "match": [],
    "note": "",
    "viewers": 2,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "zxfy1pj1vbw32",
@@ -794,15 +794,15 @@
    "title": "【Taipei Live Cam】象山看台北 - 4K即時影像 | Overlooking Taipei at the top of Xiangshan | 象山から望む台北 | Taipei 101",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": "2021-08-31T02:45:29Z",
    "lastSearchAt": null,
    "candidates": [],
    "match": [],
    "note": "台北市の観光公式チャンネル。",
-   "viewers": 53,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewers": 56,
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "dq7sd6pglda33",
@@ -823,7 +823,7 @@
    "title": "【Live Cam】東海岸即時影像 - 三仙台｜Sanxiantai｜三仙台（さんせんたい）風景区 2160p",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T13:30:00Z",
    "liveSince": "2026-08-17T02:15:28Z",
    "lastSearchAt": "2026-10-17T12:40:00.767Z",
@@ -832,8 +832,8 @@
    "note": "",
    "previousVideoId": "dQ7Sd6PGLdA",
    "replacedAt": "2026-10-17T13:30:00Z",
-   "viewers": 1,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewers": 5,
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "hmys60qtkk834",
@@ -854,7 +854,7 @@
    "title": "Live cam-Alishan【阿里山美景直播】-牛埔仔愛情大草原Highway 18 Love silk road (Niupuzai Grassland)",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": "2021-07-09T01:34:08Z",
    "lastSearchAt": null,
@@ -883,15 +883,15 @@
    "title": "高雄旗津海水浴場 4K即時影像 | Kaohsiung Cijin (Qijin) Beach 4K Live Camera",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": "2022-10-11T01:38:32Z",
    "lastSearchAt": null,
    "candidates": [],
    "match": [],
    "note": "",
-   "viewers": 3,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewers": 1,
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "neaicec1kec36",
@@ -912,7 +912,7 @@
    "title": "Xiao Wulai Skywalk Live Cam 小烏來天空步道即時影像",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": "2023-10-16T01:46:18Z",
    "lastSearchAt": null,
@@ -920,7 +920,7 @@
    "match": [],
    "note": "",
    "viewers": 2,
-   "viewersAt": "2026-10-29T10:13:01.341Z"
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "xgmtn6ssf7i37",
@@ -941,16 +941,16 @@
    "title": "서울실시간 한강라이브 잠실대교 Live Cam I \"Jamsil Bridge\" Seoul,korea I SeoulHanGangLive ソウル漢江ライブ 首尔汉江现场演出",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": "2026-08-18T00:47:33Z",
    "lastSearchAt": "2026-10-21T23:18:46.139Z",
    "candidates": [],
    "match": [],
    "note": "通信会社KTの監視カメラサービスGiGAeyesのチャンネル（KTの運営とは明記されていません）。BGMが流れます。",
-   "viewers": 9,
+   "viewers": 6,
    "previousVideoId": "_gmTN6ssF7I",
-   "viewersAt": "2026-10-30T23:45:50.594Z",
+   "viewersAt": "2026-10-31T05:39:41.708Z",
    "replacedAt": "2026-10-21T23:18:46.139Z"
   },
   {
@@ -972,7 +972,7 @@
    "title": "Koh Tao Island 2026: Live Stream from the Beach | View of Koh Nang Yuan Island | Weather Conditions",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T13:30:00Z",
    "liveSince": "2026-08-01T04:45:02Z",
    "lastSearchAt": "2026-10-17T12:40:00.767Z",
@@ -1003,15 +1003,15 @@
    "title": "Banyan Tree Samui Live Stream",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": "2019-08-07T09:37:05Z",
    "lastSearchAt": null,
    "candidates": [],
    "match": [],
    "note": "",
-   "viewers": 2,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewers": 4,
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "gwuwoto2gjg42",
@@ -1032,7 +1032,7 @@
    "title": "LIVE PEMANTAUAN CCTV PANTAI WEDIOMBO",
    "status": "offline",
    "statusDetail": "動画が見つかりません（削除・非公開の可能性）",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": null,
    "lastSearchAt": "2026-10-30T19:22:02.863Z",
@@ -1076,7 +1076,7 @@
    "title": "Camera nút giao thông tây Cầu Rồng Đà Nẵng",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T13:30:00Z",
    "liveSince": "2026-10-30T09:23:04Z",
    "lastSearchAt": "2026-10-30T19:22:02.863Z",
@@ -1106,7 +1106,7 @@
    "title": "Port of Newcastle Harbour Cam",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T13:30:00Z",
    "liveSince": "2026-08-07T02:34:57Z",
    "lastSearchAt": null,
@@ -1115,8 +1115,8 @@
    "note": "",
    "previousVideoId": "tbQPUvUifEc",
    "replacedAt": "2026-10-17T13:30:00Z",
-   "viewers": 30,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewers": 19,
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "6thewdnxj2y44",
@@ -1137,7 +1137,7 @@
    "title": "South Shore Surf Cam",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T13:30:00Z",
    "liveSince": "2025-12-15T19:16:21Z",
    "lastSearchAt": null,
@@ -1146,8 +1146,8 @@
    "note": "",
    "previousVideoId": "6tHEWDnxj2Y",
    "replacedAt": "2026-10-17T13:30:00Z",
-   "viewers": 6,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewers": 12,
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "tk0tfydxrua62",
@@ -1168,7 +1168,7 @@
    "title": "[V1cam] Kīlauea volcano, Hawaii (west Halemaʻumaʻu crater)",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T13:30:00Z",
    "liveSince": "2026-04-24T21:51:57Z",
    "lastSearchAt": null,
@@ -1177,8 +1177,8 @@
    "note": "米国地質調査所（USGS）ハワイ火山観測所のカメラ。向きが変わることがあります。",
    "previousVideoId": "tk0tfYDxrUA",
    "replacedAt": "2026-10-17T13:30:00Z",
-   "viewers": 326,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewers": 316,
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "zxdn0wgfgsu68",
@@ -1199,7 +1199,7 @@
    "title": "EarthCam Live:  Waikiki Beach (Honolulu, Hawaii)",
    "status": "offline",
    "statusDetail": "配信は終了しました（2025-08-06 03:14 UTC）",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": null,
    "lastSearchAt": "2026-10-30T19:22:02.863Z",
@@ -1243,15 +1243,15 @@
    "title": "EarthCam Live:  Abbey Road Crossing (London, England)",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": "2026-08-17T18:07:47Z",
    "lastSearchAt": null,
    "candidates": [],
    "match": [],
    "note": "",
-   "viewers": 28,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewers": 29,
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "3nyper2kzqk46",
@@ -1272,15 +1272,15 @@
    "title": "EarthCam Live: Dublin, Ireland",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": "2026-02-28T12:32:37Z",
    "lastSearchAt": null,
    "candidates": [],
    "match": [],
    "note": "",
-   "viewers": 183,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewers": 118,
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "t83mkgfxc3k47",
@@ -1301,7 +1301,7 @@
    "title": "St Ives Harbour Live Cam | Cornwall, England",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T13:30:00Z",
    "liveSince": "2026-09-09T14:12:37Z",
    "lastSearchAt": null,
@@ -1311,7 +1311,7 @@
    "previousVideoId": "T83mKGf_c3k",
    "replacedAt": "2026-10-17T13:30:00Z",
    "viewers": 3,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "r8n6isoiktk48",
@@ -1332,15 +1332,15 @@
    "title": "🔴 4K Live Webcam on Grand Canal, Venice - Live Stream from Ristorante Trattoria Povoledo",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": "2026-04-27T12:03:43Z",
    "lastSearchAt": null,
    "candidates": [],
    "match": [],
    "note": "",
-   "viewers": 12,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewers": 11,
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "ryqexqxrpvs49",
@@ -1361,7 +1361,7 @@
    "title": "Stromboli Volcano Live Streaming Webcam 24/7 | Il Vulcano a Piedi",
    "status": "offline",
    "statusDetail": "配信予定（まだ始まっていません）",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": null,
    "lastSearchAt": "2026-10-30T19:22:02.863Z",
@@ -1389,15 +1389,15 @@
    "title": "Apukka Resort Live Cam Rovaniemi, Lapland by Aurora Alert Realtime",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": "2026-07-22T09:06:51Z",
    "lastSearchAt": null,
    "candidates": [],
    "match": [],
    "note": "",
-   "viewers": 34,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewers": 61,
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "6hpwq2ig08m52",
@@ -1418,15 +1418,15 @@
    "title": "Port of Helsinki - West harbour - south cam",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": "2022-01-10T06:52:46Z",
    "lastSearchAt": null,
    "candidates": [],
    "match": [],
    "note": "",
-   "viewers": 10,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewers": 19,
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "43qh0tda6lm53",
@@ -1447,7 +1447,7 @@
    "title": "WebCam.NL | damrakbeursplein.amsterdam | live ultraHD PTZ camera Beurs van Berlage, Amsterdam.",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": "2024-09-24T08:32:00Z",
    "lastSearchAt": null,
@@ -1455,7 +1455,7 @@
    "match": [],
    "note": "向きが変わるカメラ（設置場所は固定）。",
    "viewers": 3,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "wivzu1mccta54",
@@ -1476,7 +1476,7 @@
    "title": "EarthCam Live:  Tamariu, Spain",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": "2026-09-30T12:50:01Z",
    "lastSearchAt": null,
@@ -1484,7 +1484,7 @@
    "match": [],
    "note": "",
    "viewers": 2,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "xidexq5kgta55",
@@ -1505,7 +1505,7 @@
    "title": "🔴 LIVE: Funchal City Webcam from São Roque, Madeira Island | @WebcamTaxi",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": "2026-05-27T10:16:16Z",
    "lastSearchAt": null,
@@ -1534,15 +1534,15 @@
    "title": "Luzern live - Lucerne live",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": "2023-06-11T14:05:27Z",
    "lastSearchAt": null,
    "candidates": [],
    "match": [],
    "note": "地域テレビ局Tele1による配信。",
-   "viewers": 6,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewers": 11,
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "ex4y8jgvsra57",
@@ -1563,15 +1563,15 @@
    "title": "🔴 Live Now: 24/7 Iceland Volcano Watch in 4K Ultra HD (Cam B)",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": "2026-04-28T05:41:39Z",
    "lastSearchAt": null,
    "candidates": [],
    "match": [],
    "note": "",
-   "viewers": 1,
-   "viewersAt": "2026-10-30T12:54:48.669Z"
+   "viewers": 3,
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "3c8w4rlgiog58",
@@ -1592,7 +1592,7 @@
    "title": "ITS - Praha centrum živě",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": "2025-12-31T09:15:46Z",
    "lastSearchAt": null,
@@ -1621,15 +1621,15 @@
    "title": "Arillas Corfu LIVE Webcam Corfu Greece",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": "2021-10-07T09:32:57Z",
    "lastSearchAt": null,
    "candidates": [],
    "match": [],
    "note": "",
-   "viewers": 1,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewers": 3,
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "wadtv6uc5ea60",
@@ -1650,15 +1650,15 @@
    "title": "Geiranger Live",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": "2024-02-29T09:49:53Z",
    "lastSearchAt": null,
    "candidates": [],
    "match": [],
    "note": "",
-   "viewers": 7,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewers": 6,
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "imqrdyhbdgo61",
@@ -1679,7 +1679,7 @@
    "title": "Skarsvåg Live",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": "2025-03-03T07:03:28Z",
    "lastSearchAt": null,
@@ -1687,7 +1687,7 @@
    "match": [],
    "note": "チャンネル名から地元の集落団体による配信と見られます（未確認）。",
    "viewers": 3,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "aduw5rdyzxi63",
@@ -1708,7 +1708,7 @@
    "title": "EarthCam Live:  Times Square Crossroads (New York City, NY)",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T13:30:00Z",
    "liveSince": "2026-09-24T21:14:43Z",
    "lastSearchAt": "2026-10-27T01:28:47.610Z",
@@ -1717,8 +1717,8 @@
    "note": "",
    "previousVideoId": "JQ_jwk_7OVE",
    "replacedAt": "2026-10-27T01:28:47.610Z",
-   "viewers": 16,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewers": 14,
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "ryyc8tymxyq64",
@@ -1739,7 +1739,7 @@
    "title": "EarthCam Live: New Orleans Street View",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T13:30:00Z",
    "liveSince": "2026-10-05T12:22:04Z",
    "lastSearchAt": null,
@@ -1748,8 +1748,8 @@
    "note": "バーボン・ストリート付近と見られますが、配信の説明に通り名の記載はありません。",
    "previousVideoId": "ryyC8t-mxyQ",
    "replacedAt": "2026-10-17T13:30:00Z",
-   "viewers": 428,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewers": 308,
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "2ywiwmlgfbs65",
@@ -1770,7 +1770,7 @@
    "title": "EarthCam Live:  Fremont Street (Las Vegas, Nevada)",
    "status": "offline",
    "statusDetail": "配信は終了しました（2024-02-20 15:19 UTC）",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": null,
    "lastSearchAt": "2026-10-30T19:22:02.863Z",
@@ -1814,7 +1814,7 @@
    "title": "EarthCam Live:  Coney Island (New York City)",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": "2026-02-28T13:43:31Z",
    "lastSearchAt": null,
@@ -1822,7 +1822,7 @@
    "match": [],
    "note": "",
    "viewers": 11,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "obgcrwyiyhe67",
@@ -1843,15 +1843,15 @@
    "title": "EarthCam Live:  Seaside Heights, NJ - North View",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": "2026-08-13T20:15:46Z",
    "lastSearchAt": null,
    "candidates": [],
    "match": [],
    "note": "",
-   "viewers": 23,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewers": 17,
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "7gbzlgljnwk69",
@@ -1872,15 +1872,15 @@
    "title": "Niagara Falls Live",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": "2026-06-23T13:24:21Z",
    "lastSearchAt": null,
    "candidates": [],
    "match": [],
    "note": "説明文によるとniagarafallslive.comとヒルトン・ナイアガラフォールズの提供。",
-   "viewers": 20,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewers": 34,
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "wpmgp2c3xco70",
@@ -1901,15 +1901,15 @@
    "title": "Peace Bridge - Canadian Inspection Lanes",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": "2021-02-11T23:01:49Z",
    "lastSearchAt": null,
    "candidates": [],
    "match": [],
    "note": "米加両国の公的な橋梁管理機関による配信。",
-   "viewers": 4,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewers": 1,
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "8c4m11yu5l472",
@@ -1930,7 +1930,7 @@
    "title": "🔴 Live Now: 24/7 Erupting Popocatépetl Volcano from San Matias Tlalancaleca Mexico in 4K Ultra HD",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": "2026-09-06T13:26:08Z",
    "lastSearchAt": null,
@@ -1938,7 +1938,7 @@
    "match": [],
    "note": "カメラは火山から約30 km離れた場所にあります。",
    "viewers": 1,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "mrrrjjlo0vg73",
@@ -1959,15 +1959,15 @@
    "title": "🔴 En directo: 24/7 Erupción del volcán de Fuego en 4K Ultra HD (Guatemala)",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": "2026-08-23T02:15:58Z",
    "lastSearchAt": null,
    "candidates": [],
    "match": [],
    "note": "",
-   "viewers": 2,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewers": 9,
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "2iqmpcxbomm74",
@@ -1988,15 +1988,15 @@
    "title": "Iconic SXM Airport LIVE 24/7 • Sint Maarten Maho Beach",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": "2025-12-17T15:47:57Z",
    "lastSearchAt": null,
    "candidates": [],
    "match": [],
    "note": "",
-   "viewers": 33,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewers": 15,
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "mu8kiypbvnm75",
@@ -2017,7 +2017,7 @@
    "title": "EarthCam Live:  El Conquistador Resort - Palomino Island Beach (Puerto Rico)",
    "status": "offline",
    "statusDetail": "配信は終了しました（2025-03-24 12:03 UTC）",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": null,
    "lastSearchAt": "2026-10-30T19:22:02.863Z",
@@ -2061,7 +2061,7 @@
    "title": "Webcam Rio de Janeiro Copacabana Posto 6",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T13:30:00Z",
    "liveSince": "2026-10-05T11:23:26Z",
    "lastSearchAt": null,
@@ -2070,8 +2070,8 @@
    "note": "EarthCamのリオのカメラの提携先（不動産会社HOMESinRIO）による、コパカバーナ海岸ポスト6の定点カメラ。",
    "previousVideoId": "6QoLEltTzIM",
    "replacedAt": "2026-10-17T13:30:00Z",
-   "viewers": 46,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewers": 19,
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "o0ugvqgceie77",
@@ -2092,7 +2092,7 @@
    "title": "Volcán Villarrica - En Vivo",
    "status": "offline",
    "statusDetail": "配信は終了しました（2023-09-29 12:17 UTC）",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": null,
    "lastSearchAt": "2026-10-30T23:45:50.594Z",
@@ -2120,7 +2120,7 @@
    "title": "Marejadas UV || Reñaca || Viña del Mar || Chile en vivo",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": "2026-10-16T21:49:56Z",
    "lastSearchAt": "2026-10-17T12:53:50.140Z",
@@ -2153,15 +2153,15 @@
    "title": "Namibia: Live stream in the Namib Desert",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": "2021-11-30T08:04:55Z",
    "lastSearchAt": null,
    "candidates": [],
    "match": [],
    "note": "運営：Gondwana Collection Namibia（ロッジ運営会社）。位置は地域の目安。",
-   "viewers": 339,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewers": 341,
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "0pxlbkqvbfs80",
@@ -2182,15 +2182,15 @@
    "title": "LIVE Elephant Cam: Tembe Elephant Park - South Africa - Africam | explore.org",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": "2026-04-08T15:24:42Z",
    "lastSearchAt": null,
    "candidates": [],
    "match": [],
    "note": "Africam・explore.org。",
-   "viewers": 22,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewers": 28,
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "7x5kro1b84y81",
@@ -2211,7 +2211,7 @@
    "title": "LIVE African River Wildlife - Kenya Hippo & Crocodile Cam - MPALA | explore.org",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": "2026-03-24T15:03:07Z",
    "lastSearchAt": null,
@@ -2240,15 +2240,15 @@
    "title": "LIVE Watering Hole in Kenya - MPALA | explore.org",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": "2026-03-24T14:55:57Z",
    "lastSearchAt": null,
    "candidates": [],
    "match": [],
    "note": "explore.org（ムパラ研究センター）。ピンは重ならないよう少しずらしています。",
-   "viewers": 2,
-   "viewersAt": "2026-10-30T19:22:02.863Z"
+   "viewers": 1,
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "dichlg4xwns83",
@@ -2269,15 +2269,15 @@
    "title": "Africam Nkorho Bush Lodge powered by EXPLORE.org",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": "2023-01-23T18:37:42Z",
    "lastSearchAt": null,
    "candidates": [],
    "match": [],
    "note": "Africam・explore.org。",
-   "viewers": 3,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewers": 4,
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "xnxaovxbybk84",
@@ -2298,7 +2298,7 @@
    "title": "Africam Olifants River powered by EXPLORE.org",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": "2023-01-16T15:53:06Z",
    "lastSearchAt": null,
@@ -2306,7 +2306,7 @@
    "match": [],
    "note": "Africam・explore.org。",
    "viewers": 5,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "i1ql7zlacea85",
@@ -2327,7 +2327,7 @@
    "title": "Djuma Cam Live Stream",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T13:30:00Z",
    "liveSince": "2026-07-31T17:11:00Z",
    "lastSearchAt": null,
@@ -2336,8 +2336,8 @@
    "note": "保護区自身のチャンネル。",
    "previousVideoId": "i1QL7zLACeA",
    "replacedAt": "2026-10-17T13:30:00Z",
-   "viewers": 80,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewers": 65,
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "77akujln4k886",
@@ -2358,15 +2358,15 @@
    "title": "EarthCam Live - Western Wall  (Jerusalem, Israel)",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": "2026-02-28T12:36:47Z",
    "lastSearchAt": null,
    "candidates": [],
    "match": [],
    "note": "宗教上の聖地です。",
-   "viewers": 39,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewers": 31,
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "cm1v4btexbi87",
@@ -2387,7 +2387,7 @@
    "title": "بث مباشر || قناة القرآن الكريم Makkah Live",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T13:30:00Z",
    "liveSince": "2026-09-13T17:04:58Z",
    "lastSearchAt": null,
@@ -2396,8 +2396,8 @@
    "note": "サウジアラビアの国営クルアーン放送局による中継。礼拝の中継などで画面が切り替わることがあります。宗教上の聖地です。",
    "previousVideoId": "Cm1v4bteXbI",
    "replacedAt": "2026-10-17T13:30:00Z",
-   "viewers": 8677,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewers": 6605,
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "fdhiv9ibzwk26",
@@ -2418,7 +2418,7 @@
    "title": "Northern Royal Albatross Cam - NZ Dept. of Conservation #RoyalCam | Cornell Lab",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T13:30:00Z",
    "liveSince": "2025-11-04T15:45:48Z",
    "lastSearchAt": null,
@@ -2427,8 +2427,8 @@
    "note": "繁殖期ごとの配信で、ひなの巣立ち後は空の巣が映ることがあります。11月ごろに新しい配信へ切り替わる可能性があります。",
    "previousVideoId": "fDhIv9iBzWk",
    "replacedAt": "2026-10-17T13:30:00Z",
-   "viewers": 73,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewers": 49,
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "ikhgwzecns827",
@@ -2449,7 +2449,7 @@
    "title": "Ōamaru Penguins Live Cam",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T13:30:00Z",
    "liveSince": "2026-08-20T06:29:13Z",
    "lastSearchAt": null,
@@ -2458,8 +2458,8 @@
    "note": "ペンギンが上陸するのは現地の夕方以降です。",
    "previousVideoId": "IKhGWZeCns8",
    "replacedAt": "2026-10-17T13:30:00Z",
-   "viewers": 4,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewers": 2,
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "6j7pqjym1ee28",
@@ -2480,7 +2480,7 @@
    "title": "Capybara Live stream",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": "2026-07-03T21:00:26Z",
    "lastSearchAt": "2026-10-22T11:51:58.475Z",
@@ -2490,7 +2490,7 @@
    "previousVideoId": "6j7pqjym1EE",
    "replacedAt": "2026-10-22T11:51:58.475Z",
    "viewers": 1,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "gtzx7tkufym29",
@@ -2511,7 +2511,7 @@
    "title": "Lion cam at Werribee Open Range Zoo",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": "2020-07-16T04:09:42Z",
    "lastSearchAt": null,
@@ -2519,7 +2519,7 @@
    "match": [],
    "note": "",
    "viewers": 2,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "5sqd6qkbbc030",
@@ -2540,7 +2540,7 @@
    "title": "Port Lincoln Osprey Live Stream WIDE",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T13:30:00Z",
    "liveSince": "2026-08-11T17:57:52Z",
    "lastSearchAt": null,
@@ -2549,8 +2549,8 @@
    "note": "巣を観察する地域の取り組みによる配信。",
    "previousVideoId": "5SQd6QkBbc0",
    "replacedAt": "2026-10-17T13:30:00Z",
-   "viewers": 3,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewers": 1,
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "gneuhfyzppq40",
@@ -2571,7 +2571,7 @@
    "title": "Panda 24/7 HD Live At Chengdu Panda Base",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T13:30:00Z",
    "liveSince": "2026-03-31T08:57:37Z",
    "lastSearchAt": null,
@@ -2580,8 +2580,8 @@
    "note": "中国の国営放送局（CCTV/CMG）系のチャンネル。飼育場の映像が切り替わることがあります。",
    "previousVideoId": "gnEuhfyZPPQ",
    "replacedAt": "2026-10-17T13:30:00Z",
-   "viewers": 66,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewers": 79,
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "dp9hbjmwbnu41",
@@ -2602,7 +2602,7 @@
    "title": "LIVE Giant Panda Cam - Gengda Valley | explore.org",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T13:30:00Z",
    "liveSince": "2026-03-21T01:36:07Z",
    "lastSearchAt": null,
@@ -2612,7 +2612,7 @@
    "previousVideoId": "DP9hbJmwbNU",
    "replacedAt": "2026-10-17T13:30:00Z",
    "viewers": 8,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "pcpb5z99nc850",
@@ -2633,7 +2633,7 @@
    "title": "Lights Over Lapland real time aurora webcam",
    "status": "offline",
    "statusDetail": "配信予定（まだ始まっていません）",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": null,
    "lastSearchAt": "2026-10-30T19:22:02.863Z",
@@ -2661,7 +2661,7 @@
    "title": "LIVE Polar Bear Cam: Tundra Buggy Lodge South – Polar Bears International | explore.org",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T13:30:00Z",
    "liveSince": "2026-10-06T15:25:09Z",
    "lastSearchAt": null,
@@ -2692,15 +2692,15 @@
    "title": "Live Kelp Forest Cam | Monterey Bay Aquarium",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": "2024-06-17T22:28:04Z",
    "lastSearchAt": null,
    "candidates": [],
    "match": [],
    "note": "配信は太平洋時間の7〜19時ごろ（配信者の案内による）。",
-   "viewers": 196,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewers": 83,
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "fva6yzcbr7a89",
@@ -2721,15 +2721,15 @@
    "title": "Live Monterey Bay Cam | Monterey Bay Aquarium",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": "2025-06-26T02:17:36Z",
    "lastSearchAt": null,
    "candidates": [],
    "match": [],
    "note": "配信は太平洋時間の7〜19時ごろ（配信者の案内による）。",
-   "viewers": 61,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewers": 27,
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "5oyadtqytjk90",
@@ -2750,16 +2750,16 @@
    "title": "Tropical Reef Camera powered by EXPLORE.org",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": "2023-01-06T15:49:03Z",
    "lastSearchAt": "2026-10-22T04:44:19.818Z",
    "candidates": [],
    "match": [],
    "note": "explore.orgの水中カメラ。",
-   "viewers": 125,
+   "viewers": 67,
    "previousVideoId": "5o-ADtqyTJk",
-   "viewersAt": "2026-10-30T23:45:50.594Z",
+   "viewersAt": "2026-10-31T05:39:41.708Z",
    "replacedAt": "2026-10-22T04:44:19.818Z"
   },
   {
@@ -2781,7 +2781,7 @@
    "title": "LIVE Georgia Aquarium Cam | Ocean Voyager Cam | Whale Sharks and Rays",
    "status": "offline",
    "statusDetail": "配信は終了しました（2026-09-16 18:36 UTC）",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": null,
    "lastSearchAt": "2026-10-30T19:22:02.863Z",
@@ -2825,7 +2825,7 @@
    "title": "🔴 Live Cornell Lab FeederWatch Cam 🔴 at Sapsucker Woods",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T13:30:00Z",
    "liveSince": "2023-06-27T10:44:37Z",
    "lastSearchAt": null,
@@ -2834,8 +2834,8 @@
    "note": "コーネル大学鳥類学研究所。",
    "previousVideoId": "N609loYkFJo",
    "replacedAt": "2026-10-17T13:30:00Z",
-   "viewers": 289,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewers": 185,
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "ewth5yy7mks93",
@@ -2856,15 +2856,15 @@
    "title": "LIVE Brooks Falls Brown Bears Low | explore.org",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": "2026-06-23T17:13:51Z",
    "lastSearchAt": null,
    "candidates": [],
    "match": [],
    "note": "季節配信（おおむね6〜10月）。10月中旬以降は終了している可能性があります。",
-   "viewers": 63,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewers": 36,
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "a0i1kg6frog94",
@@ -2885,15 +2885,15 @@
    "title": "Northern Lights powered by EXPLORE.org",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": "2023-01-06T16:48:15Z",
    "lastSearchAt": null,
    "candidates": [],
    "match": [],
    "note": "オーロラは夜間・活動が活発なときだけ見えます。",
-   "viewers": 2,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewers": 7,
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   },
   {
    "id": "0grxqofmmqo96",
@@ -2914,16 +2914,16 @@
    "title": "🔴 Live Now: 24/7 Iceberg Cam of Ilulissat, Greenland in 4K Ultra HD",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T11:30:00Z",
    "liveSince": "2026-10-22T20:00:57Z",
    "lastSearchAt": "2026-10-23T07:31:40.727Z",
    "candidates": [],
    "match": [],
    "note": "ライブカメラ運営会社afarTVの配信。",
-   "viewers": 7,
+   "viewers": 13,
    "previousVideoId": "0GRxQoFMmqo",
-   "viewersAt": "2026-10-30T23:45:50.594Z",
+   "viewersAt": "2026-10-31T05:39:41.708Z",
    "replacedAt": "2026-10-23T07:31:40.727Z"
   },
   {
@@ -2945,7 +2945,7 @@
    "title": "Live Video from the International Space Station (Official NASA Stream)",
    "status": "live",
    "statusDetail": "ライブ配信中",
-   "checkedAt": "2026-10-30T23:45:50.594Z",
+   "checkedAt": "2026-10-31T05:39:41.708Z",
    "manualCheckedAt": "2026-10-17T13:30:00Z",
    "liveSince": "2026-07-30T13:14:41Z",
    "lastSearchAt": null,
@@ -2954,8 +2954,8 @@
    "note": "船内の映像や通信断の画面になることがあります。",
    "previousVideoId": "P9C25Un7xaM",
    "replacedAt": "2026-10-17T13:30:00Z",
-   "viewers": 96,
-   "viewersAt": "2026-10-30T23:45:50.594Z"
+   "viewers": 86,
+   "viewersAt": "2026-10-31T05:39:41.708Z"
   }
  ]
 }
