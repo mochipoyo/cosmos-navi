@@ -1,9 +1,9 @@
 {
  "schema": 1,
  "meta": {
-  "updatedAt": "2026-11-02T11:27:07.969Z",
+  "updatedAt": "2026-11-03T11:04:12.820Z",
   "status": "ok",
-  "message": "チャンネル 15 件を確認し、新しい候補 3 件",
+  "message": "チャンネル 15 件を確認し、新しい候補 4 件",
   "searchCalls": 15
  },
  "candidates": [
@@ -1543,7 +1543,7 @@
    "channelId": "UChWGYkK0I8U83C0FxAxWy4w",
    "channelTitle": "Homes in Rio",
    "firstSeenAt": "2026-10-23T08:41:24.166Z",
-   "lastSeenAt": "2026-10-28T09:52:03.158Z",
+   "lastSeenAt": "2026-11-03T11:04:12.820Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -1553,7 +1553,7 @@
    "channelId": "UChWGYkK0I8U83C0FxAxWy4w",
    "channelTitle": "Homes in Rio",
    "firstSeenAt": "2026-10-23T08:41:24.166Z",
-   "lastSeenAt": "2026-10-28T09:52:03.158Z",
+   "lastSeenAt": "2026-11-03T11:04:12.820Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -1563,7 +1563,7 @@
    "channelId": "UCiGOIXjFqy5_mUNxQNOMfHw",
    "channelTitle": "Explore Africa",
    "firstSeenAt": "2026-10-23T08:41:24.166Z",
-   "lastSeenAt": "2026-10-29T10:12:43.196Z",
+   "lastSeenAt": "2026-11-03T11:04:12.820Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -1573,7 +1573,7 @@
    "channelId": "UCiGOIXjFqy5_mUNxQNOMfHw",
    "channelTitle": "Explore Africa",
    "firstSeenAt": "2026-10-23T08:41:24.166Z",
-   "lastSeenAt": "2026-10-29T10:12:43.196Z",
+   "lastSeenAt": "2026-11-03T11:04:12.820Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -1583,7 +1583,7 @@
    "channelId": "UCiGOIXjFqy5_mUNxQNOMfHw",
    "channelTitle": "Explore Africa",
    "firstSeenAt": "2026-10-23T08:41:24.166Z",
-   "lastSeenAt": "2026-10-29T10:12:43.196Z",
+   "lastSeenAt": "2026-11-03T11:04:12.820Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -1593,7 +1593,7 @@
    "channelId": "UCiGOIXjFqy5_mUNxQNOMfHw",
    "channelTitle": "Explore Africa",
    "firstSeenAt": "2026-10-23T08:41:24.166Z",
-   "lastSeenAt": "2026-10-29T10:12:43.196Z",
+   "lastSeenAt": "2026-11-03T11:04:12.820Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -1603,7 +1603,7 @@
    "channelId": "UCiGOIXjFqy5_mUNxQNOMfHw",
    "channelTitle": "Explore Africa",
    "firstSeenAt": "2026-10-23T08:41:24.166Z",
-   "lastSeenAt": "2026-10-29T10:12:43.196Z",
+   "lastSeenAt": "2026-11-03T11:04:12.820Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -1613,7 +1613,7 @@
    "channelId": "UCiGOIXjFqy5_mUNxQNOMfHw",
    "channelTitle": "Explore Africa",
    "firstSeenAt": "2026-10-23T08:41:24.166Z",
-   "lastSeenAt": "2026-10-29T10:12:43.196Z",
+   "lastSeenAt": "2026-11-03T11:04:12.820Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -1623,7 +1623,7 @@
    "channelId": "UCiGOIXjFqy5_mUNxQNOMfHw",
    "channelTitle": "Explore Africa",
    "firstSeenAt": "2026-10-23T08:41:24.166Z",
-   "lastSeenAt": "2026-10-29T10:12:43.196Z",
+   "lastSeenAt": "2026-11-03T11:04:12.820Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -1633,7 +1633,7 @@
    "channelId": "UCkEiJMkX7n3rZpZ2PDVc3Ow",
    "channelTitle": "Kominfo Gunungkidul",
    "firstSeenAt": "2026-10-24T08:16:22.282Z",
-   "lastSeenAt": "2026-10-29T10:12:43.196Z",
+   "lastSeenAt": "2026-11-03T11:04:12.820Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -1643,7 +1643,7 @@
    "channelId": "UCkEiJMkX7n3rZpZ2PDVc3Ow",
    "channelTitle": "Kominfo Gunungkidul",
    "firstSeenAt": "2026-10-24T08:16:22.282Z",
-   "lastSeenAt": "2026-10-29T10:12:43.196Z",
+   "lastSeenAt": "2026-11-03T11:04:12.820Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -1653,7 +1653,7 @@
    "channelId": "UCkEiJMkX7n3rZpZ2PDVc3Ow",
    "channelTitle": "Kominfo Gunungkidul",
    "firstSeenAt": "2026-10-24T08:16:22.282Z",
-   "lastSeenAt": "2026-10-29T10:12:43.196Z",
+   "lastSeenAt": "2026-11-03T11:04:12.820Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -1663,7 +1663,7 @@
    "channelId": "UCkEiJMkX7n3rZpZ2PDVc3Ow",
    "channelTitle": "Kominfo Gunungkidul",
    "firstSeenAt": "2026-10-24T08:16:22.282Z",
-   "lastSeenAt": "2026-10-29T10:12:43.196Z",
+   "lastSeenAt": "2026-11-03T11:04:12.820Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -1673,7 +1673,7 @@
    "channelId": "UCkEiJMkX7n3rZpZ2PDVc3Ow",
    "channelTitle": "Kominfo Gunungkidul",
    "firstSeenAt": "2026-10-24T08:16:22.282Z",
-   "lastSeenAt": "2026-10-29T10:12:43.196Z",
+   "lastSeenAt": "2026-11-03T11:04:12.820Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -1683,7 +1683,7 @@
    "channelId": "UCkEiJMkX7n3rZpZ2PDVc3Ow",
    "channelTitle": "Kominfo Gunungkidul",
    "firstSeenAt": "2026-10-24T08:16:22.282Z",
-   "lastSeenAt": "2026-10-29T10:12:43.196Z",
+   "lastSeenAt": "2026-11-03T11:04:12.820Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -1693,7 +1693,7 @@
    "channelId": "UCkEiJMkX7n3rZpZ2PDVc3Ow",
    "channelTitle": "Kominfo Gunungkidul",
    "firstSeenAt": "2026-10-24T08:16:22.282Z",
-   "lastSeenAt": "2026-10-29T10:12:43.196Z",
+   "lastSeenAt": "2026-11-03T11:04:12.820Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -1713,7 +1713,7 @@
    "channelId": "UCkEiJMkX7n3rZpZ2PDVc3Ow",
    "channelTitle": "Kominfo Gunungkidul",
    "firstSeenAt": "2026-10-24T08:16:22.282Z",
-   "lastSeenAt": "2026-10-29T10:12:43.196Z",
+   "lastSeenAt": "2026-11-03T11:04:12.820Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -1723,7 +1723,7 @@
    "channelId": "UCkEiJMkX7n3rZpZ2PDVc3Ow",
    "channelTitle": "Kominfo Gunungkidul",
    "firstSeenAt": "2026-10-24T08:16:22.282Z",
-   "lastSeenAt": "2026-10-29T10:12:43.196Z",
+   "lastSeenAt": "2026-11-03T11:04:12.820Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -1733,7 +1733,7 @@
    "channelId": "UCkEiJMkX7n3rZpZ2PDVc3Ow",
    "channelTitle": "Kominfo Gunungkidul",
    "firstSeenAt": "2026-10-24T08:16:22.282Z",
-   "lastSeenAt": "2026-10-29T10:12:43.196Z",
+   "lastSeenAt": "2026-11-03T11:04:12.820Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -1743,7 +1743,7 @@
    "channelId": "UCkEiJMkX7n3rZpZ2PDVc3Ow",
    "channelTitle": "Kominfo Gunungkidul",
    "firstSeenAt": "2026-10-24T08:16:22.282Z",
-   "lastSeenAt": "2026-10-29T10:12:43.196Z",
+   "lastSeenAt": "2026-11-03T11:04:12.820Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -1753,7 +1753,7 @@
    "channelId": "UCkEiJMkX7n3rZpZ2PDVc3Ow",
    "channelTitle": "Kominfo Gunungkidul",
    "firstSeenAt": "2026-10-24T08:16:22.282Z",
-   "lastSeenAt": "2026-10-29T10:12:43.196Z",
+   "lastSeenAt": "2026-11-03T11:04:12.820Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -1763,7 +1763,7 @@
    "channelId": "UCkEiJMkX7n3rZpZ2PDVc3Ow",
    "channelTitle": "Kominfo Gunungkidul",
    "firstSeenAt": "2026-10-24T08:16:22.282Z",
-   "lastSeenAt": "2026-10-29T10:12:43.196Z",
+   "lastSeenAt": "2026-11-03T11:04:12.820Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -1773,7 +1773,7 @@
    "channelId": "UCkEiJMkX7n3rZpZ2PDVc3Ow",
    "channelTitle": "Kominfo Gunungkidul",
    "firstSeenAt": "2026-10-24T08:16:22.282Z",
-   "lastSeenAt": "2026-10-29T10:12:43.196Z",
+   "lastSeenAt": "2026-11-03T11:04:12.820Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -1783,7 +1783,7 @@
    "channelId": "UCkEiJMkX7n3rZpZ2PDVc3Ow",
    "channelTitle": "Kominfo Gunungkidul",
    "firstSeenAt": "2026-10-24T08:16:22.282Z",
-   "lastSeenAt": "2026-10-24T08:16:22.282Z",
+   "lastSeenAt": "2026-11-03T11:04:12.820Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -1793,7 +1793,7 @@
    "channelId": "UCkEiJMkX7n3rZpZ2PDVc3Ow",
    "channelTitle": "Kominfo Gunungkidul",
    "firstSeenAt": "2026-10-24T08:16:22.282Z",
-   "lastSeenAt": "2026-10-29T10:12:43.196Z",
+   "lastSeenAt": "2026-11-03T11:04:12.820Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -1813,7 +1813,7 @@
    "channelId": "UCkEiJMkX7n3rZpZ2PDVc3Ow",
    "channelTitle": "Kominfo Gunungkidul",
    "firstSeenAt": "2026-10-24T08:16:22.282Z",
-   "lastSeenAt": "2026-10-29T10:12:43.196Z",
+   "lastSeenAt": "2026-11-03T11:04:12.820Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -1823,7 +1823,7 @@
    "channelId": "UCkEiJMkX7n3rZpZ2PDVc3Ow",
    "channelTitle": "Kominfo Gunungkidul",
    "firstSeenAt": "2026-10-24T08:16:22.282Z",
-   "lastSeenAt": "2026-10-29T10:12:43.196Z",
+   "lastSeenAt": "2026-11-03T11:04:12.820Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -1833,7 +1833,7 @@
    "channelId": "UCkEiJMkX7n3rZpZ2PDVc3Ow",
    "channelTitle": "Kominfo Gunungkidul",
    "firstSeenAt": "2026-10-24T08:16:22.282Z",
-   "lastSeenAt": "2026-10-29T10:12:43.196Z",
+   "lastSeenAt": "2026-11-03T11:04:12.820Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -1843,7 +1843,7 @@
    "channelId": "UCkEiJMkX7n3rZpZ2PDVc3Ow",
    "channelTitle": "Kominfo Gunungkidul",
    "firstSeenAt": "2026-10-24T08:16:22.282Z",
-   "lastSeenAt": "2026-10-29T10:12:43.196Z",
+   "lastSeenAt": "2026-11-03T11:04:12.820Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -1863,7 +1863,7 @@
    "channelId": "UCkEiJMkX7n3rZpZ2PDVc3Ow",
    "channelTitle": "Kominfo Gunungkidul",
    "firstSeenAt": "2026-10-24T08:16:22.282Z",
-   "lastSeenAt": "2026-10-29T10:12:43.196Z",
+   "lastSeenAt": "2026-11-03T11:04:12.820Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -1873,7 +1873,7 @@
    "channelId": "UCkEiJMkX7n3rZpZ2PDVc3Ow",
    "channelTitle": "Kominfo Gunungkidul",
    "firstSeenAt": "2026-10-24T08:16:22.282Z",
-   "lastSeenAt": "2026-10-29T10:12:43.196Z",
+   "lastSeenAt": "2026-11-03T11:04:12.820Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -1883,7 +1883,7 @@
    "channelId": "UCkUdb6wh-TE9MK7Q2VTE5-A",
    "channelTitle": "静岡市さった峠 ライブカメラ",
    "firstSeenAt": "2026-10-24T08:16:22.282Z",
-   "lastSeenAt": "2026-10-29T10:12:43.196Z",
+   "lastSeenAt": "2026-11-03T11:04:12.820Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -1903,7 +1903,7 @@
    "channelId": "UCnM5iMGiKsZg-iOlIO2ZkdQ",
    "channelTitle": "Monterey Bay Aquarium",
    "firstSeenAt": "2026-10-24T08:16:22.282Z",
-   "lastSeenAt": "2026-10-29T10:12:43.196Z",
+   "lastSeenAt": "2026-11-03T11:04:12.820Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -1913,7 +1913,7 @@
    "channelId": "UCnM5iMGiKsZg-iOlIO2ZkdQ",
    "channelTitle": "Monterey Bay Aquarium",
    "firstSeenAt": "2026-10-24T08:16:22.282Z",
-   "lastSeenAt": "2026-10-29T10:12:43.196Z",
+   "lastSeenAt": "2026-11-03T11:04:12.820Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -1923,7 +1923,7 @@
    "channelId": "UCnM5iMGiKsZg-iOlIO2ZkdQ",
    "channelTitle": "Monterey Bay Aquarium",
    "firstSeenAt": "2026-10-24T08:16:22.282Z",
-   "lastSeenAt": "2026-10-29T10:12:43.196Z",
+   "lastSeenAt": "2026-11-03T11:04:12.820Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -1933,7 +1933,7 @@
    "channelId": "UCnM5iMGiKsZg-iOlIO2ZkdQ",
    "channelTitle": "Monterey Bay Aquarium",
    "firstSeenAt": "2026-10-24T08:16:22.282Z",
-   "lastSeenAt": "2026-10-29T10:12:43.196Z",
+   "lastSeenAt": "2026-11-03T11:04:12.820Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -1943,7 +1943,7 @@
    "channelId": "UCnM5iMGiKsZg-iOlIO2ZkdQ",
    "channelTitle": "Monterey Bay Aquarium",
    "firstSeenAt": "2026-10-24T08:16:22.282Z",
-   "lastSeenAt": "2026-10-29T10:12:43.196Z",
+   "lastSeenAt": "2026-11-03T11:04:12.820Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -1953,7 +1953,7 @@
    "channelId": "UCnM5iMGiKsZg-iOlIO2ZkdQ",
    "channelTitle": "Monterey Bay Aquarium",
    "firstSeenAt": "2026-10-24T08:16:22.282Z",
-   "lastSeenAt": "2026-10-29T10:12:43.196Z",
+   "lastSeenAt": "2026-11-03T11:04:12.820Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -1963,7 +1963,7 @@
    "channelId": "UCnM5iMGiKsZg-iOlIO2ZkdQ",
    "channelTitle": "Monterey Bay Aquarium",
    "firstSeenAt": "2026-10-24T08:16:22.282Z",
-   "lastSeenAt": "2026-10-29T10:12:43.196Z",
+   "lastSeenAt": "2026-11-03T11:04:12.820Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -1993,7 +1993,7 @@
    "channelId": "UCoQBJMzcwmXrRSHBFAlTsIw",
    "channelTitle": "FNNプライムオンライン",
    "firstSeenAt": "2026-10-24T08:16:22.282Z",
-   "lastSeenAt": "2026-10-29T10:12:43.196Z",
+   "lastSeenAt": "2026-11-03T11:04:12.820Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -2003,7 +2003,7 @@
    "channelId": "UCpOBAWYh0T5Zz5S7uKIiEmQ",
    "channelTitle": "長崎ケーブルメディア[公式]",
    "firstSeenAt": "2026-10-24T08:16:22.282Z",
-   "lastSeenAt": "2026-10-29T10:12:43.196Z",
+   "lastSeenAt": "2026-11-03T11:04:12.820Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -2013,7 +2013,7 @@
    "channelId": "UCpOBAWYh0T5Zz5S7uKIiEmQ",
    "channelTitle": "長崎ケーブルメディア[公式]",
    "firstSeenAt": "2026-10-24T08:16:22.282Z",
-   "lastSeenAt": "2026-10-29T10:12:43.196Z",
+   "lastSeenAt": "2026-11-03T11:04:12.820Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -2023,7 +2023,7 @@
    "channelId": "UCpOBAWYh0T5Zz5S7uKIiEmQ",
    "channelTitle": "長崎ケーブルメディア[公式]",
    "firstSeenAt": "2026-10-24T08:16:22.282Z",
-   "lastSeenAt": "2026-10-29T10:12:43.196Z",
+   "lastSeenAt": "2026-11-03T11:04:12.820Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -2033,7 +2033,7 @@
    "channelId": "UCr5Z4Oi3UFwkM6sLPFDC6QA",
    "channelTitle": "Phát Triển Đà Nẵng",
    "firstSeenAt": "2026-10-24T08:16:22.282Z",
-   "lastSeenAt": "2026-10-29T10:12:43.196Z",
+   "lastSeenAt": "2026-11-03T11:04:12.820Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -2043,7 +2043,7 @@
    "channelId": "UCr5Z4Oi3UFwkM6sLPFDC6QA",
    "channelTitle": "Phát Triển Đà Nẵng",
    "firstSeenAt": "2026-10-24T08:16:22.282Z",
-   "lastSeenAt": "2026-10-29T10:12:43.196Z",
+   "lastSeenAt": "2026-11-03T11:04:12.820Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -2053,7 +2053,7 @@
    "channelId": "UCr5Z4Oi3UFwkM6sLPFDC6QA",
    "channelTitle": "Phát Triển Đà Nẵng",
    "firstSeenAt": "2026-10-24T08:16:22.282Z",
-   "lastSeenAt": "2026-10-29T10:12:43.196Z",
+   "lastSeenAt": "2026-11-03T11:04:12.820Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -2063,7 +2063,7 @@
    "channelId": "UCr5Z4Oi3UFwkM6sLPFDC6QA",
    "channelTitle": "Phát Triển Đà Nẵng",
    "firstSeenAt": "2026-10-24T08:16:22.282Z",
-   "lastSeenAt": "2026-10-29T10:12:43.196Z",
+   "lastSeenAt": "2026-11-03T11:04:12.820Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -2103,7 +2103,7 @@
    "channelId": "UCspnu6n44ydqafj6nFIw5hw",
    "channelTitle": "Ozolio Plus",
    "firstSeenAt": "2026-10-24T08:16:22.282Z",
-   "lastSeenAt": "2026-10-29T10:12:43.196Z",
+   "lastSeenAt": "2026-11-03T11:04:12.820Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -2113,7 +2113,7 @@
    "channelId": "UCspnu6n44ydqafj6nFIw5hw",
    "channelTitle": "Ozolio Plus",
    "firstSeenAt": "2026-10-24T08:16:22.282Z",
-   "lastSeenAt": "2026-10-29T10:12:43.196Z",
+   "lastSeenAt": "2026-11-03T11:04:12.820Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -2123,7 +2123,7 @@
    "channelId": "UCspnu6n44ydqafj6nFIw5hw",
    "channelTitle": "Ozolio Plus",
    "firstSeenAt": "2026-10-24T08:16:22.282Z",
-   "lastSeenAt": "2026-10-29T10:12:43.196Z",
+   "lastSeenAt": "2026-11-03T11:04:12.820Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -2133,7 +2133,7 @@
    "channelId": "UCspnu6n44ydqafj6nFIw5hw",
    "channelTitle": "Ozolio Plus",
    "firstSeenAt": "2026-10-24T08:16:22.282Z",
-   "lastSeenAt": "2026-10-29T10:12:43.196Z",
+   "lastSeenAt": "2026-11-03T11:04:12.820Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -2143,7 +2143,7 @@
    "channelId": "UCspnu6n44ydqafj6nFIw5hw",
    "channelTitle": "Ozolio Plus",
    "firstSeenAt": "2026-10-24T08:16:22.282Z",
-   "lastSeenAt": "2026-10-29T10:12:43.196Z",
+   "lastSeenAt": "2026-11-03T11:04:12.820Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -2153,7 +2153,7 @@
    "channelId": "UCspnu6n44ydqafj6nFIw5hw",
    "channelTitle": "Ozolio Plus",
    "firstSeenAt": "2026-10-24T08:16:22.282Z",
-   "lastSeenAt": "2026-10-29T10:12:43.196Z",
+   "lastSeenAt": "2026-11-03T11:04:12.820Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -3583,7 +3583,7 @@
    "channelId": "UCspnu6n44ydqafj6nFIw5hw",
    "channelTitle": "Ozolio Plus",
    "firstSeenAt": "2026-10-29T10:12:43.196Z",
-   "lastSeenAt": "2026-10-29T10:12:43.196Z",
+   "lastSeenAt": "2026-11-03T11:04:12.820Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -3593,7 +3593,7 @@
    "channelId": "UCspnu6n44ydqafj6nFIw5hw",
    "channelTitle": "Ozolio Plus",
    "firstSeenAt": "2026-10-29T10:12:43.196Z",
-   "lastSeenAt": "2026-10-29T10:12:43.196Z",
+   "lastSeenAt": "2026-11-03T11:04:12.820Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -3603,7 +3603,7 @@
    "channelId": "UCspnu6n44ydqafj6nFIw5hw",
    "channelTitle": "Ozolio Plus",
    "firstSeenAt": "2026-10-29T10:12:43.196Z",
-   "lastSeenAt": "2026-10-29T10:12:43.196Z",
+   "lastSeenAt": "2026-11-03T11:04:12.820Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -3706,7 +3706,47 @@
    "lastSeenAt": "2026-11-02T11:27:07.969Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
+  },
+  {
+   "videoId": "X-p0v51S34w",
+   "title": "LIVE PEMANTAUAN CCTV LALULINTAS SIMPANG EMPAT NGALANG BARAT",
+   "channelId": "UCkEiJMkX7n3rZpZ2PDVc3Ow",
+   "channelTitle": "Kominfo Gunungkidul",
+   "firstSeenAt": "2026-11-03T11:04:12.820Z",
+   "lastSeenAt": "2026-11-03T11:04:12.820Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "qefJt1WlHiI",
+   "title": "LIVE PEMANTAUAN CCTV KALURAHAN PLANJAN - SAPTOSARI PTZ",
+   "channelId": "UCkEiJMkX7n3rZpZ2PDVc3Ow",
+   "channelTitle": "Kominfo Gunungkidul",
+   "firstSeenAt": "2026-11-03T11:04:12.820Z",
+   "lastSeenAt": "2026-11-03T11:04:12.820Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "FZWO6rX4OHk",
+   "title": "LIVE PEMANTAUAN CCTV SIMPANG 3 KAPANEWON NGLIPAR BARAT",
+   "channelId": "UCkEiJMkX7n3rZpZ2PDVc3Ow",
+   "channelTitle": "Kominfo Gunungkidul",
+   "firstSeenAt": "2026-11-03T11:04:12.820Z",
+   "lastSeenAt": "2026-11-03T11:04:12.820Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "yruAW6AuF_Q",
+   "title": "【イッキ見】最新ニュース 11月3日夜〈FNNプライムオンライン〉",
+   "channelId": "UCoQBJMzcwmXrRSHBFAlTsIw",
+   "channelTitle": "FNNプライムオンライン",
+   "firstSeenAt": "2026-11-03T11:04:12.820Z",
+   "lastSeenAt": "2026-11-03T11:04:12.820Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
   }
  ],
- "channelCursor": 54
+ "channelCursor": 69
 }
