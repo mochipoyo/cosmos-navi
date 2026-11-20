@@ -1,9 +1,9 @@
 {
  "schema": 1,
  "meta": {
-  "updatedAt": "2026-11-19T11:54:03.523Z",
+  "updatedAt": "2026-11-20T11:55:36.917Z",
   "status": "ok",
-  "message": "チャンネル 15 件を確認し、新しい候補 6 件",
+  "message": "チャンネル 15 件を確認し、新しい候補 9 件",
   "searchCalls": 15
  },
  "candidates": [
@@ -33,7 +33,7 @@
    "channelId": "UC5lNakfSdpqXCW214H5sBgQ",
    "channelTitle": "Ozolio Live",
    "firstSeenAt": "2026-10-17T13:29:04.587Z",
-   "lastSeenAt": "2026-11-15T11:14:52.720Z",
+   "lastSeenAt": "2026-11-20T11:55:36.917Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -173,7 +173,7 @@
    "channelId": "UC5lNakfSdpqXCW214H5sBgQ",
    "channelTitle": "Ozolio Live",
    "firstSeenAt": "2026-10-21T08:43:40.574Z",
-   "lastSeenAt": "2026-11-15T11:14:52.720Z",
+   "lastSeenAt": "2026-11-20T11:55:36.917Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -183,7 +183,7 @@
    "channelId": "UC5lNakfSdpqXCW214H5sBgQ",
    "channelTitle": "Ozolio Live",
    "firstSeenAt": "2026-10-21T08:43:40.574Z",
-   "lastSeenAt": "2026-11-15T11:14:52.720Z",
+   "lastSeenAt": "2026-11-20T11:55:36.917Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -203,17 +203,7 @@
    "channelId": "UC6AG81pAkf6Lbi_1VC5NmPA",
    "channelTitle": "TBS NEWS DIG Powered by JNN",
    "firstSeenAt": "2026-10-21T08:43:40.574Z",
-   "lastSeenAt": "2026-11-15T11:14:52.720Z",
-   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
-   "dismissed": false
-  },
-  {
-   "videoId": "KmByZJwXXFI",
-   "title": "【ニュースライブ】昼のニュース（Japan News Digest Live）最新情報など（10月21日）｜TBS NEWS DIG",
-   "channelId": "UC6AG81pAkf6Lbi_1VC5NmPA",
-   "channelTitle": "TBS NEWS DIG Powered by JNN",
-   "firstSeenAt": "2026-10-21T08:43:40.574Z",
-   "lastSeenAt": "2026-10-21T08:43:40.574Z",
+   "lastSeenAt": "2026-11-20T11:55:36.917Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -304,76 +294,6 @@
    "channelTitle": "EarthCam",
    "firstSeenAt": "2026-10-21T08:43:40.574Z",
    "lastSeenAt": "2026-11-10T11:25:15.283Z",
-   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
-   "dismissed": false
-  },
-  {
-   "videoId": "zqWUG_BZlpY",
-   "title": "EarthCamTV 3 Live:  Trending Cams",
-   "channelId": "UC6qrG3W8SMK0jior2olka3g",
-   "channelTitle": "EarthCam",
-   "firstSeenAt": "2026-10-21T08:43:40.574Z",
-   "lastSeenAt": "2026-10-21T08:43:40.574Z",
-   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
-   "dismissed": false
-  },
-  {
-   "videoId": "9mMnqO1UuIU",
-   "title": "EarthCam Live: Philadelphia, PA",
-   "channelId": "UC6qrG3W8SMK0jior2olka3g",
-   "channelTitle": "EarthCam",
-   "firstSeenAt": "2026-10-21T08:43:40.574Z",
-   "lastSeenAt": "2026-10-21T08:43:40.574Z",
-   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
-   "dismissed": false
-  },
-  {
-   "videoId": "5C9oM7C2Q9k",
-   "title": "EarthCam Live:  World Trade Center - New York City, NY",
-   "channelId": "UC6qrG3W8SMK0jior2olka3g",
-   "channelTitle": "EarthCam",
-   "firstSeenAt": "2026-10-21T08:43:40.574Z",
-   "lastSeenAt": "2026-10-21T08:43:40.574Z",
-   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
-   "dismissed": false
-  },
-  {
-   "videoId": "qx7gry390YA",
-   "title": "EarthCam Live:  Niagara Falls",
-   "channelId": "UC6qrG3W8SMK0jior2olka3g",
-   "channelTitle": "EarthCam",
-   "firstSeenAt": "2026-10-21T08:43:40.574Z",
-   "lastSeenAt": "2026-10-21T08:43:40.574Z",
-   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
-   "dismissed": false
-  },
-  {
-   "videoId": "T0SI9iz9yzE",
-   "title": "EarthCam Live:  Giraffe Paddock  Cam - Greenville, SC",
-   "channelId": "UC6qrG3W8SMK0jior2olka3g",
-   "channelTitle": "EarthCam",
-   "firstSeenAt": "2026-10-21T08:43:40.574Z",
-   "lastSeenAt": "2026-10-21T08:43:40.574Z",
-   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
-   "dismissed": false
-  },
-  {
-   "videoId": "6tq8S2pp8PQ",
-   "title": "EarthCam Live: Pigeon River Cam (Hartford, TN)",
-   "channelId": "UC6qrG3W8SMK0jior2olka3g",
-   "channelTitle": "EarthCam",
-   "firstSeenAt": "2026-10-21T08:43:40.574Z",
-   "lastSeenAt": "2026-10-21T08:43:40.574Z",
-   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
-   "dismissed": false
-  },
-  {
-   "videoId": "jtdyLykT_XY",
-   "title": "EarthCam Live:  Mallorca, Spain",
-   "channelId": "UC6qrG3W8SMK0jior2olka3g",
-   "channelTitle": "EarthCam",
-   "firstSeenAt": "2026-10-21T08:43:40.574Z",
-   "lastSeenAt": "2026-10-21T08:43:40.574Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -2483,7 +2403,7 @@
    "channelId": "UC1tBnbs03VJ34oLD8cmJSVw",
    "channelTitle": "Webcamtaxi",
    "firstSeenAt": "2026-10-25T08:34:28.574Z",
-   "lastSeenAt": "2026-11-15T11:14:52.720Z",
+   "lastSeenAt": "2026-11-20T11:55:36.917Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -2543,7 +2463,7 @@
    "channelId": "UC2Sk0aXLq3ADkH_USGPKT_Q",
    "channelTitle": "Explore Bears",
    "firstSeenAt": "2026-10-25T08:34:28.574Z",
-   "lastSeenAt": "2026-11-15T11:14:52.720Z",
+   "lastSeenAt": "2026-11-20T11:55:36.917Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -2553,7 +2473,7 @@
    "channelId": "UC2Sk0aXLq3ADkH_USGPKT_Q",
    "channelTitle": "Explore Bears",
    "firstSeenAt": "2026-10-25T08:34:28.574Z",
-   "lastSeenAt": "2026-11-15T11:14:52.720Z",
+   "lastSeenAt": "2026-11-20T11:55:36.917Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -2563,7 +2483,7 @@
    "channelId": "UC2Sk0aXLq3ADkH_USGPKT_Q",
    "channelTitle": "Explore Bears",
    "firstSeenAt": "2026-10-25T08:34:28.574Z",
-   "lastSeenAt": "2026-11-15T11:14:52.720Z",
+   "lastSeenAt": "2026-11-20T11:55:36.917Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -2573,7 +2493,7 @@
    "channelId": "UC2Sk0aXLq3ADkH_USGPKT_Q",
    "channelTitle": "Explore Bears",
    "firstSeenAt": "2026-10-25T08:34:28.574Z",
-   "lastSeenAt": "2026-11-15T11:14:52.720Z",
+   "lastSeenAt": "2026-11-20T11:55:36.917Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -2613,7 +2533,7 @@
    "channelId": "UC2lamMZjjT-Qcq-zIx6NrCw",
    "channelTitle": "高雄旅遊網",
    "firstSeenAt": "2026-10-25T08:34:28.574Z",
-   "lastSeenAt": "2026-11-15T11:14:52.720Z",
+   "lastSeenAt": "2026-11-20T11:55:36.917Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -2633,7 +2553,7 @@
    "channelId": "UC2lamMZjjT-Qcq-zIx6NrCw",
    "channelTitle": "高雄旅遊網",
    "firstSeenAt": "2026-10-25T08:34:28.574Z",
-   "lastSeenAt": "2026-11-15T11:14:52.720Z",
+   "lastSeenAt": "2026-11-20T11:55:36.917Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -2643,7 +2563,7 @@
    "channelId": "UC3Bo0LNAeN_g5U4NJQDnL-w",
    "channelTitle": "WebCam NL",
    "firstSeenAt": "2026-10-25T08:34:28.574Z",
-   "lastSeenAt": "2026-11-15T11:14:52.720Z",
+   "lastSeenAt": "2026-11-20T11:55:36.917Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -2653,7 +2573,7 @@
    "channelId": "UC3Bo0LNAeN_g5U4NJQDnL-w",
    "channelTitle": "WebCam NL",
    "firstSeenAt": "2026-10-25T08:34:28.574Z",
-   "lastSeenAt": "2026-11-15T11:14:52.720Z",
+   "lastSeenAt": "2026-11-20T11:55:36.917Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -2663,7 +2583,7 @@
    "channelId": "UC3Bo0LNAeN_g5U4NJQDnL-w",
    "channelTitle": "WebCam NL",
    "firstSeenAt": "2026-10-25T08:34:28.574Z",
-   "lastSeenAt": "2026-11-15T11:14:52.720Z",
+   "lastSeenAt": "2026-11-20T11:55:36.917Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -2673,7 +2593,7 @@
    "channelId": "UC3Bo0LNAeN_g5U4NJQDnL-w",
    "channelTitle": "WebCam NL",
    "firstSeenAt": "2026-10-25T08:34:28.574Z",
-   "lastSeenAt": "2026-11-15T11:14:52.720Z",
+   "lastSeenAt": "2026-11-20T11:55:36.917Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -2683,7 +2603,7 @@
    "channelId": "UC3Bo0LNAeN_g5U4NJQDnL-w",
    "channelTitle": "WebCam NL",
    "firstSeenAt": "2026-10-25T08:34:28.574Z",
-   "lastSeenAt": "2026-11-15T11:14:52.720Z",
+   "lastSeenAt": "2026-11-20T11:55:36.917Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -2693,7 +2613,7 @@
    "channelId": "UC3Bo0LNAeN_g5U4NJQDnL-w",
    "channelTitle": "WebCam NL",
    "firstSeenAt": "2026-10-25T08:34:28.574Z",
-   "lastSeenAt": "2026-11-15T11:14:52.720Z",
+   "lastSeenAt": "2026-11-20T11:55:36.917Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -2703,7 +2623,7 @@
    "channelId": "UC5FiBoG6GcB5QqsiOsGe22A",
    "channelTitle": "東部海岸國家風景區管理處",
    "firstSeenAt": "2026-10-26T09:09:03.827Z",
-   "lastSeenAt": "2026-11-15T11:14:52.720Z",
+   "lastSeenAt": "2026-11-20T11:55:36.917Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -2713,7 +2633,7 @@
    "channelId": "UC5FiBoG6GcB5QqsiOsGe22A",
    "channelTitle": "東部海岸國家風景區管理處",
    "firstSeenAt": "2026-10-26T09:09:03.827Z",
-   "lastSeenAt": "2026-11-15T11:14:52.720Z",
+   "lastSeenAt": "2026-11-20T11:55:36.917Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -2723,7 +2643,7 @@
    "channelId": "UC5FiBoG6GcB5QqsiOsGe22A",
    "channelTitle": "東部海岸國家風景區管理處",
    "firstSeenAt": "2026-10-26T09:09:03.827Z",
-   "lastSeenAt": "2026-11-15T11:14:52.720Z",
+   "lastSeenAt": "2026-11-20T11:55:36.917Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -2733,7 +2653,7 @@
    "channelId": "UC5FiBoG6GcB5QqsiOsGe22A",
    "channelTitle": "東部海岸國家風景區管理處",
    "firstSeenAt": "2026-10-26T09:09:03.827Z",
-   "lastSeenAt": "2026-11-15T11:14:52.720Z",
+   "lastSeenAt": "2026-11-20T11:55:36.917Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -2743,7 +2663,7 @@
    "channelId": "UC5FiBoG6GcB5QqsiOsGe22A",
    "channelTitle": "東部海岸國家風景區管理處",
    "firstSeenAt": "2026-10-26T09:09:03.827Z",
-   "lastSeenAt": "2026-11-15T11:14:52.720Z",
+   "lastSeenAt": "2026-11-20T11:55:36.917Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -2753,7 +2673,7 @@
    "channelId": "UC5FiBoG6GcB5QqsiOsGe22A",
    "channelTitle": "東部海岸國家風景區管理處",
    "firstSeenAt": "2026-10-26T09:09:03.827Z",
-   "lastSeenAt": "2026-11-15T11:14:52.720Z",
+   "lastSeenAt": "2026-11-20T11:55:36.917Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -2763,7 +2683,7 @@
    "channelId": "UC5FiBoG6GcB5QqsiOsGe22A",
    "channelTitle": "東部海岸國家風景區管理處",
    "firstSeenAt": "2026-10-26T09:09:03.827Z",
-   "lastSeenAt": "2026-11-15T11:14:52.720Z",
+   "lastSeenAt": "2026-11-20T11:55:36.917Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -2773,7 +2693,7 @@
    "channelId": "UC5FiBoG6GcB5QqsiOsGe22A",
    "channelTitle": "東部海岸國家風景區管理處",
    "firstSeenAt": "2026-10-26T09:09:03.827Z",
-   "lastSeenAt": "2026-11-15T11:14:52.720Z",
+   "lastSeenAt": "2026-11-20T11:55:36.917Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -2783,7 +2703,7 @@
    "channelId": "UC5FiBoG6GcB5QqsiOsGe22A",
    "channelTitle": "東部海岸國家風景區管理處",
    "firstSeenAt": "2026-10-26T09:09:03.827Z",
-   "lastSeenAt": "2026-11-15T11:14:52.720Z",
+   "lastSeenAt": "2026-11-20T11:55:36.917Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -2793,7 +2713,7 @@
    "channelId": "UC5TM19gnri1482mnGcfUKLw",
    "channelTitle": "ITS akciová společnost",
    "firstSeenAt": "2026-10-26T09:09:03.827Z",
-   "lastSeenAt": "2026-11-15T11:14:52.720Z",
+   "lastSeenAt": "2026-11-20T11:55:36.917Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -2803,7 +2723,7 @@
    "channelId": "UC5TM19gnri1482mnGcfUKLw",
    "channelTitle": "ITS akciová společnost",
    "firstSeenAt": "2026-10-26T09:09:03.827Z",
-   "lastSeenAt": "2026-11-15T11:14:52.720Z",
+   "lastSeenAt": "2026-11-20T11:55:36.917Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -2823,7 +2743,7 @@
    "channelId": "UC5lNakfSdpqXCW214H5sBgQ",
    "channelTitle": "Ozolio Live",
    "firstSeenAt": "2026-10-26T09:09:03.827Z",
-   "lastSeenAt": "2026-11-15T11:14:52.720Z",
+   "lastSeenAt": "2026-11-20T11:55:36.917Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -2833,7 +2753,7 @@
    "channelId": "UC5lNakfSdpqXCW214H5sBgQ",
    "channelTitle": "Ozolio Live",
    "firstSeenAt": "2026-10-26T09:09:03.827Z",
-   "lastSeenAt": "2026-11-15T11:14:52.720Z",
+   "lastSeenAt": "2026-11-20T11:55:36.917Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -2843,7 +2763,7 @@
    "channelId": "UC5lNakfSdpqXCW214H5sBgQ",
    "channelTitle": "Ozolio Live",
    "firstSeenAt": "2026-10-26T09:09:03.827Z",
-   "lastSeenAt": "2026-11-15T11:14:52.720Z",
+   "lastSeenAt": "2026-11-20T11:55:36.917Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -2863,7 +2783,7 @@
    "channelId": "UC5lNakfSdpqXCW214H5sBgQ",
    "channelTitle": "Ozolio Live",
    "firstSeenAt": "2026-10-26T09:09:03.827Z",
-   "lastSeenAt": "2026-11-15T11:14:52.720Z",
+   "lastSeenAt": "2026-11-20T11:55:36.917Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -2883,7 +2803,7 @@
    "channelId": "UC6AG81pAkf6Lbi_1VC5NmPA",
    "channelTitle": "TBS NEWS DIG Powered by JNN",
    "firstSeenAt": "2026-10-26T09:09:03.827Z",
-   "lastSeenAt": "2026-11-15T11:14:52.720Z",
+   "lastSeenAt": "2026-11-20T11:55:36.917Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -2893,7 +2813,7 @@
    "channelId": "UC6AG81pAkf6Lbi_1VC5NmPA",
    "channelTitle": "TBS NEWS DIG Powered by JNN",
    "firstSeenAt": "2026-10-26T09:09:03.827Z",
-   "lastSeenAt": "2026-11-15T11:14:52.720Z",
+   "lastSeenAt": "2026-11-20T11:55:36.917Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -3753,7 +3673,7 @@
    "channelId": "UC1tBnbs03VJ34oLD8cmJSVw",
    "channelTitle": "Webcamtaxi",
    "firstSeenAt": "2026-11-04T11:14:05.652Z",
-   "lastSeenAt": "2026-11-15T11:14:52.720Z",
+   "lastSeenAt": "2026-11-20T11:55:36.917Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -3773,7 +3693,7 @@
    "channelId": "UC5lNakfSdpqXCW214H5sBgQ",
    "channelTitle": "Ozolio Live",
    "firstSeenAt": "2026-11-05T11:12:41.844Z",
-   "lastSeenAt": "2026-11-15T11:14:52.720Z",
+   "lastSeenAt": "2026-11-20T11:55:36.917Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -4063,7 +3983,7 @@
    "channelId": "UC1tBnbs03VJ34oLD8cmJSVw",
    "channelTitle": "Webcamtaxi",
    "firstSeenAt": "2026-11-09T11:50:36.060Z",
-   "lastSeenAt": "2026-11-15T11:14:52.720Z",
+   "lastSeenAt": "2026-11-20T11:55:36.917Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -4073,7 +3993,7 @@
    "channelId": "UC1tBnbs03VJ34oLD8cmJSVw",
    "channelTitle": "Webcamtaxi",
    "firstSeenAt": "2026-11-09T11:50:36.060Z",
-   "lastSeenAt": "2026-11-15T11:14:52.720Z",
+   "lastSeenAt": "2026-11-20T11:55:36.917Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -4083,7 +4003,7 @@
    "channelId": "UC1tBnbs03VJ34oLD8cmJSVw",
    "channelTitle": "Webcamtaxi",
    "firstSeenAt": "2026-11-09T11:50:36.060Z",
-   "lastSeenAt": "2026-11-15T11:14:52.720Z",
+   "lastSeenAt": "2026-11-20T11:55:36.917Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -4293,7 +4213,7 @@
    "channelId": "UC1tBnbs03VJ34oLD8cmJSVw",
    "channelTitle": "Webcamtaxi",
    "firstSeenAt": "2026-11-15T11:14:52.720Z",
-   "lastSeenAt": "2026-11-15T11:14:52.720Z",
+   "lastSeenAt": "2026-11-20T11:55:36.917Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -4303,7 +4223,7 @@
    "channelId": "UC1tBnbs03VJ34oLD8cmJSVw",
    "channelTitle": "Webcamtaxi",
    "firstSeenAt": "2026-11-15T11:14:52.720Z",
-   "lastSeenAt": "2026-11-15T11:14:52.720Z",
+   "lastSeenAt": "2026-11-20T11:55:36.917Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -4313,7 +4233,7 @@
    "channelId": "UC2lamMZjjT-Qcq-zIx6NrCw",
    "channelTitle": "高雄旅遊網",
    "firstSeenAt": "2026-11-15T11:14:52.720Z",
-   "lastSeenAt": "2026-11-15T11:14:52.720Z",
+   "lastSeenAt": "2026-11-20T11:55:36.917Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
   },
@@ -4566,7 +4486,97 @@
    "lastSeenAt": "2026-11-19T11:54:03.523Z",
    "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
    "dismissed": false
+  },
+  {
+   "videoId": "VydEUsAkjrc",
+   "title": "琉球新報ライブカメラ",
+   "channelId": "UC-jBJkLN89AlQp6eeCNnnWg",
+   "channelTitle": "琉球新報",
+   "firstSeenAt": "2026-11-20T11:55:36.917Z",
+   "lastSeenAt": "2026-11-20T11:55:36.917Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "dL1tbIO3Hzk",
+   "title": "壽山動物園 孟加拉虎小紅",
+   "channelId": "UC2lamMZjjT-Qcq-zIx6NrCw",
+   "channelTitle": "高雄旅遊網",
+   "firstSeenAt": "2026-11-20T11:55:36.917Z",
+   "lastSeenAt": "2026-11-20T11:55:36.917Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "YipsB5Q2qzM",
+   "title": "壽山動物園 黑猩猩",
+   "channelId": "UC2lamMZjjT-Qcq-zIx6NrCw",
+   "channelTitle": "高雄旅遊網",
+   "firstSeenAt": "2026-11-20T11:55:36.917Z",
+   "lastSeenAt": "2026-11-20T11:55:36.917Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "r8dH80rmKCI",
+   "title": "BEST TO SHARE 高雄，把美好與你分享！愛河灣水舞直播",
+   "channelId": "UC2lamMZjjT-Qcq-zIx6NrCw",
+   "channelTitle": "高雄旅遊網",
+   "firstSeenAt": "2026-11-20T11:55:36.917Z",
+   "lastSeenAt": "2026-11-20T11:55:36.917Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "_U2XCzxqUHU",
+   "title": "壽山動物園 白犀牛",
+   "channelId": "UC2lamMZjjT-Qcq-zIx6NrCw",
+   "channelTitle": "高雄旅遊網",
+   "firstSeenAt": "2026-11-20T11:55:36.917Z",
+   "lastSeenAt": "2026-11-20T11:55:36.917Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "8HOmVCLZszY",
+   "title": "Palisades Tahoe Live Ski Cam | Snow &amp; Slope Conditions",
+   "channelId": "UC5lNakfSdpqXCW214H5sBgQ",
+   "channelTitle": "Ozolio Live",
+   "firstSeenAt": "2026-11-20T11:55:36.917Z",
+   "lastSeenAt": "2026-11-20T11:55:36.917Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "4sQQk4GcV8E",
+   "title": "Grouse Mountain Live Cam | Snowfall &amp; Ski Resort Views",
+   "channelId": "UC5lNakfSdpqXCW214H5sBgQ",
+   "channelTitle": "Ozolio Live",
+   "firstSeenAt": "2026-11-20T11:55:36.917Z",
+   "lastSeenAt": "2026-11-20T11:55:36.917Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "Okmn-Zk1gpI",
+   "title": "【ライブ】関芳弘文科大臣がコメント 政治資金パーティーをめぐる問題で連日追及（2026年11月20日）｜TBS NEWS DIG",
+   "channelId": "UC6AG81pAkf6Lbi_1VC5NmPA",
+   "channelTitle": "TBS NEWS DIG Powered by JNN",
+   "firstSeenAt": "2026-11-20T11:55:36.917Z",
+   "lastSeenAt": "2026-11-20T11:55:36.917Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
+  },
+  {
+   "videoId": "-gqi6yeVQ5Q",
+   "title": "【ニュースライブ】夜のニュース（Japan News Digest Live）最新情報など（11月20日）｜TBS NEWS DIG",
+   "channelId": "UC6AG81pAkf6Lbi_1VC5NmPA",
+   "channelTitle": "TBS NEWS DIG Powered by JNN",
+   "firstSeenAt": "2026-11-20T11:55:36.917Z",
+   "lastSeenAt": "2026-11-20T11:55:36.917Z",
+   "note": "位置が確認できないため自動登録していません。場所を確認できたら livecams.json に追加してください",
+   "dismissed": false
   }
  ],
- "channelCursor": 1
+ "channelCursor": 16
 }
