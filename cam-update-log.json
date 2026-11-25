@@ -2,75 +2,6 @@
  "schema": 1,
  "entries": [
   {
-   "at": "2026-11-01T10:39:53.001Z",
-   "job": "update-livecams",
-   "ok": true,
-   "fatal": null,
-   "api": "ok",
-   "live": 89,
-   "total": 97,
-   "quota": {
-    "day": "2026-11-01",
-    "used": 2,
-    "search": 0,
-    "limit": 8000,
-    "searchLimit": 70
-   },
-   "ms": 484
-  },
-  {
-   "at": "2026-11-01T10:39:53.532Z",
-   "job": "check-stills",
-   "ok": true,
-   "fatal": null,
-   "probed": 3062,
-   "sources": {
-    "digitraffic": {
-     "total": 814,
-     "checked": 814,
-     "live": 803,
-     "stale": 11,
-     "offline": 0,
-     "unknown": 0
-    },
-    "drivebc": {
-     "total": 985,
-     "checked": 985,
-     "live": 0,
-     "stale": 0,
-     "offline": 0,
-     "unknown": 985
-    },
-    "hongkong": {
-     "total": 1013,
-     "checked": 1013,
-     "live": 1013,
-     "stale": 0,
-     "offline": 0,
-     "unknown": 0
-    },
-    "nsw": {
-     "total": 250,
-     "checked": 250,
-     "live": 0,
-     "stale": 1,
-     "offline": 0,
-     "unknown": 249
-    }
-   },
-   "ms": 171228
-  },
-  {
-   "at": "2026-11-01T10:42:44.877Z",
-   "job": "validate",
-   "ok": true,
-   "report": {
-    "livecams.json": "OK（97件）",
-    "webcams.json": "OK（3062件）",
-    "webcams-status.json": "OK（3062件）"
-   }
-  },
-  {
    "at": "2026-11-01T13:23:21.609Z",
    "job": "update-livecams",
    "ok": true,
@@ -6893,6 +6824,75 @@
   },
   {
    "at": "2026-11-25T13:15:57.937Z",
+   "job": "validate",
+   "ok": true,
+   "report": {
+    "livecams.json": "OK（97件）",
+    "webcams.json": "OK（3058件）",
+    "webcams-status.json": "OK（3058件）"
+   }
+  },
+  {
+   "at": "2026-11-25T14:21:15.046Z",
+   "job": "update-livecams",
+   "ok": true,
+   "fatal": null,
+   "api": "ok",
+   "live": 86,
+   "total": 97,
+   "quota": {
+    "day": "2026-11-25",
+    "used": 7,
+    "search": 6,
+    "limit": 8000,
+    "searchLimit": 70
+   },
+   "ms": 1401
+  },
+  {
+   "at": "2026-11-25T14:21:16.516Z",
+   "job": "check-stills",
+   "ok": true,
+   "fatal": null,
+   "probed": 3058,
+   "sources": {
+    "digitraffic": {
+     "total": 809,
+     "checked": 809,
+     "live": 797,
+     "stale": 11,
+     "offline": 0,
+     "unknown": 1
+    },
+    "drivebc": {
+     "total": 986,
+     "checked": 986,
+     "live": 0,
+     "stale": 0,
+     "offline": 0,
+     "unknown": 986
+    },
+    "hongkong": {
+     "total": 1013,
+     "checked": 1013,
+     "live": 1013,
+     "stale": 0,
+     "offline": 0,
+     "unknown": 0
+    },
+    "nsw": {
+     "total": 250,
+     "checked": 250,
+     "live": 0,
+     "stale": 1,
+     "offline": 0,
+     "unknown": 249
+    }
+   },
+   "ms": 200931
+  },
+  {
+   "at": "2026-11-25T14:24:37.556Z",
    "job": "validate",
    "ok": true,
    "report": {
